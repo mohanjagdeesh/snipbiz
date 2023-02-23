@@ -7,14 +7,7 @@ import Footer from '../footerSection/Footer'
 import OurPartners from '../ourPartners/OurPartners'
 import YouArein from '../youAreInGoodHands/YouArein'
 import ServicingDestiny from "../servicingDestiny/ServicingDestiny"
-import { useGlobalStore } from '../../store/useGlobalStore'
-
 const Home = () => {
-  const isMobile = useGlobalStore((state) => state.isMobile);
-
-  useEffect(() => {
-    console.log(isMobile);
-  }, [isMobile])
   
   return (
     <>
