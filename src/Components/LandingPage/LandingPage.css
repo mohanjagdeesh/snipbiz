@@ -24,13 +24,17 @@
 }
 
 .left-container {
-  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 100px;
 }
 
 .right-container {
   display: flex;
   flex-direction: column;
-  padding-right: 8%;
+  align-items: flex-end;
+  padding-left: 80px;
 }
 
 .list-container {
@@ -93,6 +97,9 @@
 }
 
 .question {
+  padding-top: 4px;
+  padding-bottom: 16px;
+  text-align: left;
   font-weight: 400;
   font-size: 18px;
   text-decoration-line: underline;
@@ -101,8 +108,9 @@
 
 .shop {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   margin-top: 0px;
+  text-align: left;
   color: #4d148c;
 }
 
@@ -114,7 +122,7 @@
 }
 
 .shipping {
-  width: 65%;
+  width: 440px;
   margin-bottom: 20px;
 }
 
@@ -130,10 +138,8 @@ p {
 }
 
 .box {
-  width: 75%;
-  align-self: flex-start;
+  width: 512px;
   margin-bottom: 15px;
-  margin-left: 25px;
 }
 
 .quote {

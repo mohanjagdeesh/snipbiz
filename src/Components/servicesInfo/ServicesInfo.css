@@ -1,0 +1,36 @@
+.service-bg{
+    width: 100%;
+    background-color: #472F91;
+}
+.service-container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.service-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6% auto;
+    gap: 1.1rem;
+}
+.service-ico{
+    font-size: 60px;
+    color: #F57921;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.service-list h1, .service-list p{
+    color: #fff;  
+}
+.service-list h1{
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+.service-list p{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Form from "../Forms/Form";
 
 const LandingPage = () => {
- const [data,setData]= useState()
+  const [data,setData]= useState()
 
   return (
     <div className="top-container">
@@ -22,7 +22,7 @@ const LandingPage = () => {
             Do you need help for get approximate weight and measurements?
           </a>
           <div className="stars">
-            <button className="quote"  onClick={console.log(data)}>
+            <button className="quote" onClick={console.log(data)}>
               Get Quote
             </button>
             <img
@@ -41,10 +41,10 @@ const LandingPage = () => {
             src="https://res.cloudinary.com/duapyyftc/image/upload/v1676020325/warehouse-flights---Copy_1_vp9wtn.png"
             alt="box"
           />
-          <h3 className="shop">
+          <h4 className="shop">
             Shop anywhere in US let us ship to your doorstep in your country*{" "}
             <span className="tax">Tax free*</span>
-          </h3>
+          </h4>
           <button className="howit-works" onClick={()=>alert("data")}>How it works</button>
         </div>
       </div>

@@ -13,8 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 import LaptopIcon from "@mui/icons-material/Laptop";
 import { styled } from "@mui/material";
 import snip from "./snip.png"
-import vector from "./Vector.png"
-import './Navbaar.css'
+import './Navbar.css'
 import { LocalGroceryStoreOutlined, SearchOutlined } from "@mui/icons-material";
 
 const pages = ["What We Do", "About Us ", "Careers", "Blog", "Contact Us"];
@@ -27,7 +26,8 @@ const CustomButton = styled(Button)`
     color: #0f00ff;
   }
 `;
-function Navbaar(props) {
+
+export const Navbar = (props) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -49,12 +49,9 @@ function Navbaar(props) {
   return (
     <>
       <AppBar position="sticky" className="navbar" sx={{ background: "white", color: "black" }}>
-        <Container maxWidth="xl">
+        <Container maxWidth="xl" className="navBar-container">
           <Toolbar disableGutters>
-
-           
-              <img src={snip} alt="logo" style={{width:"230px",height:'135px'}} />
-
+              <img src={snip} alt="logo" style={{ width: 200 }} />
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
@@ -110,15 +107,13 @@ function Navbaar(props) {
             >
               SNIPBIZ
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" },gap:'10px' }}>
+            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" },gap:'10px', padding: "0 16px" }}>
                 <Box>
               <IconButton  onClick={handleOpenUserMenu} sx={{p:0}}>
-
               <Button
-               
-                sx={{ my: 2, color: "black", display: "block" }}
+                sx={{"&:hover": {backgroundColor: "white"},my: 2, color: "black", display: "block" }}
                 >
-                How It Works <img src={vector} alt="vector" />
+                How It Works 
               </Button>
                     </IconButton>
               <Menu
@@ -145,17 +140,15 @@ function Navbaar(props) {
               </Menu>
                 </Box>
                 <Button href="partners"
-               
                   sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block", }}
                   >Partners</Button>
                 <Box>
               <IconButton  onClick={handleOpenUserMenu} sx={{p:0}}>
 
               <Button
-               
                 sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block" }}
                 >
-                Tracking <img src={vector} alt="vector" />
+                Tracking 
               </Button>
                     </IconButton>
               <Menu
@@ -188,7 +181,7 @@ function Navbaar(props) {
                
                 sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block" }}
                 >
-                FaQ <img src={vector} alt="vector" />
+                FaQ 
               </Button>
                     </IconButton>
               <Menu
@@ -263,8 +256,8 @@ function Navbaar(props) {
               <IconButton>
                 <LocalGroceryStoreOutlined/>
               </IconButton>
-              <Button sx={{color:"black"}}>
-                EM <img src={vector} alt="vector" />
+              <Button sx={{"&:hover": {backgroundColor: "white"},color:"black"}}>
+                EM 
               </Button>
               <IconButton>
                 <SearchOutlined/>
@@ -277,4 +270,4 @@ function Navbaar(props) {
     </>
   );
 }
-export default Navbaar;
+export default Navbar;

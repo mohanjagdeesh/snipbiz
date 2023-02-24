@@ -1,0 +1,58 @@
+.ourpartner-bg{
+    width: 100%;
+    min-height: 100px;
+    background-color: #472F91;
+}
+.ourpartner-main{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin:auto;
+    gap: 3rem;
+    padding: 6% 0 9%;
+}
+.ourpartner-heading{
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 47px;
+    word-spacing: 1px;
+}
+.courierList{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.courierService{
+    width: 18%;
+    height: 130px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.img-list{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+.partner-img{
+    width: 90%;
+    margin: auto;
+}
+
+#ups{
+    width: 60%;
+}
+#aramex{
+    width: 100%;
+    height: 45px;
+}
+#usps{
+    width: 65%;
+}
+#dhl{
+    width: 100%;
+    height: 30px;
+}
+
+

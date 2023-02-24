@@ -1,0 +1,106 @@
+.goodhand-bg{
+    width: 100%;
+    height: 100%;
+}
+
+.goodhand-main{
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    margin: 75px auto;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.good-left, .good-right{
+    width: 50%;
+    height: inherit;
+
+}
+.left-boxes{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+.one, .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.one{
+    width: 21%;
+    height: 100px;
+    box-shadow: 0px 10px 20px 5px #0000000D;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.one img{
+    width: 70%;
+}
+.two img{
+    width: 75%;
+}
+.two{
+    width: 42%;
+    height: 100px;
+    box-shadow: 0px 10px 20px 5px #0000000D;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+#apple{
+    width: 40%;
+}
+#ebay{
+    width: 47%;
+}
+#tom{
+    width: 85%;
+}
+
+#five{
+    background-color: #152F54;
+}
+#five img{
+    width: 80%;
+
+}
+#eight{
+    background-color: #0071CE;
+}
+
+.good-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.goodInfo h3, .goodInfo p{
+    width: 92%;
+}
+
+.goodInfo span{
+    font-size: 12px;
+}
+
+.goodInfo p{
+    color: #000000;
+    font-size: 13px;
+    padding: 12px ;
+    /* text-align: justify; */
+}
+.goodInfo h3{
+    font-size: 21px;
+    font-weight: 600;
+    padding: 0 12px;
+}
+
+.goodInfo h1{
+    font-size: 47px;
+}

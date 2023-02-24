@@ -12,3 +12,8 @@
 .navbar:hover{
     background: white;
 }
+.navBar-container {
+    display: flex !important;
+    justify-content: center;
+    padding: 10px 24px;
+}

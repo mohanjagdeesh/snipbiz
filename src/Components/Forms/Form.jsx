@@ -21,15 +21,14 @@ export default function Form({formData}) {
   const handleSubmit = (event) => {
     event.preventDefault();
     formData(state)
-    console.log(state);
   };
 
   return (
-    <div className="App">
+    <div className="form-wrapper">
       <form onSubmit={handleSubmit}>
         <div className="form-control">
           <TextField
-          className="formm"
+          className="form"
             type="text"
             placeholder="Enter pickup location"
             name="pickup"
@@ -47,7 +46,7 @@ export default function Form({formData}) {
         <div className="form-control">
           <TextField
             type="text"
-          className="formm"
+          className="form"
             placeholder="Enter Destination"
             name="destination"
             value={state.destination}
@@ -64,7 +63,7 @@ export default function Form({formData}) {
         <div className="form-control">
           <TextField
             type="number"
-          className="formm"
+          className="form"
             placeholder="Enter Weight"
             name="weight"
             value={state.weight}
@@ -77,9 +76,6 @@ export default function Form({formData}) {
                 ),
               }}
           />
-        </div>
-        <div className="form-control">
-          <button formData={handleInputChange} type="submit">Login</button>
         </div>
       </form>
     </div>

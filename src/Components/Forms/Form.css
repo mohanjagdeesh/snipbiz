@@ -1,8 +1,12 @@
-.formm{
-    width: 350px;
+.form-wrapper {
+    width: 90%;
+}
+.form {
+    width: 100%;
     margin: 10px;
 
 }
 .form-control{
-    margin: 10px;
+    width: 100%;
+    margin-bottom: 14px;
 }
