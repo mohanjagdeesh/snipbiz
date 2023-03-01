@@ -15,6 +15,7 @@ import { styled } from "@mui/material";
 import snip from "./snip.png"
 import './Navbar.css'
 import { LocalGroceryStoreOutlined, SearchOutlined } from "@mui/icons-material";
+import { SignInButton } from "../../Auth/LoginButton";
 
 const pages = ["What We Do", "About Us ", "Careers", "Blog", "Contact Us"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -228,7 +229,9 @@ export const Navbar = (props) => {
             <Box sx={{display:'flex',justifyContent:"center",alignItems:'center'}}>
               <Tooltip title="Login">
                 <IconButton onClick={handleOpenUserMenu} class="login">
-                  <CustomButton>Login/Register</CustomButton>
+                  <CustomButton>
+                    <SignInButton/>
+                  </CustomButton>
                 </IconButton>
               </Tooltip>
               <Menu
