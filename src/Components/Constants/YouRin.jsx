@@ -1,0 +1,8 @@
+export const HeadOne = "You’re In Good Hands"
+export const HeadTwo = "Get the help you need, 24/7"
+export const HeadThree = "Become a shipping expert"
+export const ParaOne = "We’re happy when our customers are happy. We pride ourselves on going above and beyond."
+export const ParaTwo = "We work around the clock to get your shipments to the right place at the right time. Our support center is second-to-none."
+export const ParaThree = " Our resource library has everything you’ve ever wanted to know about shipping"
+export const SpanOne = "See our support center."
+export const SpanTwo = "Explore resourece hub."

@@ -1,7 +1,6 @@
 import "./LandingPage.css";
 import React, { useState } from "react";
 import Form from "../Forms/Form";
-
 const LandingPage = () => {
   const [data,setData]= useState()
 
@@ -18,7 +17,7 @@ const LandingPage = () => {
             alt="off"
           />
          <Form formData={(e)=>setData(e)} />
-          <a className="question">
+          <a className="question" href="/">
             Do you need help for get approximate weight and measurements?
           </a>
           <div className="stars">

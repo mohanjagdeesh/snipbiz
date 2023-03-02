@@ -3,12 +3,12 @@ import React, { useEffect } from 'react'
 import LandingPage from '../LandingPage/LandingPage'
 import Navbar from '../Navbar/Navbar'
 import ShipForwarding from '../ShipForwarding/ShipForwarding'
-import Footer from '../footerSection/Footer'
 import OurPartners from '../ourPartners/OurPartners'
 import YouArein from '../youAreInGoodHands/YouArein'
 import ServicingDestiny from "../servicingDestiny/ServicingDestiny"
 import { useGlobalStore } from '../../store/useGlobalStore'
 
+import Carousel from '../Carousel/Carousel'
 const Home = () => {
   
   return (
@@ -24,7 +24,7 @@ const Home = () => {
       {/* <ServicesInfo/> */}
       {/* <PrivacyPolicy/> */}
       {/* <Contacts/> */}
-      <Footer/>
+      <Carousel/>
     </Box>
     </>
   )

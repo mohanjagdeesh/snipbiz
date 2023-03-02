@@ -1,8 +1,8 @@
-import "./index.css";
+import "./OurPartner.css";
 
 import {RiArrowDropLeftLine, RiArrowDropRightLine} from "react-icons/ri";
 
-const ourPartners = () => (
+const OurPartners = () => (
     <div className="ourpartner-bg">
         <div className="ourpartner-main">
             <h1 className="ourpartner-heading">Our Partners</h1>
@@ -40,4 +40,4 @@ const ourPartners = () => (
     </div>
 );
 
-export default ourPartners;
+export default OurPartners;

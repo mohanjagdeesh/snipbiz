@@ -2,7 +2,9 @@ import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive'
 import './App.css';
+import BlogPage from "./Components/BlogPages/BlogPage";
 import Contacts from "./Components/contact/Contacts";
+import Footer from "./Components/footerSection/Footer";
 import Home from './Components/Home/Home';
 import Partners from "./Components/Partners/Partners";
 import { useGlobalStore } from "./store/useGlobalStore";
@@ -17,6 +19,7 @@ const App = () => {
   }, [isTabletOrMobile, setIsMobile])
 
   return (
+    <>
     <div className="App">
       <Routes>
         <Route path="/" element={<Home/>}></Route>
@@ -24,6 +27,8 @@ const App = () => {
         <Route path="partners" element={<Partners/>}></Route>
       </Routes>
     </div>
+    
+    </>
   );
 }
 
