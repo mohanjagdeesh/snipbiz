@@ -1,15 +1,4 @@
-.login{
-    color:black;
-    border: none;
-    height: 35px;
-    background: orange;
-    border-radius: 20px;
-    
-}
-.login:hover{
-    color: transparent !important;
-    background: orange;
-}
+
 .navbar:hover{
     background: white;
 }
@@ -17,4 +6,41 @@
     display: flex !important;
     justify-content: center;
     padding: 10px 24px;
+}
+
+.login{
+    width: 120px;
+    background: orange !important;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:active{
+    color: black;
+    
+}
+.btn{
+    border: none;
+    background: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    border-bottom: 3px solid black;
+}
+
+.login {
+    color: white;
+}
+
+.login:hover{
+    color: white !important;
+    background: orange;
 }

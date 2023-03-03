@@ -8,51 +8,39 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import LaptopIcon from "@mui/icons-material/Laptop";
-import { styled } from "@mui/material";
-import snip from "./snip.png"
-import './Navbar.css'
+import snip from "./snip.png";
+import "./Navbar.css";
 import { LocalGroceryStoreOutlined, SearchOutlined } from "@mui/icons-material";
 import { SignInButton } from "../../Auth/LoginButton";
 
 const pages = ["What We Do", "About Us ", "Careers", "Blog", "Contact Us"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-const CustomButton = styled(Button)`
-  color: #fff;
-  backgroud: #20262e;
-  &:hover {
-    color: #0f00ff;
-  }
-`;
 
 export const Navbar = (props) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
- 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
   };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+ 
   return (
     <>
-      <AppBar position="sticky" className="navbar" sx={{ background: "white", color: "black" }}>
+      <AppBar
+        position="sticky"
+        elevation={0}
+        className="navbar"
+        sx={{ background: "white", color: "black" }}
+      >
         <Container maxWidth="xl" className="navBar-container">
-          <Toolbar disableGutters>
-              <img src={snip} alt="logo" style={{ width: 200 }} />
+          <Toolbar disableGutters style={{ gap: 60 }}>
+            <img src={snip} alt="logo" style={{ width: 200 }} />
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
@@ -108,169 +96,81 @@ export const Navbar = (props) => {
             >
               SNIPBIZ
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" },gap:'10px', padding: "0 16px" }}>
-                <Box>
-              <IconButton  onClick={handleOpenUserMenu} sx={{p:0}}>
-              <Button
-                sx={{"&:hover": {backgroundColor: "white"},my: 2, color: "black", display: "block" }}
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: { xs: "none", md: "flex" },
+                gap: "16px",
+                padding: "0 16px",
+              }}
+            >
+         
+                <button
+                class="btn"
                 >
-                How It Works 
-              </Button>
-                    </IconButton>
-              <Menu
-                sx={{ mt: "45px" }}
-                id="menu-appbar"
-                anchorEl={anchorElUser}
-                anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "right",
-                }}
-                keepMounted
-                transformOrigin={{
-                    vertical: "top",
-                    horizontal: "right",
-                }}
-                open={Boolean(anchorElUser)}
-                onClose={handleCloseUserMenu}
-                >
-                {settings.map((setting) => (
-                    <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
-                </Box>
-                <Button href="partners"
-                  sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block", }}
-                  >Partners</Button>
-                <Box>
-              <IconButton  onClick={handleOpenUserMenu} sx={{p:0}}>
-
-              <Button
-                sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block" }}
-                >
-                Tracking 
-              </Button>
-                    </IconButton>
-              <Menu
-                sx={{"&:hover": {backgroundColor: "white"}, mt: "45px" }}
-                id="menu-appbar"
-                anchorEl={anchorElUser}
-                anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "right",
-                }}
-                keepMounted
-                transformOrigin={{
-                    vertical: "top",
-                    horizontal: "right",
-                }}
-                open={Boolean(anchorElUser)}
-                onClose={handleCloseUserMenu}
-                >
-                {settings.map((setting) => (
-                    <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
-                </Box>
-                <Box>
-              <IconButton  onClick={handleOpenUserMenu} sx={{p:0}}>
-
-              <Button
+                  How It Works
+                </button>
+              <button
+                href="partners"
+                class="btn"
                
-                sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block" }}
-                >
-                FaQ 
-              </Button>
-                    </IconButton>
-              <Menu
-                sx={{"&:hover": {backgroundColor: "white"}, mt: "45px" }}
-                id="menu-appbar"
-                anchorEl={anchorElUser}
-                anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "right",
-                }}
-                keepMounted
-                transformOrigin={{
-                    vertical: "top",
-                    horizontal: "right",
-                }}
-                open={Boolean(anchorElUser)}
-                onClose={handleCloseUserMenu}
-                >
-                {settings.map((setting) => (
-                    <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
-              </Box>
+              >
+              <a href="partners">
+                Partners
+                </a>
+              </button>
 
-              <Button
-                onClick={handleCloseNavMenu}
-                sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block" }}
+       
+                <button
+                  class="btn"
+                >
+                  Tracking
+                </button>
+           
+                <button
+                  class="btn"
+                >
+                  FAQ
+                </button>
+             
+              <button
+                class="btn"
               >
                 Us Debit Card
-              </Button>
-             
-                <Button
-                  onClick={handleCloseNavMenu}
-                  href="contact"
-                  sx={{"&:hover": {backgroundColor: "white"}, my: 2, color: "black", display: "block" }}
-                >
-                  Contact
-                </Button>
-             
+              </button>
                 
-
-            <Box sx={{display:'flex',justifyContent:"center",alignItems:'center'}}>
-              <Tooltip title="Login">
-                <IconButton onClick={handleOpenUserMenu} class="login">
-                  <CustomButton>
-                    <SignInButton/>
-                  </CustomButton>
-                </IconButton>
-              </Tooltip>
-              <Menu
-                sx={{ mt: "45px" }}
-                id="menu-appbar"
-                anchorEl={anchorElUser}
-                anchorOrigin={{
-                  vertical: "top",
-                  horizontal: "right",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "right",
-                }}
-                open={Boolean(anchorElUser)}
-                onClose={handleCloseUserMenu}
+              <button
+                class="btn"
               >
-                {settings.map((setting) => (
-                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
-              <IconButton>
-                <LocalGroceryStoreOutlined/>
-              </IconButton>
-              <Button sx={{"&:hover": {backgroundColor: "white"},color:"black"}}>
-                EM 
-              </Button>
-              <IconButton>
-                <SearchOutlined/>
-              </IconButton>
-            </Box>
+                <a href="contact">
+
+                Contact
+                </a>
+              </button>
+
+                  <button class="login">
+                    <SignInButton />
+                  </button>
+                <IconButton>
+                  <LocalGroceryStoreOutlined />
+                </IconButton>
+                <Button
+                  sx={{
+                    "&:hover": { backgroundColor: "white" },
+                    color: "black",
+                  }}
+                >
+                  EN
+                </Button>
+                <IconButton>
+                  <SearchOutlined />
+                </IconButton>
+              
             </Box>
           </Toolbar>
         </Container>
       </AppBar>
     </>
   );
-}
+};
 export default Navbar;

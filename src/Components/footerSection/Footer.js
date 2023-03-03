@@ -37,7 +37,8 @@ const legal = [
   "legal disclaimer",
 ];
 
-const Footer = () => (
+const Footer = () => {
+  return (
   <footer>
     <div className="footer-main">
       <div className="footer-data">
@@ -179,6 +180,6 @@ const Footer = () => (
       </div>
     </div>
   </footer>
-);
+)}
 
 export default Footer;

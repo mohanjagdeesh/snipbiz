@@ -14,7 +14,6 @@ const Home = () => {
   return (
     <>
     <Box>   
-      <Navbar/>
       <LandingPage/>
       <ShipForwarding/>
       <YouArein/>
@@ -24,7 +23,6 @@ const Home = () => {
       {/* <ServicesInfo/> */}
       {/* <PrivacyPolicy/> */}
       {/* <Contacts/> */}
-      <Carousel/>
     </Box>
     </>
   )
