@@ -34,12 +34,19 @@ footer p{
     font-weight: 400;
 }
 
-footer li, .footer-link-address{
+footer .footer1, .footer-link-address{
     font-size: 11px;
     color: #ffffff;
-    padding: 2px 0;
+    padding: 0px 0;
     font-weight: 300;
     letter-spacing: 0px;
+    text-align: start;
+
+
+}
+.footer1:hover{
+    color: #F57921;
+    cursor: pointer;
 }
 
 .footer-link-address{
@@ -63,7 +70,7 @@ footer li, .footer-link-address{
     display: flex;
     flex-direction: column;
     min-width: fit-content;
-    gap: 1rem;
+    gap: 2px;
 }
 
 .footer-payment-data{
@@ -155,3 +162,4 @@ footer li, .footer-link-address{
     letter-spacing: 0;
     font-size: 10px;
 }
+

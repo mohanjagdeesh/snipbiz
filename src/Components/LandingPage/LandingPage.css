@@ -167,6 +167,10 @@ p {
   height: 40px;
   width: 180px;
 }
+.container2{
+  display:flex;
+  flex-direction: column;
+}
 
 .line {
   position: absolute;

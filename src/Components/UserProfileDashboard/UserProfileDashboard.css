@@ -1,0 +1,97 @@
+.main-user-profile{
+    width: 100%; 
+    height: 100%;
+}
+.user-profile-heading{
+    width: 100%;
+    background-color: #4D148C;
+    box-shadow: 0 1px 2px #000000;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+.user-profile-heading h1{
+    margin-left: 10%;
+    color:#FFFFFF;
+}
+.user-dashboard-container{
+    display: flex;
+    margin:30px auto;
+    width: 80%;
+    gap: 2rem;
+}
+.user-dashboard{
+background-color: #F57921;
+width: 20%;
+height: 100%;
+margin: 0px;
+}
+.user-dashboard-list{
+    list-style-type: none;
+}
+.user-list{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 5px 0 ;
+    padding: 10px;
+}
+
+.user-list:hover{
+    background-color: #FFFFFF;
+    color: #F57921;
+    border-radius: 10px 0 0 10px;
+}
+.order-details-container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 1rem;
+}
+
+.order-details-main-heading{
+color: #F57921;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+/* padding-left: 32px; */
+
+}
+
+.order-details-name{
+    border: none;
+    min-width: 130px;
+    padding-left: 22px;
+}
+.order-details{
+    display: flex;
+    width: 80%;
+}
+
+.order-details-values{
+    display: flex;
+}
+.order-value{
+    font-size: 12px;
+   min-width:70%; 
+}
+th{
+    text-align: left;
+    
+}
+th,td{
+    border-bottom: 1px solid #ddd;
+}
+table tr{
+    padding: 10px 0;
+    
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+  }

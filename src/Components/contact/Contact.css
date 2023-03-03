@@ -11,7 +11,7 @@
 .contact-heading h1{
     color: #ffffff;
     font-size: 35px;
-    padding: 13px 10.5%;
+    padding: 0px 10.5%;
     font-weight: 600;
     text-shadow: 0 0 1px white;
 }
@@ -99,7 +99,7 @@ input, select{
     width: 180px;
     padding: 15px;
     margin: 15px 0 0;
-    background-color: #4D148C;
+    background-color: #ffffff;
 }
 .contact-map-data{
     width: 80%;

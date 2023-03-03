@@ -2,9 +2,9 @@ import {HiLocationMarker} from "react-icons/hi";
 import {GiWeight} from "react-icons/gi";
 import {IoIosLocate} from "react-icons/io";
 
-import "./index.css";
+import "./ShipmentSection.css";
 
-const shipmentSection = () => (
+const ShipmentSection = () => (
     <div className="main">
         <div className="shipment-container">
             <div className="left-section">
@@ -31,4 +31,4 @@ const shipmentSection = () => (
         </div>
     </div>
 );
-export default shipmentSection;
+export default ShipmentSection;
