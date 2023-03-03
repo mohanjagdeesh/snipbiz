@@ -25,4 +25,13 @@ steps:
     repository: $(Build.Repository.Name)
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: $(Build.BuildId)
+    tags: 
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: '6fd166c1-674a-4d19-bf75-2a0dbea0a9f4'
+    appType: 'webAppContainer'
+    WebAppName: 'snipbiz'
+    DockerNamespace: 'azuseacr0300.azurecr.io'
+    DockerRepository: '$(Build.Repository.Name)'
+    DockerImageTag: '$(Build.BuildId)'
