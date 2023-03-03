@@ -4,11 +4,9 @@ import LandingPage from '../LandingPage/LandingPage'
 import Navbar from '../Navbar/Navbar'
 import ShipForwarding from '../ShipForwarding/ShipForwarding'
 import OurPartners from '../ourPartners/OurPartners'
-import YouArein from '../youAreInGoodHands/YouArein'
 import ServicingDestiny from "../servicingDestiny/ServicingDestiny"
-import { useGlobalStore } from '../../store/useGlobalStore'
+import YouAreInGoodHands from '../youAreInGoodHands/YouArein'
 
-import Carousel from '../Carousel/Carousel'
 const Home = () => {
   
   return (
@@ -16,7 +14,7 @@ const Home = () => {
     <Box>   
       <LandingPage/>
       <ShipForwarding/>
-      <YouArein/>
+      <YouAreInGoodHands/>
       <OurPartners/>
       <ServicingDestiny/>
       {/* <HowitWorks/> */}
