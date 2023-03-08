@@ -1,0 +1,30 @@
+.tabs-cont{
+    display: flex;
+    padding-left: 0px;
+}
+
+
+.tab-item {
+    list-style: none;
+  }
+
+  .tab-item-button {
+    color: 
+    #09005D;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .tab-activated {
+    color: #F57921;
+    border-bottom: 3px solid #F57921;
+  }
+
+  .select-debit-card-cont{
+    width: 1080px;
+  }
