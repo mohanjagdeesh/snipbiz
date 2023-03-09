@@ -1,0 +1,43 @@
+.orders-container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.orders-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #F57921;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1159px;
+}
+
+.table-head {
+    background-color: #4D148C;
+    color: #ffffff;
+    width: 1150px;
+}
+
+tr {
+    box-shadow: 0 2px 5px gray;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.table-head-name {
+    text-align: left;
+    max-width: 160px;
+    height: 26px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+}
