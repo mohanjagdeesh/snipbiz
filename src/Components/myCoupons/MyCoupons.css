@@ -1,0 +1,16 @@
+.coupons-main-cont{
+    margin: 54px 0px 0px 28px;
+    margin-left: 28px;
+    margin-top: 54px;
+}
+
+.coupons-head{
+    font-weight: 500;
+    font-size: 20px;
+    color: #F57921;
+}
+
+.coupons-cards-cont{
+    display: flex;
+    flex-wrap: wrap;
+}
