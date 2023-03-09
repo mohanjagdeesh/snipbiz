@@ -1,0 +1,373 @@
+.car-main-container{
+    background-color: #ffffff;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.car-heading-web{
+    background-color: 
+    #4D148C;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.car-heading-mob{
+    background-color: 
+    #4D148C;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.car-heading{
+    color: #ffffff;
+    margin-left: 10%;
+}
+
+.car-head-mob{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.car-header{
+    width: 80%;
+    margin: auto;
+}
+
+
+.tfg-list-web{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.tfg-list-mob{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tfg-cont-web{
+    background-color: #ffffff;
+    width: 20%;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 0px 15px 5px #cff1fa;
+}
+
+.tfg-cont-mob{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 0px 15px 5px #cff1fa;
+    margin-bottom: 15px;
+}
+
+.tfg-img-web{
+    width: 45%;
+}
+
+.tfg-img-mob{
+    width: 30%;
+}
+
+.tfg-head-web{
+    color: #1A0F91;
+}
+
+.tfg-head-mob{
+    color: #1A0F91;
+    font-size: 15px;
+}
+
+
+
+.tfg-para-web{
+    font-size: 15px;
+    color: #596F7B;
+    text-align: center;
+}
+
+.tfg-para-mob{
+    font-size: 12px;
+    color: #596F7B;
+    text-align: center;
+}
+
+.we-hire-web{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.we-hire-mob{
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.we-hire-para-web{
+    font-size: 15px;
+    color: #596F7B;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.we-hire-para-mob{
+    font-size: 12px;
+    color: #596F7B;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.careers-list-web{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.careers-list-mob{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.career-item-cont-web{
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-top: 25px;
+    box-shadow: 3px 0px 15px 5px #cff1fa;
+}
+
+.career-item-cont-mob{
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-top: 25px;
+    box-shadow: 3px 0px 15px 5px #cff1fa;
+    /* width: 50%; */
+}
+
+.type{
+    font-size: 12px;
+    color: #596F7B;
+    margin-bottom: 0px;
+}
+
+.role{
+    font-size: 15px;
+    color: #596F7B;
+    margin-top: 3px;
+    font-weight: 600;
+}
+
+.city{
+    font-size: 12px;
+    color: #596F7B;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+.apply-button{
+    background-color: #4D148C;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    width: 140px;
+    border-radius: 30px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.join-with-us-web{
+    background-color: 
+    #FF6200;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.join-with-us-mob{
+    background-color: 
+    #FF6200;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+
+.join-us-head{
+    color: #ffffff;
+}
+
+.join-us-head-mob{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.join-us-para{
+    color: #ffffff;
+    font-size: 15px;
+    width: 80%;
+}
+
+.join-us-para-mob{
+    color: #ffffff;
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.direction-img-web{
+    height: 200px;
+    width: 200px;
+}
+
+.direction-img-mob{
+    height: 100px;
+    width: 100px;
+}
+
+.join-now-button{
+    background-color: #ffffff;
+    color: 
+    #4D148C;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    width: 140px;
+    border-radius: 30px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.job-application-container{
+    background-color: #ffffff;
+    width: 884px;
+    height: 465px;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 3px 0px 15px 5px #cff1fa;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-label-text{
+    font-size: 15px;
+    color: #4F4F4F;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.input-element{
+    outline: none;
+    border: 1px solid 
+    #D1D1D1;
+    border-radius: 3px;
+    width: 350px;
+    height: 15px;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 15px;
+    color: #4F4F4F;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.inputs-container{
+    display: flex;
+}
+
+.career-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-file-input{
+    border: 2px solid #C8C8C8
+    ;
+    background-color: 
+    #F8F7F9;
+    border-radius: 5px;
+    height: 60px;
+    width: 785px;
+    outline: none;
+}
+
+.apply-now-button{
+    background-color: #4D148C;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    width: 220px;
+    border-radius: 25px;
+    border-width: 0px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.error-message{
+    color: red;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: left;
+  }
