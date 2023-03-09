@@ -1,0 +1,159 @@
+
+.ci-main-cont{
+    width: 1160px;
+}
+
+.m-ci-main-cont{
+    max-width:1160px ;
+}
+
+.comp-det-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.m-comp-det-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+    margin-left: 30px;
+    
+}
+
+.comp-det{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.m-comp-det{
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: 500;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+input{
+    font-size: 16px;
+    color: #4F4F4F;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    outline: none;
+    padding: 10px 10px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+select{
+    font-size: 16px;
+    color: #4F4F4F;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    outline: none;
+    padding: 10px 10px;
+    width: 270px !important;
+    margin-top: 10px;
+
+}
+
+.contact-person-cont{
+    background: #FFFFFF;
+    border: 2px solid #D1D1D1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    margin-top: 45px;
+    max-width: 1161px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 38px 300px 36px 51px;
+    
+}
+
+.contact-wrap-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 15px;
+}
+
+.m-contact-wrap-cont{
+    display: flex;
+    flex-direction: column;
+}
+.add-symbol{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 18px;
+    color: #F57921;
+}
+
+.add-para{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #F57921;
+    cursor: pointer;
+    }
+
+.m-add-para{
+    margin-left: 45px;
+}
+
+.add-response{
+    margin-left: 730px;
+}
+
+
+
+.set-default{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.checkbox{
+    width: 16px;
+    height: 16px;
+    margin-top: 0px;
+    border: 2px solid #828282;
+    border-radius: 4px;
+}
+
+.check-label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F4F4F;
+    margin-left: 16px;
+}
+
+.save-button{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4D148C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 85px;
+    height: 55px;
+    width: 175px;
+    cursor: pointer;
+    border: none;
+}
+
+.m-save-button{
+    margin-left:50px;
+}
+
+.error-msg{
+    color:red;
+    padding-top:10px;
+}
