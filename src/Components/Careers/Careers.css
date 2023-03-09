@@ -315,6 +315,14 @@
     margin-bottom: 5px;
 }
 
+.error-message{
+    color: red;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: left;
+  }
+
 .input-element{
     outline: none;
     border: 1px solid 
@@ -364,10 +372,3 @@
     margin-top: 25px;
 }
 
-.error-message{
-    color: red;
-    margin-bottom: 5px;
-    font-size: 15px;
-    margin-top: 0px;
-    text-align: left;
-  }

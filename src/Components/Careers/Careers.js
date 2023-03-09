@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
 import { useFormik } from "formik";
+import { v4 as uuidv4 } from "uuid";
+
 import * as Yup from "yup";
 
 import "./Careers.css";
