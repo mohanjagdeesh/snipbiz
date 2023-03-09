@@ -11,13 +11,14 @@ Messages-Profile {
 color: #ffff;
 margin-left: 10%;
 }
+.User-profile-list li {
+  padding: 10px 15px; 
+  }
 .User-profile-list {
 list-style: none;
 padding: 5px 0;
 }
-.User-profile-list li {
-padding: 10px 15px; 
-}
+
 .nav{
   width: 80%;
   margin: 40px auto 10px;

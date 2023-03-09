@@ -7,11 +7,11 @@ const UserProfileList = [
   "UserProfile",
   "Shipping Address",
   "HelpDask",
+  "Forward Shipping",
   "Message Centre",
   "My Saved Cards",
   "US Debit Card",
   "My Coupons",
-  "Forward Shipping",
 ];
 const UserProfile = () => {
   return (

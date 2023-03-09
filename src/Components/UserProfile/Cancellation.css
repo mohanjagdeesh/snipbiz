@@ -59,12 +59,13 @@ caption{
   font-size: 18px;
   margin: 10px 0;
 }
-.color-red{
-  color: red;
-}
 .color-orange{
   color: #f57921;
 }
+.color-red{
+  color: red;
+}
+
 .color-green{
   color: green;
 }
