@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap');
+.main-user-profile{
+    width: 100%; 
+    height: 100%;
+}
+.user-profile-heading{
+    width: 100%;
+    background-color: #4D148C;
+    box-shadow: 0 1px 2px #000000;
+    display: flex;
+    align-items: center;
+}
+.user-profile-heading h1{
+    margin-left: 140px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.user-dashboard-container{
+    display: flex;
+    margin:30px auto;
+    width: 80%;
+    gap: 32px;
+}
+.user-dashboard{
+background-color:#FF6200;
+width: 20%;
+height: 100%;
+}
+.user-dashboard-list{
+    list-style-type: none;
+}
+.user-list{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color:#FFFFFF;
+    margin: 5px 0 ;
+    padding: 10px;
+}
+
+.user-list:hover{
+    background-color:#FFFFFF;
+    color:#FF6200;
+    border-radius: 10px 0 0 10px;
+}
+.us-debit-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 16px;
+}
+.debit-card-heading{
+font-family: 'Poppins',sans-serif;
+font-size:16px;
+font-weight: 400px;
+text-align: left;
+color: #FF6200;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #d1d1d1;
+    padding-top: 5px;
+    margin-top: -10px;
+}
+.card-container{
+    display: flex;
+    padding-left: 8px;
+}
+.card-1{
+    background-image: url("https://res.cloudinary.com/djgnmqn06/image/upload/v1678534834/Design_3_ayt7wj.png");
+    width: 300px;
+    height: 150px;
+    box-sizing: content-box;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 8px;
+}
+.card-1 h1{
+font-family: 'Poppins',sans-serif;
+font-size: 14px;
+font-weight: 400px;
+text-align: left;
+padding-bottom: 10px;
+color: #FFFFFF;
+
+}
+p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400px;
+    padding-top: 7px;
+}
+.amount-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.balance-amount{
+    text-align: right;
+}
+.valid-container{
+    display: flex;
+}
+.valid{
+    width: 28px;
+    font-size: 8px;
+}
+.valid-year{
+    align-self: center;
+}
+th{
+    text-align: left;
+    background-color: #4D148C;
+    height: fit-content;
+    padding: 10px 0px 10px 10px;
+    color: #FFFFFF;
+    
+}
+th,td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+table tr{
+    padding: 10px 0;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+table {
+    border-collapse: collapse;
+    width: 95%;
+    font-size: 13px;
+    margin: 18px 0 15px 18px;
+  }
