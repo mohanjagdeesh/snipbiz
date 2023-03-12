@@ -1,0 +1,5164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it Should Match Blog Page snapshot 1`] = `
+<div
+  className="MuiBox-root css-7m4n47"
+>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        role="img"
+        style={
+          Object {
+            "backgroundImage": "url(\\"rec1.png\\")",
+          }
+        }
+        title="green iguana"
+      />
+      <div
+        className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="CalendarMonthOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zM9 14H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-8 4H7v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2z"
+              />
+            </svg>
+          </button>
+          12-01-2022
+        </p>
+        <div
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+        >
+          Contrary to popular relief
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          lorem ipsum whichh has done with work as a devloper
+        </p>
+      </div>
+      <div
+        className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Read more 
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match BlogDetails Page snapshot 1`] = `
+<div
+  className="blog-main"
+>
+  <div
+    className="blog-heading"
+  >
+    <h1>
+      Blog Details
+    </h1>
+  </div>
+  <div
+    className="blog-data"
+  >
+    <div
+      className="blog-data-left"
+    >
+      <img
+        alt="blog-container"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454678/Rectangle_619_rbg7oq.png"
+      />
+      <p
+        id="current-date"
+      >
+        <svg
+          className="cal-icon"
+          fill="currentColor"
+          height="1em"
+          id="Layer_1"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          version="1.1"
+          viewBox="0 0 24 24"
+          width="1em"
+          x="0px"
+          xmlns="http://www.w3.org/2000/svg"
+          y="0px"
+        >
+          <path
+            d="M18.438,4.954H16.5c0-0.346,0-0.691,0-1.036c0-0.124,0-0.248,0-0.372c0-0.262-0.23-0.512-0.5-0.5
+	c-0.271,0.012-0.5,0.22-0.5,0.5c0,0.469,0,0.939,0,1.408h-7c0-0.346,0-0.691,0-1.036c0-0.124,0-0.248,0-0.372
+	c0-0.262-0.23-0.512-0.5-0.5c-0.271,0.012-0.5,0.22-0.5,0.5c0,0.469,0,0.939,0,1.408H5.562c-1.378,0-2.5,1.122-2.5,2.5v11
+	c0,1.379,1.122,2.5,2.5,2.5h12.875c1.379,0,2.5-1.121,2.5-2.5v-11C20.938,6.076,19.816,4.954,18.438,4.954z M5.562,5.954H7.5
+	c0,0.073,0,0.147,0,0.22c0,0.124,0,0.248,0,0.372c0,0.262,0.23,0.512,0.5,0.5c0.271-0.012,0.5-0.22,0.5-0.5c0-0.197,0-0.394,0-0.592
+	h7c0,0.073,0,0.147,0,0.22c0,0.124,0,0.248,0,0.372c0,0.262,0.23,0.512,0.5,0.5c0.271-0.012,0.5-0.22,0.5-0.5
+	c0-0.197,0-0.394,0-0.592h1.937c0.827,0,1.5,0.673,1.5,1.5v1.584H4.062V7.454C4.062,6.627,4.735,5.954,5.562,5.954z M18.438,19.954
+	H5.562c-0.827,0-1.5-0.673-1.5-1.5v-8.416h15.875v8.416C19.938,19.281,19.265,19.954,18.438,19.954z"
+          />
+        </svg>
+         DD MON YYYY
+      </p>
+      <h3>
+        Contrary to popular belief, Lorem Ipsum is not simply random text
+      </h3>
+      <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+      </p>
+      <p>
+        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+      </p>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      </p>
+      <p>
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      <img
+        alt="blog-container"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454678/Rectangle_620_ikthya.png"
+      />
+      <h4>
+        Contrary to popular belief, Lorem Ipsum is not simply random text
+      </h4>
+      <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+      </p>
+      <p>
+        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+      </p>
+      <span
+        className="share"
+      >
+        SHARE
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+          />
+        </svg>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+          />
+        </svg>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+          />
+        </svg>
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+          />
+        </svg>
+      </span>
+    </div>
+    <div
+      className="blog-data-right"
+    >
+      <div
+        className="blog-recent"
+      >
+        <div
+          className="blog-section-right"
+        >
+          <h3>
+            Recent Posts
+          </h3>
+          <hr />
+          <div
+            className="blog-recent-img-data"
+          >
+            <img
+              alt="recent-posts"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+            />
+            <div>
+              <h6>
+                Contrary to popular belief, Lorem Ipsum is not simply
+              </h6>
+              <p
+                className="current-date"
+              >
+                DD MON YYYY
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div
+            className="blog-recent-img-data"
+          >
+            <img
+              alt="recent-posts"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+            />
+            <div>
+              <h6>
+                Contrary to popular belief, Lorem Ipsum is not simply
+              </h6>
+              <p
+                className="current-date"
+              >
+                DD MON YYYY
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div
+            className="blog-recent-img-data"
+          >
+            <img
+              alt="recent-posts"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+            />
+            <div>
+              <h6>
+                Contrary to popular belief, Lorem Ipsum is not simply
+              </h6>
+              <p
+                className="current-date"
+              >
+                DD MON YYYY
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div
+            className="blog-recent-img-data"
+          >
+            <img
+              alt="recent-posts"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+            />
+            <div>
+              <h6>
+                Contrary to popular belief, Lorem Ipsum is not simply
+              </h6>
+              <p
+                className="current-date"
+              >
+                DD MON YYYY
+              </p>
+            </div>
+          </div>
+          <button
+            className="view-more"
+          >
+             View More 
+          </button>
+        </div>
+      </div>
+      <div
+        className="blog-categories"
+      >
+        <div
+          className="blog-section-right"
+        >
+          <h3>
+            Categories
+          </h3>
+          <hr />
+          <ul
+            className="blog-list"
+          >
+            <li>
+              Logistics
+            </li>
+            <li>
+              Shipping
+            </li>
+            <li>
+              Business
+            </li>
+            <li>
+              Discounts
+            </li>
+            <li>
+              Global Growth
+            </li>
+            <li>
+              Warehouses
+            </li>
+            <li>
+              Orders
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="blog-archives"
+      >
+        <div
+          className="blog-section-right"
+        >
+          <h3>
+            Archives
+          </h3>
+          <hr />
+          <ul
+            className="blog-list"
+          >
+            <li>
+              2023
+            </li>
+            <li>
+              2022
+            </li>
+            <li>
+              2021
+            </li>
+            <li>
+              2020
+            </li>
+            <li>
+              2019
+            </li>
+            <li>
+              2018
+            </li>
+            <li>
+              2017
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match Carousel Page snapshot 1`] = `<div />`;
+
+exports[`it Should Match Contact Page snapshot 1`] = `
+<div
+  className="contact-main"
+>
+  <div
+    className="contact-heading"
+  >
+    <h1>
+      Contact
+    </h1>
+  </div>
+  <div
+    className="contact-paragraph"
+  >
+    <h2>
+      If you have any questions, contact us using the form below and we’ll respond as soon as we can. The more information you provide, the quicker and more effectively we’ll be able to help you. You can also email customer services directly.
+    </h2>
+  </div>
+  <div
+    className="contact-data"
+  >
+    <div
+      className="contact-data-left"
+    >
+      <div>
+        <svg
+          className="contact-icon"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+          />
+        </svg>
+        <p>
+          CHAT
+        </p>
+        <h4>
+          987-654-3210
+        </h4>
+      </div>
+      <div
+        className="contact-data-left-middle"
+      >
+        <svg
+          className="contact-icon"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+          />
+        </svg>
+        <p>
+          E-MAIL
+        </p>
+        <h4>
+          help@snipbiz.com
+        </h4>
+      </div>
+      <div>
+        <svg
+          className="contact-icon"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+          />
+        </svg>
+        <p>
+          CALL
+        </p>
+        <h4>
+          +01 123 456 7890
+        </h4>
+      </div>
+    </div>
+    <form
+      className="contact-data-right-form"
+      onSubmit={[Function]}
+    >
+      <h2>
+        I'm interested in...
+      </h2>
+      <select
+        onChange={[Function]}
+      >
+        <option
+          value="careers"
+        >
+          Careers
+        </option>
+        <option
+          value="contact1"
+        >
+          Reason for Contact 1
+        </option>
+        <option
+          value="contact2"
+        >
+          Reason for Contact 2
+        </option>
+        <option
+          value="contact3"
+        >
+          Reason for Contact 3
+        </option>
+        <option
+          value="contact4"
+        >
+          Reason for Contact 4
+        </option>
+      </select>
+      <div
+        className="form-input-fields"
+      >
+        <div
+          className="each-input-field"
+        >
+          <section>
+            <label>
+              First Name*
+            </label>
+            <input
+              onChange={[Function]}
+              placeholder="First Name"
+              required={true}
+              type="text"
+            />
+          </section>
+          <section>
+            <label>
+              Last Name*
+            </label>
+            <input
+              onChange={[Function]}
+              placeholder="Last Name"
+              required={true}
+              type="text"
+            />
+          </section>
+        </div>
+        <div
+          className="each-input-field"
+        >
+          <section>
+            <label>
+              Company*
+            </label>
+            <input
+              onChange={[Function]}
+              placeholder="Company Name"
+              required={true}
+              type="text"
+            />
+          </section>
+          <section>
+            <label>
+              Email*
+            </label>
+            <input
+              onChange={[Function]}
+              placeholder="Your E-mail"
+              required={true}
+              type="email"
+            />
+          </section>
+        </div>
+        <div
+          className="each-input-field"
+        >
+          <section>
+            <label>
+              Country
+            </label>
+            <select
+              onChange={[Function]}
+            >
+              <option
+                value="country"
+              >
+                Select Country
+              </option>
+              <option
+                value="india"
+              >
+                India
+              </option>
+              <option
+                value="usa"
+              >
+                USA
+              </option>
+              <option
+                value="uk"
+              >
+                UK
+              </option>
+              <option
+                value="australia"
+              >
+                Australia
+              </option>
+            </select>
+          </section>
+          <section>
+            <label>
+              Phone
+            </label>
+            <input
+              onChange={[Function]}
+              placeholder="Your Phone Number"
+              type="number"
+            />
+          </section>
+        </div>
+        <div
+          className="each-input-field"
+        >
+          <section>
+            <label>
+              Job Title
+            </label>
+            <input
+              onChange={[Function]}
+              placeholder="Job Title"
+              type="text"
+            />
+          </section>
+          <section>
+            <label>
+              City
+            </label>
+            <input
+              onChange={[Function]}
+              placeholder="City Name"
+              type="text"
+            />
+          </section>
+        </div>
+      </div>
+      <div
+        className="each-input-field"
+      >
+        <section>
+          <label>
+            Comments
+          </label>
+          <textarea
+            cols={30}
+            onChange={[Function]}
+            rows={3}
+          />
+        </section>
+      </div>
+      <button
+        className="submit-btn"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+  <div
+    className="contact-map-data"
+  >
+    <h2>
+      Forwarding warehouse locations
+    </h2>
+    <img
+      alt="map"
+      src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676914848/Rectangle_648_mhmpny.png"
+    />
+    <div
+      className="contact-map-bottom-list"
+    >
+      <div>
+        <h6>
+          UK Warehouse
+        </h6>
+        <p>
+          Preston
+        </p>
+        <p>
+          PR3 1NJ
+        </p>
+        <p>
+          United Kingdom
+        </p>
+      </div>
+      <div>
+        <h6>
+          UK Tax Free Warehouse
+        </h6>
+        <p>
+          Forest
+        </p>
+        <p>
+          GY8 ODJ
+        </p>
+        <p>
+          Guernsey
+        </p>
+      </div>
+      <div>
+        <h6>
+          Germany Warehouse
+        </h6>
+        <p>
+          D-16303 Gewerbepark-Meyenberg
+        </p>
+        <p>
+          DRD 587
+        </p>
+        <p>
+          Germany
+        </p>
+      </div>
+      <div>
+        <h6>
+          Turkey Warehouse
+        </h6>
+        <p>
+          34413 Kagithane
+        </p>
+        <p>
+          Istanbul
+        </p>
+        <p>
+          Turkey
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match FooterSection Page snapshot 1`] = `
+<footer>
+  <div
+    className="footer-main"
+  >
+    <div
+      className="footer-data"
+    >
+      <div
+        className="footer-link-data"
+      >
+        <div
+          className="link-data-row"
+        >
+          <div>
+            <p>
+              ABOUT
+            </p>
+            <hr />
+            <ul>
+              <p
+                className="footer1"
+              >
+                How It Works
+              </p>
+              <p
+                className="footer1"
+              >
+                Partners
+              </p>
+              <p
+                className="footer1"
+              >
+                Tracking
+              </p>
+              <p
+                className="footer1"
+              >
+                FAQ
+              </p>
+              <p
+                className="footer1"
+              >
+                US Debit Card
+              </p>
+              <p
+                className="footer1"
+              >
+                Contact
+              </p>
+            </ul>
+          </div>
+          <div>
+            <p>
+              SITEMAP
+            </p>
+            <hr />
+            <ul>
+              <p
+                className="footer1"
+              >
+                press
+              </p>
+              <p
+                className="footer1"
+              >
+                media
+              </p>
+              <p
+                className="footer1"
+              >
+                careers
+              </p>
+              <p
+                className="footer1"
+              >
+                partners
+              </p>
+              <p
+                className="footer1"
+              >
+                reviews/customer stories
+              </p>
+              <p
+                className="footer1"
+              >
+                volumetric weight
+              </p>
+              <p
+                className="footer1"
+              >
+                calculator
+              </p>
+            </ul>
+          </div>
+          <div>
+            <p>
+              SHIP FORWARDING
+            </p>
+            <hr />
+            <ul>
+              <p
+                className="footer1"
+              >
+                processing charges
+              </p>
+              <p
+                className="footer1"
+              >
+                prohibited items
+              </p>
+              <p
+                className="footer1"
+              >
+                assisted puchase
+              </p>
+              <p
+                className="footer1"
+              >
+                pack n ship in one box
+              </p>
+              <p
+                className="footer1"
+              >
+                US Debit Card
+              </p>
+              <p
+                className="footer1"
+              >
+                affiliate program
+              </p>
+              <p
+                className="footer1"
+              >
+                limits of liability
+              </p>
+            </ul>
+          </div>
+        </div>
+        <div
+          className="link-data-row"
+        >
+          <div>
+            <p>
+              Legal
+            </p>
+            <hr />
+            <ul>
+              <p
+                className="footer1"
+              >
+                login
+              </p>
+              <p
+                className="footer1"
+              >
+                register
+              </p>
+              <p
+                className="footer1"
+              >
+                cancel/return policy
+              </p>
+              <p
+                className="footer1"
+              >
+                privacy policy
+              </p>
+              <p
+                className="footer1"
+              >
+                terms & conditions
+              </p>
+              <p
+                className="footer1"
+              >
+                legal disclaimer
+              </p>
+            </ul>
+          </div>
+          <div>
+            <p>
+              maryland, usa
+            </p>
+            <hr />
+            <p
+              className="footer-link-address"
+            >
+              Corporate Headquarters
+              <br />
+              20059 Mattingly ter
+              <br />
+              gaithersburg, MD 28079
+              <br />
+              Phone: +1 732 447 9779
+            </p>
+            <section
+              className="ico-share"
+            >
+              <span
+                className="share"
+              >
+                share:
+              </span>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
+              </svg>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+              </svg>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                />
+              </svg>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                />
+              </svg>
+            </section>
+          </div>
+          <div>
+            <p>
+              delaware, usa
+            </p>
+            <hr />
+            <p
+              className="footer-link-address"
+            >
+              Corporate Headquarters
+              <br />
+              20059 Mattingly ter
+              <br />
+              gaithersburg, MD 28079
+              <br />
+              Phone: +1 732 447 9779
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="footer-payment-data"
+      >
+        <div
+          className="payment-data-row"
+        >
+          <p>
+            pay with confidence
+          </p>
+          <hr />
+          <div
+            className="payment-gateway"
+          >
+            <div
+              className="payment-gateway-images"
+            >
+              <img
+                alt="paypal"
+                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/paypal_1_bqr2uu.png"
+              />
+              <img
+                alt="applepay"
+                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/applepay_1_rkmkm7.png"
+              />
+              <img
+                alt="americanexp"
+                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/amex_1_i1xpqi.png"
+              />
+            </div>
+            <div
+              className="payment-gateway-images"
+            >
+              <img
+                alt="visamaster"
+                id="visa"
+                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/visa-mastercard_1_f6bwag.png"
+              />
+              <img
+                alt="alipay"
+                id="alipay"
+                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/alipay_1_xmiwmk.png"
+              />
+              <img
+                alt="discover"
+                id="discover"
+                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/Discover-logo_1_ieosck.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="payment-data-row"
+        >
+          <p>
+            know your data is protected
+          </p>
+          <hr />
+          <div
+            className="data-protect"
+          >
+            <img
+              alt="letsencrypt"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/lets-encrypt_2_hledei.png"
+            />
+            <img
+              alt="fullysecure"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/ssl_1_ho35cb.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      className="last-line"
+    />
+    <div
+      className="copyright"
+    >
+      <p>
+        Copyright © 2023 SnipBiz. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`it Should Match Forms Page snapshot 1`] = `
+<div
+  className="form-wrapper"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-control"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+          >
+            <span
+              className="notranslate"
+            >
+              ​
+            </span>
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="AdjustIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3-8c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"
+              />
+            </svg>
+          </div>
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id=":r0:"
+            name="pickup"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter pickup location"
+            required={false}
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-ihdtdm"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-control"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+          >
+            <span
+              className="notranslate"
+            >
+              ​
+            </span>
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="LocationCityOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15 11V5l-3-3-3 3v2H3v14h18V11h-6zm-8 8H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V9h2v2zm6 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V9h2v2zm0-4h-2V5h2v2zm6 12h-2v-2h2v2zm0-4h-2v-2h2v2z"
+              />
+            </svg>
+          </div>
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id=":r1:"
+            name="destination"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter Destination"
+            required={false}
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-ihdtdm"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      className="form-control"
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+          >
+            <span
+              className="notranslate"
+            >
+              ​
+            </span>
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ScaleIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M14 11V8c4.56-.58 8-3.1 8-6H2c0 2.9 3.44 5.42 8 6v3c-3.68.73-8 3.61-8 11h6v-2H4.13c.93-6.83 6.65-7.2 7.87-7.2s6.94.37 7.87 7.2H16v2h6c0-7.39-4.32-10.27-8-11zm-2 11c-1.1 0-2-.9-2-2 0-.55.22-1.05.59-1.41C11.39 17.79 16 16 16 16s-1.79 4.61-2.59 5.41c-.36.37-.86.59-1.41.59z"
+              />
+            </svg>
+          </div>
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id=":r2:"
+            name="weight"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter Weight"
+            required={false}
+            type="number"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-ihdtdm"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`it Should Match Home Page snapshot 1`] = `
+<div
+  className="MuiBox-root css-0"
+>
+  <div
+    className="top-container"
+  >
+    <div
+      className="main-container"
+    >
+      <div
+        className="left-container"
+      >
+        <h3
+          className="shop"
+        >
+          Ship your package with best rates from reliable shipping companies.
+        </h3>
+        <img
+          alt="off"
+          className="shipping"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676020937/discount-design-copy_2_ipmdoe.png"
+        />
+        <div
+          className="form-wrapper"
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <div
+              className="form-control"
+            >
+              <div
+                className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                  >
+                    <span
+                      className="notranslate"
+                    >
+                      ​
+                    </span>
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="AdjustIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3-8c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    autoFocus={false}
+                    className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+                    disabled={false}
+                    id=":r3:"
+                    name="pickup"
+                    onAnimationStart={[Function]}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Enter pickup location"
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      className="css-ihdtdm"
+                    >
+                      <span
+                        className="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              className="form-control"
+            >
+              <div
+                className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                  >
+                    <span
+                      className="notranslate"
+                    >
+                      ​
+                    </span>
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="LocationCityOutlinedIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15 11V5l-3-3-3 3v2H3v14h18V11h-6zm-8 8H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V9h2v2zm6 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V9h2v2zm0-4h-2V5h2v2zm6 12h-2v-2h2v2zm0-4h-2v-2h2v2z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    autoFocus={false}
+                    className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+                    disabled={false}
+                    id=":r4:"
+                    name="destination"
+                    onAnimationStart={[Function]}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Enter Destination"
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      className="css-ihdtdm"
+                    >
+                      <span
+                        className="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              className="form-control"
+            >
+              <div
+                className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                  >
+                    <span
+                      className="notranslate"
+                    >
+                      ​
+                    </span>
+                    <svg
+                      aria-hidden={true}
+                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                      data-testid="ScaleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M14 11V8c4.56-.58 8-3.1 8-6H2c0 2.9 3.44 5.42 8 6v3c-3.68.73-8 3.61-8 11h6v-2H4.13c.93-6.83 6.65-7.2 7.87-7.2s6.94.37 7.87 7.2H16v2h6c0-7.39-4.32-10.27-8-11zm-2 11c-1.1 0-2-.9-2-2 0-.55.22-1.05.59-1.41C11.39 17.79 16 16 16 16s-1.79 4.61-2.59 5.41c-.36.37-.86.59-1.41.59z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    aria-invalid={false}
+                    autoFocus={false}
+                    className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+                    disabled={false}
+                    id=":r5:"
+                    name="weight"
+                    onAnimationStart={[Function]}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="Enter Weight"
+                    required={false}
+                    type="number"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden={true}
+                    className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      className="css-ihdtdm"
+                    >
+                      <span
+                        className="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <a
+          className="question"
+          href="/"
+        >
+          Do you need help for get approximate weight and measurements?
+        </a>
+        <div
+          className="stars"
+        >
+          <button
+            className="quote"
+          >
+            Get Quote
+          </button>
+          <img
+            alt="star"
+            className="star-img"
+            src="https://res.cloudinary.com/duapyyftc/image/upload/v1675425560/Untitled-1_1_s6_vughy5.png"
+          />
+        </div>
+        <a
+          href="https://www.google.com"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Need to book multiple shipments?
+        </a>
+      </div>
+      <div
+        className="right-container"
+      >
+        <img
+          alt="box"
+          className="box"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676020325/warehouse-flights---Copy_1_vp9wtn.png"
+        />
+        <h4
+          className="shop"
+        >
+          Shop anywhere in US let us ship to your doorstep in your country*
+           
+          <span
+            className="tax"
+          >
+            Tax free*
+          </span>
+        </h4>
+        <button
+          className="howit-works"
+          onClick={[Function]}
+        >
+          How it works
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ship-container"
+  >
+    <h1
+      className="ship-heading"
+    >
+      Ship Forwarding
+    </h1>
+    <div
+      className="forward-cont"
+    >
+      <div
+        className="orange-cont"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+        >
+          Signup & get USA Address 
+        </p>
+        <img
+          alt="orange"
+          className="circles"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276073/Group_72_mkeqj0.png"
+        />
+        <img
+          alt="warehouse"
+          className="orange-icon"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276086/ic_twotone-warehouse_c5spgh.png"
+        />
+      </div>
+      <div
+        className="blue-cont"
+      >
+        <img
+          alt="orange"
+          className="circles"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276096/Group_75_zc47ai.png"
+        />
+        <img
+          alt="warehouse"
+          className="blue-icon"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276107/Group_78_b772y0.png"
+        />
+        <p
+          className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+        >
+          Signup & get USA Address 
+        </p>
+      </div>
+      <div
+        className="orange-cont"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+        >
+          Signup & get USA Address 
+        </p>
+        <img
+          alt="orange"
+          className="circles"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276073/Group_72_mkeqj0.png"
+        />
+        <img
+          alt="warehouse"
+          className="orange-icon"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276117/ph_package-duotone_kdltpk.png"
+        />
+      </div>
+      <div
+        className="blue-cont"
+      >
+        <img
+          alt="orange"
+          className="circles"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276096/Group_75_zc47ai.png"
+        />
+        <img
+          alt="warehouse"
+          className="blue-icon"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276128/Vector_vqupbq.png"
+        />
+        <p
+          className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+        >
+          Signup & get USA Address 
+        </p>
+      </div>
+      <div
+        className="orange-cont"
+      >
+        <p
+          className="para"
+        >
+          Signup & get USA Address 
+        </p>
+        <img
+          alt="orange"
+          className="circles"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276073/Group_72_mkeqj0.png"
+        />
+        <img
+          alt="warehouse"
+          className="orange-icon"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276165/Mask_group_g8fyja.png"
+        />
+      </div>
+      <div
+        className="blue-cont"
+      >
+        <img
+          alt="orange"
+          className="circles"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276096/Group_75_zc47ai.png"
+        />
+        <img
+          alt="warehouse"
+          className="blue-icon"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276174/ic_twotone-support-agent_qtcwzw.png"
+        />
+        <p
+          className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+        >
+          Signup & get USA Address 
+        </p>
+      </div>
+    </div>
+    <div>
+      <button
+        className="know-more"
+      >
+        Know more
+      </button>
+      <button
+        className="start-shipping"
+      >
+        Start shipping
+      </button>
+    </div>
+  </div>
+  <div
+    className="goodhand-bg"
+  >
+    <div
+      className="goodhand-main"
+    >
+      <div
+        className="good-left"
+      >
+        <div
+          className="left-boxes"
+        >
+          <div
+            className="one"
+          >
+            <img
+              alt="polo"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050542/_1526408913_622_Ralph-Lauren-Stacked-Logo_2917332a71fa-mobile_1_wpczdn.png"
+            />
+          </div>
+          <div
+            className="two"
+          >
+            <img
+              alt="ebay"
+              id="ebay"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050542/2560px-EBay_logo_1_u2qh3u.png"
+            />
+          </div>
+          <div
+            className="one"
+          >
+            <img
+              alt="Tom"
+              id="tom"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050542/Tom-Ford-Banner_1_igowrd.png"
+            />
+          </div>
+          <div
+            className="two"
+          >
+            <img
+              alt="calvin"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050542/Calvin-Klein-logo_1_vxatrn.png"
+            />
+          </div>
+          <div
+            className="one"
+            id="five"
+          >
+            <img
+              alt="untuckit"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676224154/download_1_bo9ulf.png"
+            />
+          </div>
+          <div
+            className="one"
+          >
+            <img
+              alt="frye"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050541/download_2_xaamrw.png"
+            />
+          </div>
+          <div
+            className="one"
+          >
+            <img
+              alt="apple"
+              id="apple"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050541/Apple_logo_black_1_zxjmjl.png"
+            />
+          </div>
+          <div
+            className="one"
+            id="eight"
+          >
+            <img
+              alt="walmart"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050541/cdn.corporate_1_nhpgwb.png"
+            />
+          </div>
+          <div
+            className="two"
+          >
+            <img
+              alt="nordstrom"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676050541/Nordstrom-logo-1_1_tckkyp.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="good-right"
+      >
+        <div
+          className="goodInfo"
+        >
+          <h1>
+            You’re In Good Hands
+          </h1>
+          <p>
+            We’re happy when our customers are happy. We pride ourselves on going above and beyond.
+          </p>
+          <br />
+          <h3>
+            Get the help you need, 24/7
+          </h3>
+          <p>
+            We work around the clock to get your shipments to the right place at the right time. Our support center is second-to-none. 
+            <span>
+              See our support center.
+            </span>
+          </p>
+          <br />
+          <h3>
+            Become a shipping expert
+          </h3>
+          <p>
+            Our resource library has everything you’ve ever wanted to know about shipping. 
+            <span>
+               Explore resourece hub.
+            </span>
+          </p>
+        </div>
+        <div
+          className="ship-btn"
+        >
+          <button
+            className="howit-works-btn"
+          >
+            Know more
+          </button>
+          <button
+            className="get-quote-btn"
+          >
+            Shopnow
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ourpartner-bg"
+  >
+    <div
+      className="ourpartner-main"
+    >
+      <h1
+        className="ourpartner-heading"
+      >
+        Our Partners
+      </h1>
+      <div
+        className="courierList"
+      >
+        <svg
+          className="prv-btn"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M11.828 12l2.829 2.828-1.414 1.415L9 12l4.243-4.243 1.414 1.415L11.828 12z"
+            />
+          </g>
+        </svg>
+        <div
+          className="courierService"
+        >
+          <div
+            className="img-list"
+          >
+            <img
+              alt="dhl"
+              className="partner-img"
+              id="dhl"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676106119/dhl-png-logo-icon-5997_xdet0d.png"
+            />
+          </div>
+        </div>
+        <div
+          className="courierService"
+        >
+          <div
+            className="img-list"
+          >
+            <img
+              alt="fedex"
+              className="partner-img"
+              id="fedex"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/image_2_cnwbdk.png"
+            />
+          </div>
+        </div>
+        <div
+          className="courierService"
+        >
+          <div
+            className="img-list"
+          >
+            <img
+              alt="ups"
+              className="partner-img"
+              id="ups"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/1200px-United_Parcel_Service_logo_2014_1_dn24o7.png"
+            />
+          </div>
+        </div>
+        <div
+          className="courierService"
+        >
+          <div
+            className="img-list"
+          >
+            <img
+              alt="aramex"
+              className="partner-img"
+              id="aramex"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676110102/Aramex_Logo_d9ko3y.png"
+            />
+          </div>
+        </div>
+        <div
+          className="courierService"
+        >
+          <div
+            className="img-list"
+          >
+            <img
+              alt="usps"
+              className="partner-img"
+              id="usps"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105890/fgfg_1_foktrt.png"
+            />
+          </div>
+        </div>
+        <svg
+          className="nxt-btn"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M12.172 12L9.343 9.172l1.414-1.415L15 12l-4.243 4.243-1.414-1.415z"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="serving-bg"
+  >
+    <div
+      className="serving-container"
+    >
+      <div
+        className="serving-map"
+      >
+        <h1
+          className="serving-name"
+        >
+          Serving Destinations
+        </h1>
+        <img
+          alt="worldmap"
+          className="worldmap"
+          src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676113935/world-map_1_fk30vg.png"
+        />
+      </div>
+      <div
+        className="serving-List"
+      >
+        <svg
+          className="prv-btn"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M11.828 12l2.829 2.828-1.414 1.415L9 12l4.243-4.243 1.414 1.415L11.828 12z"
+            />
+          </g>
+        </svg>
+        <div
+          className="serving-place"
+          id="place-Delhi"
+        >
+          <div
+            className="place-list"
+          >
+            <img
+              alt="delhi"
+              className="place-img"
+              id="delhi"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_4dlh_dwqdvs.png"
+            />
+          </div>
+          <h3
+            className="place-name"
+          >
+            Delhi
+          </h3>
+          <p
+            className="place-price"
+          >
+            Lowest Price $10.00
+          </p>
+        </div>
+        <div
+          className="serving-place"
+        >
+          <div
+            className="place-list"
+          >
+            <img
+              alt="newyork"
+              className="place-img"
+              id="newyork"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5nyk_vwxg2w.png"
+            />
+          </div>
+          <h3
+            className="place-name"
+          >
+            Newyork
+          </h3>
+          <p
+            className="place-price"
+          >
+            Lowest Price $25.00
+          </p>
+        </div>
+        <div
+          className="serving-place"
+        >
+          <div
+            className="place-list"
+          >
+            <img
+              alt="london"
+              className="place-img"
+              id="london"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6ldn_lwtrp2.png"
+            />
+          </div>
+          <h3
+            className="place-name"
+          >
+            London
+          </h3>
+          <p
+            className="place-price"
+          >
+            Lowest Price $15.00
+          </p>
+        </div>
+        <div
+          className="serving-place"
+        >
+          <div
+            className="place-list"
+          >
+            <img
+              alt="frankfurt"
+              className="place-img"
+              id="frankfurt"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6fkf_uffo3m.png"
+            />
+          </div>
+          <h3
+            className="place-name"
+          >
+            Frankfurt
+          </h3>
+          <p
+            className="place-price"
+          >
+            Lowest Price $18.00
+          </p>
+        </div>
+        <div
+          className="serving-place"
+        >
+          <div
+            className="place-list"
+          >
+            <img
+              alt="amsterdam"
+              className="place-img"
+              id="amsterdam"
+              src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5ams_nonaxp.png"
+            />
+          </div>
+          <h3
+            className="place-name"
+          >
+            Amsterdam
+          </h3>
+          <p
+            className="place-price"
+          >
+            Lowest Price $17.00
+          </p>
+        </div>
+        <svg
+          className="nxt-btn"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M12.172 12L9.343 9.172l1.414-1.415L15 12l-4.243 4.243-1.414-1.415z"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match Howit Works Page snapshot 1`] = `
+<div
+  className="howitworks-main"
+>
+  <div
+    className="howitworks-heading"
+  >
+    <h1>
+      How it Works
+    </h1>
+  </div>
+  <nav>
+    <ul>
+      <li>
+        Courier Service
+      </li>
+      <li>
+        Forward Shipping
+      </li>
+      <li>
+        US Debit Cards
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="howitworks-video"
+  >
+    <img
+      alt="video-play"
+      className="video-pic"
+      src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676890000/Rectangle_652_rok78s.png"
+    />
+    <img
+      alt="play-btn"
+      className="play-btn"
+      src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676890370/Vector_3_nuv89i.png"
+    />
+  </div>
+  <div
+    className="howitworks-data"
+  >
+    <img
+      alt="process-direction"
+      id="process-direction"
+      src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676373099/Vector_2_w9lwmc.png"
+    />
+    <div
+      className="howitworks-process"
+    >
+      <div
+        className="process-data-info"
+      >
+        <h3>
+          Signup & get USA Address
+        </h3>
+        <p>
+          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
+        </p>
+      </div>
+      <div
+        className="process-number"
+      >
+        1
+      </div>
+      <img
+        alt="howitworks-img"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw1_eyuyag.png"
+      />
+    </div>
+    <div
+      className="howitworks-process"
+    >
+      <img
+        alt="howitworks-img"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw2_lw193c.png"
+      />
+      <div
+        className="process-number"
+      >
+        2
+      </div>
+      <div
+        className="process-data-info"
+      >
+        <h3>
+          Shop Online & Ship to Our Ware House
+        </h3>
+        <p>
+          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
+        </p>
+      </div>
+    </div>
+    <div
+      className="howitworks-process"
+    >
+      <div
+        className="process-data-info"
+      >
+        <h3>
+          We Consolidate Your Packages
+        </h3>
+        <p>
+          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
+        </p>
+      </div>
+      <div
+        className="process-number"
+      >
+        3
+      </div>
+      <img
+        alt="howitworks-img"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw3_gh9zoz.png"
+      />
+    </div>
+    <div
+      className="howitworks-process"
+    >
+      <img
+        alt="howitworks-img"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw4_jscv4w.png"
+      />
+      <div
+        className="process-number"
+      >
+        4
+      </div>
+      <div
+        className="process-data-info"
+      >
+        <h3>
+          We Ship Your Goods to Your Country
+        </h3>
+        <p>
+          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
+        </p>
+      </div>
+    </div>
+    <div
+      className="howitworks-process"
+    >
+      <div
+        className="process-data-info"
+      >
+        <h3>
+          We Deliver to Your Doorsteps
+        </h3>
+        <p>
+          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
+        </p>
+      </div>
+      <div
+        className="process-number"
+      >
+        5
+      </div>
+      <img
+        alt="howitworks-img"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw5_yeam0l.png"
+      />
+    </div>
+    <div
+      className="howitworks-process"
+    >
+      <img
+        alt="howitworks-img"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771583/Rectangle_606hiw6_cnidbl.png"
+      />
+      <div
+        className="process-number"
+      >
+        6
+      </div>
+      <div
+        className="process-data-info"
+      >
+        <h3>
+          CustomerSupport
+        </h3>
+        <p>
+          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match Landing Page snapshot 1`] = `
+<div
+  className="top-container"
+>
+  <div
+    className="main-container"
+  >
+    <div
+      className="left-container"
+    >
+      <h3
+        className="shop"
+      >
+        Ship your package with best rates from reliable shipping companies.
+      </h3>
+      <img
+        alt="off"
+        className="shipping"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676020937/discount-design-copy_2_ipmdoe.png"
+      />
+      <div
+        className="form-wrapper"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="form-control"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                onClick={[Function]}
+              >
+                <div
+                  className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                >
+                  <span
+                    className="notranslate"
+                  >
+                    ​
+                  </span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AdjustIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3-8c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"
+                    />
+                  </svg>
+                </div>
+                <input
+                  aria-invalid={false}
+                  autoFocus={false}
+                  className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+                  disabled={false}
+                  id=":r6:"
+                  name="pickup"
+                  onAnimationStart={[Function]}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Enter pickup location"
+                  required={false}
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    className="css-ihdtdm"
+                  >
+                    <span
+                      className="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-control"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                onClick={[Function]}
+              >
+                <div
+                  className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                >
+                  <span
+                    className="notranslate"
+                  >
+                    ​
+                  </span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="LocationCityOutlinedIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15 11V5l-3-3-3 3v2H3v14h18V11h-6zm-8 8H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V9h2v2zm6 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V9h2v2zm0-4h-2V5h2v2zm6 12h-2v-2h2v2zm0-4h-2v-2h2v2z"
+                    />
+                  </svg>
+                </div>
+                <input
+                  aria-invalid={false}
+                  autoFocus={false}
+                  className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+                  disabled={false}
+                  id=":r7:"
+                  name="destination"
+                  onAnimationStart={[Function]}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Enter Destination"
+                  required={false}
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    className="css-ihdtdm"
+                  >
+                    <span
+                      className="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            className="form-control"
+          >
+            <div
+              className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                onClick={[Function]}
+              >
+                <div
+                  className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                >
+                  <span
+                    className="notranslate"
+                  >
+                    ​
+                  </span>
+                  <svg
+                    aria-hidden={true}
+                    className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="ScaleIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M14 11V8c4.56-.58 8-3.1 8-6H2c0 2.9 3.44 5.42 8 6v3c-3.68.73-8 3.61-8 11h6v-2H4.13c.93-6.83 6.65-7.2 7.87-7.2s6.94.37 7.87 7.2H16v2h6c0-7.39-4.32-10.27-8-11zm-2 11c-1.1 0-2-.9-2-2 0-.55.22-1.05.59-1.41C11.39 17.79 16 16 16 16s-1.79 4.61-2.59 5.41c-.36.37-.86.59-1.41.59z"
+                    />
+                  </svg>
+                </div>
+                <input
+                  aria-invalid={false}
+                  autoFocus={false}
+                  className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
+                  disabled={false}
+                  id=":r8:"
+                  name="weight"
+                  onAnimationStart={[Function]}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Enter Weight"
+                  required={false}
+                  type="number"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden={true}
+                  className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    className="css-ihdtdm"
+                  >
+                    <span
+                      className="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <a
+        className="question"
+        href="/"
+      >
+        Do you need help for get approximate weight and measurements?
+      </a>
+      <div
+        className="stars"
+      >
+        <button
+          className="quote"
+        >
+          Get Quote
+        </button>
+        <img
+          alt="star"
+          className="star-img"
+          src="https://res.cloudinary.com/duapyyftc/image/upload/v1675425560/Untitled-1_1_s6_vughy5.png"
+        />
+      </div>
+      <a
+        href="https://www.google.com"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Need to book multiple shipments?
+      </a>
+    </div>
+    <div
+      className="right-container"
+    >
+      <img
+        alt="box"
+        className="box"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676020325/warehouse-flights---Copy_1_vp9wtn.png"
+      />
+      <h4
+        className="shop"
+      >
+        Shop anywhere in US let us ship to your doorstep in your country*
+         
+        <span
+          className="tax"
+        >
+          Tax free*
+        </span>
+      </h4>
+      <button
+        className="howit-works"
+        onClick={[Function]}
+      >
+        How it works
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match Navbar Page snapshot 1`] = `
+<li
+  className="nav-item"
+>
+  <a
+    className="nav-link"
+    href="#"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  />
+</li>
+`;
+
+exports[`it Should Match OurOartners Page snapshot 1`] = `
+<div
+  className="ourpartner-bg"
+>
+  <div
+    className="ourpartner-main"
+  >
+    <h1
+      className="ourpartner-heading"
+    >
+      Our Partners
+    </h1>
+    <div
+      className="courierList"
+    >
+      <svg
+        className="prv-btn"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M11.828 12l2.829 2.828-1.414 1.415L9 12l4.243-4.243 1.414 1.415L11.828 12z"
+          />
+        </g>
+      </svg>
+      <div
+        className="courierService"
+      >
+        <div
+          className="img-list"
+        >
+          <img
+            alt="dhl"
+            className="partner-img"
+            id="dhl"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676106119/dhl-png-logo-icon-5997_xdet0d.png"
+          />
+        </div>
+      </div>
+      <div
+        className="courierService"
+      >
+        <div
+          className="img-list"
+        >
+          <img
+            alt="fedex"
+            className="partner-img"
+            id="fedex"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/image_2_cnwbdk.png"
+          />
+        </div>
+      </div>
+      <div
+        className="courierService"
+      >
+        <div
+          className="img-list"
+        >
+          <img
+            alt="ups"
+            className="partner-img"
+            id="ups"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/1200px-United_Parcel_Service_logo_2014_1_dn24o7.png"
+          />
+        </div>
+      </div>
+      <div
+        className="courierService"
+      >
+        <div
+          className="img-list"
+        >
+          <img
+            alt="aramex"
+            className="partner-img"
+            id="aramex"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676110102/Aramex_Logo_d9ko3y.png"
+          />
+        </div>
+      </div>
+      <div
+        className="courierService"
+      >
+        <div
+          className="img-list"
+        >
+          <img
+            alt="usps"
+            className="partner-img"
+            id="usps"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105890/fgfg_1_foktrt.png"
+          />
+        </div>
+      </div>
+      <svg
+        className="nxt-btn"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12.172 12L9.343 9.172l1.414-1.415L15 12l-4.243 4.243-1.414-1.415z"
+          />
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match Partners Page snapshot 1`] = `
+<div>
+  Partners
+</div>
+`;
+
+exports[`it Should Match Privacy Polict Page snapshot 1`] = `
+<div
+  className="privacyPolicy-main"
+>
+  <div
+    className="privacyPolicy-heading"
+  >
+    <h1>
+      Privacy Policy
+    </h1>
+  </div>
+  <div
+    className="privacyPolicy-data"
+  >
+    <ol>
+      <li>
+        General
+        <ol>
+          <li>
+            At website we take your privacy seriously. This Privacy Policy (together with our website Terms of Use and Trading Terms) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it.
+          </li>
+        </ol>
+      </li>
+      <li>
+        Information about us
+        <ol>
+          <li>
+            This site is operated by website Limited (we, our or us). We are registered in England and Wales under company number 07323718. Our registered office is at York House, Green Lane West, Preston, PR3 1NJ. Our VAT number is GB994 6929 42.
+          </li>
+        </ol>
+      </li>
+      <li>
+        Information we may collect from you
+        <ol>
+          <li>
+            We have put in place appropriate security measures to prevent your personal information from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed. In addition, we limit access to your personal information to those employees who have business need to know. We may collect and process the following data about you:3.1.1 details of transactions you carry out through our website www.website.com (the Site) and of the fulfilment of your orders;3.1.2 information that you provide by filling in forms on the Site, including, but not limited to, information provided at the time of requesting or subscribing to any service, or becoming a registered user or if you enter any competition or promotion sponsored by us;3.1.3 information from surveys that we use for research purposes, if you choose to respond to them;3.1.4 communications you send to us, for example to report a problem with or submit a comment regarding the Site; 3.1.5 and details of your visits to the Site, including, but not limited to, traffic data, location data and the resources that you access.
+          </li>
+        </ol>
+      </li>
+      <li>
+        IP addresses and cookies
+        <ol>
+          <li>
+            We may collect information about your computer including, where available, your IP address, operating system and browser type, for system administration and to report aggregate information to our advertisers. This is statistical data about our users' browsing actions and patterns, and does not identify any individual.
+          </li>
+          <li>
+            For the same reason, we may obtain information about your general internet usage by using a cookie file which is stored on the hard drive of your computer. They help us to improve the Site and to deliver a better and more personalised service. They enable us to: 4.2.1 estimate our audience size and usage pattern;4.2.2 store information about your preferences, and so allow us to customise the Site according to your individual interests;4.2.3 speed up your searches;4.2.4 and recognise you when you return to the Site.
+          </li>
+          <li>
+            You may refuse to accept cookies by activating the setting on your browser which allows you to refuse the setting of cookies. However, if you select this setting, you may be unable to access certain parts of the Site. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you use the Site. The "Help" menu of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether. For more information about cookies and how to stop cookies being installed or how to delete existing cookies from your hard drive visit the following website: http://www.allaboutcookies.org.
+          </li>
+        </ol>
+      </li>
+      <li>
+        How we process and store your information
+        <ol>
+          <li>
+            For the purpose of the Data Protection Act 1998, the data controller is website Limited.
+          </li>
+          <li>
+            The data that we collect from you is processed by staff who work either for us or one of our group companies or for one of our service providers. Such staff may be engaged in, among other things, the fulfilment of your order, the processing of your payment details and the provision of support services.
+          </li>
+          <li>
+            All information you provide to us is stored on secure servers. Any payment transactions will be encrypted using secure sockets layer (SSL) technology. Where we have given you (or where you have chosen) a password which enables you to access certain features or parts of the Site, you are responsible for keeping this password confidential. You must not share the password with anyone.
+          </li>
+          <li>
+            When you proceed to the Checkout data relating to your order and your personal details will all pass to our server in an encrypted format. As an additional protection for you, our system is designed so that when using our website you are always safely within secure mode (https).
+          </li>
+          <li>
+            All payment transactions will be processed on our behalf by one of our payment providers such as PayPal. This means that your credit/debit card details are provided directly to your choice of payment provider and are never revealed to us. We do not store any of your financial details such as credit card numbers. Our payment providers operate a secure server to process your payment details. The payment provider encrypts your credit/debit card information and authorises payment.
+          </li>
+          <li>
+            We recommend that you do not communicate your payment card details to anyone, including us, by email. We cannot be responsible for any losses you may incur in transmitting information to us by internet link or by email. Any such loss shall be entirely your responsibility.
+          </li>
+          <li>
+            Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to the Site; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access. Remember to close your browser when you have finished your user session. This will help to ensure that others do not access your personal information if you share your computer or use a computer in a public places such as a library or internet café.
+          </li>
+          <li>
+            If you have any queries about security, please email us at: info@website.com.
+          </li>
+        </ol>
+      </li>
+      <li>
+        Transfers of your Personal Information Overseas
+        <ol>
+          <li>
+            In order to fulfil your order, your data may be transferred to, and stored at, a destination outside the European Economic Area (EEA). It may also be processed by staff operating outside the EEA. By submitting your personal data, you agree to this transfer, storing and/or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.
+          </li>
+        </ol>
+      </li>
+      <li>
+        Uses made of your information
+        <ol>
+          <li>
+            In order to carry out our obligations arising from any contracts entered into between you and us and, specifically, to fulfil your orders, we may pass on information held about you to our sub-contractors, including delivery service providers. Depending upon the requirements of your individual order, such third parties may be based and/or operate outside the EEA.
+          </li>
+          <li>
+            In addition, we use information held about you in the following ways: 7.2.1 to provide you with information, products or services that you request from us or which we feel may interest you, where you have indicated that you wish to be contacted for such purposes by post, email, SMS, telephone or other means of electronic communication;7.2.2 to ensure that content from the Site is presented in the most effective manner for you and for your computer;7.2.3 to allow you to participate in any interactive features of our services, when you choose to do so;7.2.4 and to notify you about changes to our services.
+          </li>
+          <li>
+            We may also use your data, or permit selected third parties to use your data, to provide you with information about third party goods and services which may be of interest to you and we or they may contact you about these, where you have indicated that you wish to be contacted for such purposes by post, email, SMS, telephone or other means of electronic communication. If you do not want us to use your data for direct marketing purposes, or to pass your details on to third parties for marketing purposes, please check or un-check (as directed) the relevant box situated on the form on which we collect your data.
+          </li>
+        </ol>
+      </li>
+      <li>
+        Disclosure of your information
+        <ol>
+          <li>
+            We may disclose your personal information to any affiliated company within our group.
+          </li>
+          <li>
+            We may disclose your personal information to third parties: 8.2.1 in the event that we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets;8.2.2 if we or substantially all of our assets are acquired by a third party, in which case personal data held by us about our customers will be one of the transferred assets;8.2.3 or if we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply our website Terms of Use or Trading Terms or other agreements; or to protect our rights, property, or safety or those of our customers or other third parties. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction.
+          </li>
+        </ol>
+      </li>
+      <li>
+        Your rights
+        <ol>
+          <li>
+            You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking or un-checking (as directed) certain boxes on the forms we use to collect your data or by following the unsubscribe@website.com on any marketing emails we send you. You can also exercise the right at any time by contacting us at website Limited, York House, Green Lane West, Preston, PR3 1NJ or info@website.com.
+          </li>
+          <li>
+            You have the right to ask us to delete your account and all your personal information at any time. Transactional information and supporting documentation may be kept after this time for customers located in countries where this is required by law enforcement, tax authorities or other official bodies.
+          </li>
+          <li>
+            The Site may, from time to time, contain hyperlinks to and from internet sites operated by other organisations. If you follow a hyperlink to any of these sites, please note that they will have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to such sites.
+          </li>
+        </ol>
+      </li>
+      <li>
+        Access to your information
+        <ol>
+          <li>
+            The Data Protection Act 1998 gives you the right to access information held about you. Your right of access can be exercised in accordance with that Act. Any access request may be subject to a fee not exceeding £10 to meet our costs in providing you with details of the information we hold about you.
+          </li>
+        </ol>
+      </li>
+      <li>
+        How to contact us
+        <ol>
+          <li
+            className=".privacy-points"
+          >
+            If you have any questions, comments or requests regarding this privacy policy, please feel free to contact us in any of the following ways:
+            <p>
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 15 15"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.875 7.5C9.875 8.81168 8.81168 9.875 7.5 9.875C6.18832 9.875 5.125 8.81168 5.125 7.5C5.125 6.18832 6.18832 5.125 7.5 5.125C8.81168 5.125 9.875 6.18832 9.875 7.5Z"
+                  fill="currentColor"
+                />
+              </svg>
+              by email at info@website.com;
+            </p>
+            <p>
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 15 15"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.875 7.5C9.875 8.81168 8.81168 9.875 7.5 9.875C6.18832 9.875 5.125 8.81168 5.125 7.5C5.125 6.18832 6.18832 5.125 7.5 5.125C8.81168 5.125 9.875 6.18832 9.875 7.5Z"
+                  fill="currentColor"
+                />
+              </svg>
+              by telephone on +44 (0) 1995 606060 between the hours of 9:00am and 5:30pm; or
+            </p>
+            <p>
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 15 15"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.875 7.5C9.875 8.81168 8.81168 9.875 7.5 9.875C6.18832 9.875 5.125 8.81168 5.125 7.5C5.125 6.18832 6.18832 5.125 7.5 5.125C8.81168 5.125 9.875 6.18832 9.875 7.5Z"
+                  fill="currentColor"
+                />
+              </svg>
+              by writing to us at website Ltd., York House, Green Lane West, Preston, PR3 1NJ.
+            </p>
+          </li>
+        </ol>
+      </li>
+      <li>
+        Updates
+        <ol>
+          <li>
+            We reserve the right to change this privacy policy from time to time by changing it on the Site.
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p>
+      This privacy policy was last updated on 14th September 2020.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`it Should Match Responsive Page snapshot 1`] = `
+<div
+  class="row-view"
+/>
+`;
+
+exports[`it Should Match ServicesInfo Page snapshot 1`] = `
+<div
+  className="service-bg"
+>
+  <div
+    className="service-container"
+  >
+    <div
+      className="service-list"
+    >
+      <svg
+        className="service-ico"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"
+        />
+      </svg>
+      <h1>
+        50K+
+      </h1>
+      <p>
+        Deliveries
+      </p>
+    </div>
+    <div
+      className="service-list"
+    >
+      <svg
+        className="service-ico"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+        />
+        <circle
+          cx="9"
+          cy="7"
+          r="4"
+        />
+        <path
+          d="M23 21v-2a4 4 0 0 0-3-3.87"
+        />
+        <path
+          d="M16 3.13a4 4 0 0 1 0 7.75"
+        />
+      </svg>
+      <h1>
+        2M+
+      </h1>
+      <p>
+        Customers Served
+      </p>
+    </div>
+    <div
+      className="service-list"
+    >
+      <svg
+        className="service-ico"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          id="Globe"
+        >
+          <path
+            d="M14.645,2.428a8.1,8.1,0,0,0-1.61-.3,9.332,9.332,0,0,0-3.6.28l-.07.02a9.928,9.928,0,0,0,.01,19.15,9.091,9.091,0,0,0,2.36.34,1.274,1.274,0,0,0,.27.02,9.65,9.65,0,0,0,2.63-.36,9.931,9.931,0,0,0,.01-19.15Zm-.27.96a8.943,8.943,0,0,1,5.84,5.11h-4.26a13.778,13.778,0,0,0-2.74-5.35A8.254,8.254,0,0,1,14.375,3.388Zm-2.37-.09a12.78,12.78,0,0,1,2.91,5.2H9.075A12.545,12.545,0,0,1,12.005,3.3Zm3.16,6.2a13.193,13.193,0,0,1,0,5.01H8.845a12.185,12.185,0,0,1-.25-2.5,12.353,12.353,0,0,1,.25-2.51Zm-5.6-6.09.07-.02a9.152,9.152,0,0,1,1.16-.23A13.618,13.618,0,0,0,8.045,8.5H3.8A9,9,0,0,1,9.565,3.408Zm-6.5,8.6a8.71,8.71,0,0,1,.37-2.51h4.39a13.95,13.95,0,0,0-.23,2.51,13.757,13.757,0,0,0,.23,2.5H3.435A8.591,8.591,0,0,1,3.065,12.008Zm6.57,8.61a8.9,8.9,0,0,1-5.84-5.11h4.24a13.632,13.632,0,0,0,2.77,5.35A8.1,8.1,0,0,1,9.635,20.618Zm-.56-5.11h5.84a12.638,12.638,0,0,1-2.91,5.21A12.872,12.872,0,0,1,9.075,15.508Zm5.3,5.11a11.551,11.551,0,0,1-1.17.24,13.8,13.8,0,0,0,2.75-5.35h4.26A8.924,8.924,0,0,1,14.375,20.618Zm1.8-6.11a13.611,13.611,0,0,0,0-5.01h4.39a8.379,8.379,0,0,1,.37,2.51,8.687,8.687,0,0,1-.36,2.5Z"
+          />
+        </g>
+      </svg>
+      <h1>
+        50+
+      </h1>
+      <p>
+        Countries Served
+      </p>
+    </div>
+    <div
+      className="service-list"
+    >
+      <svg
+        className="service-ico"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+        />
+        <circle
+          cx="9"
+          cy="7"
+          r="4"
+        />
+        <path
+          d="M23 21v-2a4 4 0 0 0-3-3.87"
+        />
+        <path
+          d="M16 3.13a4 4 0 0 1 0 7.75"
+        />
+      </svg>
+      <h1>
+        5
+      </h1>
+      <p>
+        Partners
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match Serving Destiny Page snapshot 1`] = `
+<div
+  className="serving-bg"
+>
+  <div
+    className="serving-container"
+  >
+    <div
+      className="serving-map"
+    >
+      <h1
+        className="serving-name"
+      >
+        Serving Destinations
+      </h1>
+      <img
+        alt="worldmap"
+        className="worldmap"
+        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676113935/world-map_1_fk30vg.png"
+      />
+    </div>
+    <div
+      className="serving-List"
+    >
+      <svg
+        className="prv-btn"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M11.828 12l2.829 2.828-1.414 1.415L9 12l4.243-4.243 1.414 1.415L11.828 12z"
+          />
+        </g>
+      </svg>
+      <div
+        className="serving-place"
+        id="place-Delhi"
+      >
+        <div
+          className="place-list"
+        >
+          <img
+            alt="delhi"
+            className="place-img"
+            id="delhi"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_4dlh_dwqdvs.png"
+          />
+        </div>
+        <h3
+          className="place-name"
+        >
+          Delhi
+        </h3>
+        <p
+          className="place-price"
+        >
+          Lowest Price $10.00
+        </p>
+      </div>
+      <div
+        className="serving-place"
+      >
+        <div
+          className="place-list"
+        >
+          <img
+            alt="newyork"
+            className="place-img"
+            id="newyork"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5nyk_vwxg2w.png"
+          />
+        </div>
+        <h3
+          className="place-name"
+        >
+          Newyork
+        </h3>
+        <p
+          className="place-price"
+        >
+          Lowest Price $25.00
+        </p>
+      </div>
+      <div
+        className="serving-place"
+      >
+        <div
+          className="place-list"
+        >
+          <img
+            alt="london"
+            className="place-img"
+            id="london"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6ldn_lwtrp2.png"
+          />
+        </div>
+        <h3
+          className="place-name"
+        >
+          London
+        </h3>
+        <p
+          className="place-price"
+        >
+          Lowest Price $15.00
+        </p>
+      </div>
+      <div
+        className="serving-place"
+      >
+        <div
+          className="place-list"
+        >
+          <img
+            alt="frankfurt"
+            className="place-img"
+            id="frankfurt"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6fkf_uffo3m.png"
+          />
+        </div>
+        <h3
+          className="place-name"
+        >
+          Frankfurt
+        </h3>
+        <p
+          className="place-price"
+        >
+          Lowest Price $18.00
+        </p>
+      </div>
+      <div
+        className="serving-place"
+      >
+        <div
+          className="place-list"
+        >
+          <img
+            alt="amsterdam"
+            className="place-img"
+            id="amsterdam"
+            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5ams_nonaxp.png"
+          />
+        </div>
+        <h3
+          className="place-name"
+        >
+          Amsterdam
+        </h3>
+        <p
+          className="place-price"
+        >
+          Lowest Price $17.00
+        </p>
+      </div>
+      <svg
+        className="nxt-btn"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12.172 12L9.343 9.172l1.414-1.415L15 12l-4.243 4.243-1.414-1.415z"
+          />
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it Should Match ShipForwarding Page snapshot 1`] = `
+<div
+  className="ship-container"
+>
+  <h1
+    className="ship-heading"
+  >
+    Ship Forwarding
+  </h1>
+  <div
+    className="forward-cont"
+  >
+    <div
+      className="orange-cont"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+      >
+        Signup & get USA Address 
+      </p>
+      <img
+        alt="orange"
+        className="circles"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276073/Group_72_mkeqj0.png"
+      />
+      <img
+        alt="warehouse"
+        className="orange-icon"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276086/ic_twotone-warehouse_c5spgh.png"
+      />
+    </div>
+    <div
+      className="blue-cont"
+    >
+      <img
+        alt="orange"
+        className="circles"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276096/Group_75_zc47ai.png"
+      />
+      <img
+        alt="warehouse"
+        className="blue-icon"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276107/Group_78_b772y0.png"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+      >
+        Signup & get USA Address 
+      </p>
+    </div>
+    <div
+      className="orange-cont"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+      >
+        Signup & get USA Address 
+      </p>
+      <img
+        alt="orange"
+        className="circles"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276073/Group_72_mkeqj0.png"
+      />
+      <img
+        alt="warehouse"
+        className="orange-icon"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276117/ph_package-duotone_kdltpk.png"
+      />
+    </div>
+    <div
+      className="blue-cont"
+    >
+      <img
+        alt="orange"
+        className="circles"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276096/Group_75_zc47ai.png"
+      />
+      <img
+        alt="warehouse"
+        className="blue-icon"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276128/Vector_vqupbq.png"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+      >
+        Signup & get USA Address 
+      </p>
+    </div>
+    <div
+      className="orange-cont"
+    >
+      <p
+        className="para"
+      >
+        Signup & get USA Address 
+      </p>
+      <img
+        alt="orange"
+        className="circles"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276073/Group_72_mkeqj0.png"
+      />
+      <img
+        alt="warehouse"
+        className="orange-icon"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276165/Mask_group_g8fyja.png"
+      />
+    </div>
+    <div
+      className="blue-cont"
+    >
+      <img
+        alt="orange"
+        className="circles"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276096/Group_75_zc47ai.png"
+      />
+      <img
+        alt="warehouse"
+        className="blue-icon"
+        src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276174/ic_twotone-support-agent_qtcwzw.png"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+      >
+        Signup & get USA Address 
+      </p>
+    </div>
+  </div>
+  <div>
+    <button
+      className="know-more"
+    >
+      Know more
+    </button>
+    <button
+      className="start-shipping"
+    >
+      Start shipping
+    </button>
+  </div>
+</div>
+`;
+
+exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
+<div
+  className="main-user-profile"
+>
+  <div
+    className="user-profile-heading"
+  >
+    <h1>
+      User Profile
+    </h1>
+  </div>
+  <div
+    className="user-dashboard-container"
+  >
+    <div
+      className="user-dashboard"
+    >
+      <ul
+        className="user-dashboard-list"
+      >
+        <li
+          className="user-list"
+        >
+          Dashboard
+        </li>
+        <li
+          className="user-list"
+        >
+          Orders
+        </li>
+        <li
+          className="user-list"
+        >
+          Cancellation/Refund
+        </li>
+        <li
+          className="user-list"
+        >
+          User Profile
+        </li>
+        <li
+          className="user-list"
+        >
+          Shipping Address
+        </li>
+        <li
+          className="user-list"
+        >
+          Help Desk
+        </li>
+        <li
+          className="user-list"
+        >
+          Message Center
+        </li>
+        <li
+          className="user-list"
+        >
+          My Saved Cards
+        </li>
+        <li
+          className="user-list"
+        >
+          Us Debit Card
+        </li>
+        <li
+          className="user-list"
+        >
+          My Coupons
+        </li>
+        <li
+          className="user-list"
+        >
+          Forward Shipping
+        </li>
+      </ul>
+    </div>
+    <div
+      className="order-details-container"
+    >
+      <h2
+        className="order-details-main-heading"
+      >
+        Order Detail
+      </h2>
+      <table
+        cellPadding="3"
+      >
+        <thead>
+          <tr>
+            <th>
+              Date 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Order ID 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              From 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Destination 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Recipient 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Carrier Log 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Item 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Amount 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Status 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              02/14/2023
+            </td>
+            <td>
+              XB1234VIOUSAIN
+            </td>
+            <td>
+              Edison, NJ US
+            </td>
+            <td>
+              Mumbai
+            </td>
+            <td>
+              Victor
+            </td>
+            <td>
+              DHL
+            </td>
+            <td>
+              Cloths
+            </td>
+            <td>
+              $52.68
+            </td>
+            <td>
+              Recieve
+            </td>
+          </tr>
+          <tr>
+            <td>
+              02/14/2023
+            </td>
+            <td>
+              XB1234VIOUSAIN
+            </td>
+            <td>
+              Edison, NJ US
+            </td>
+            <td>
+              Mumbai
+            </td>
+            <td>
+              Victor
+            </td>
+            <td>
+              DHL
+            </td>
+            <td>
+              Cloths
+            </td>
+            <td>
+              $52.68
+            </td>
+            <td>
+              Recieve
+            </td>
+          </tr>
+          <tr>
+            <td>
+              02/14/2023
+            </td>
+            <td>
+              XB1234VIOUSAIN
+            </td>
+            <td>
+              Edison, NJ US
+            </td>
+            <td>
+              Mumbai
+            </td>
+            <td>
+              Victor
+            </td>
+            <td>
+              DHL
+            </td>
+            <td>
+              Cloths
+            </td>
+            <td>
+              $52.68
+            </td>
+            <td>
+              Recieve
+            </td>
+          </tr>
+          <tr>
+            <td>
+              02/14/2023
+            </td>
+            <td>
+              XB1234VIOUSAIN
+            </td>
+            <td>
+              Edison, NJ US
+            </td>
+            <td>
+              Mumbai
+            </td>
+            <td>
+              Victor
+            </td>
+            <td>
+              DHL
+            </td>
+            <td>
+              Cloths
+            </td>
+            <td>
+              $52.68
+            </td>
+            <td>
+              Recieve
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2
+        className="order-details-main-heading"
+      >
+        Help Desk Items
+      </h2>
+      <table
+        cellPadding="3"
+      >
+        <thead>
+          <tr>
+            <th>
+              Date 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Ticket ID 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Ticket Type 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Short Description 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Status 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              02/14/2023
+            </td>
+            <td>
+              TKT1234NJ
+            </td>
+            <td>
+              Shipment
+            </td>
+            <td>
+              Goods held at customs
+            </td>
+            <td>
+              Work in progress
+            </td>
+          </tr>
+          <tr>
+            <td>
+              02/14/2023
+            </td>
+            <td>
+              TKT1234NJ
+            </td>
+            <td>
+              Shipment
+            </td>
+            <td>
+              Goods held at customs
+            </td>
+            <td>
+              Work in progress
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2
+        className="order-details-main-heading"
+      >
+        Forward Shipping
+      </h2>
+      <table
+        cellPadding="3"
+      >
+        <thead>
+          <tr>
+            <th>
+              Package 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Sent Package 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Expected Package 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Assisted Package 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Action Require 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              In Progress 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Ready to Ship 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+            <th>
+              Balance A 
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                />
+              </svg>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              3
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              1
+            </td>
+            <td>
+              6
+            </td>
+            <td>
+              Held in customs
+            </td>
+            <td>
+              5
+            </td>
+            <td>
+              8
+            </td>
+            <td>
+              $500
+            </td>
+          </tr>
+          <tr>
+            <td>
+              3
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              1
+            </td>
+            <td>
+              6
+            </td>
+            <td>
+              Held in customs
+            </td>
+            <td>
+              5
+            </td>
+            <td>
+              8
+            </td>
+            <td>
+              $500
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
