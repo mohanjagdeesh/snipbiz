@@ -1,0 +1,77 @@
+$width:100%;
+$height:100%;
+$display:flex;
+$background-color:Persian Indigo;
+$text-align:left;
+.User-profile {
+  width: $width;
+  height: $height;
+}
+.User-profile-heading {
+  background-color:$background-color;
+  height: 70px;
+  display: $display;
+}
+.User-profile-heading h1 {
+  color: #ffff;
+  margin-left: 10%;
+}
+.User-profile-list {
+  list-style: none;
+  padding: 5px 0;
+}
+.User-profile-list li {
+  padding: 10px 15px;
+}
+.nav{
+    width: 80%;
+    margin: 40px auto 10px;
+    display: $display;
+    gap: 32px;
+}
+.nav-list {
+  width: 20%;
+  background-color: #f57921;
+  color: #ffff;
+}
+.nav-list li{
+   margin-left: 10px;
+   border-radius: 10px 0 0 10px;
+}
+.nav-list li:hover{
+  background-color: #ffffff;
+  color: #ff6200;
+}
+table{
+  border-collapse: collapse;
+  width: $display;
+  height: fit-content;
+  font-size: 12px;
+}
+th{
+  text-align: left;
+  color: #ffffff;
+  padding: 10px 2px;
+  background-color:$background-color;
+}
+td{
+  padding: 10px 0;
+}
+tbody tr:nth-of-type(odd){
+  background-color: #F8F8F8;
+}
+caption{
+  color: #ff6200;
+  text-align: $text-align;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.color-red{
+  color: red;
+}
+.color-orange{
+  color: #f57921;
+}
+.color-green{
+  color: green;
+}
