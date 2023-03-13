@@ -1,4 +1,4 @@
-import "./Cancellation.css";
+import "./Cancellation.scss";
 
 const UserProfileList = [
   "Dashboard",
@@ -7,11 +7,11 @@ const UserProfileList = [
   "UserProfile",
   "Shipping Address",
   "HelpDask",
-  "Forward Shipping",
   "Message Centre",
   "My Saved Cards",
   "US Debit Card",
   "My Coupons",
+  "Forward Shipping",
 ];
 const UserProfile = () => {
   return (
@@ -24,7 +24,7 @@ const UserProfile = () => {
         <nav className="nav-list">
           <ul className="User-profile-list">
             {UserProfileList.map((list) => (
-              <li>{list}</li>
+              <li key={list}>{list}</li>
             ))}
           </ul>
         </nav>

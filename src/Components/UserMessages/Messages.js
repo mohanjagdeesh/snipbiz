@@ -1,7 +1,7 @@
-
 import { useState } from "react";
-import "./Messages.css";
+import "./Messages.scss";
 import { v4 as uuidv4 } from "uuid";
+import{MdDeleteOutline} from 'react-icons/md';
 
 const UserProfileList = [
   "Dashboard",
@@ -125,11 +125,11 @@ const Messages = () => {
           </ul>
         </nav>
 
-        <table cellPadding="15">
+        <table>
           <caption>Message </caption>
           <thead>
             <tr>
-              <th width="70%">Subject</th>
+              <th>Subject</th>
               <th>Send Date</th>
               <th>Delete</th>
             </tr>
@@ -138,9 +138,9 @@ const Messages = () => {
             {tableData.map((eachData) => (
               <>
                 <tr onClick={() => onClickTableData(eachData.id)}>
-                  <tb>{eachData.subject}</tb>
+                  <td>{eachData.subject}</td>
                   <td>{eachData.sendDate}</td>
-                  <td>detelet</td>
+                  <td><MdDeleteOutline/></td>
                 </tr>
                 {eachData.isMessageDisplay && messageDesplay()}
               </>
