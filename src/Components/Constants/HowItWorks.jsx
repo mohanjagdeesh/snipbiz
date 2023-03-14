@@ -1,0 +1,1 @@
+export const HiWPara = "SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees."
