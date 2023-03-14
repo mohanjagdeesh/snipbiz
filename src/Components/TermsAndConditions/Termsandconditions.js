@@ -3,7 +3,6 @@ import "./TermsAndConditions.scss";
 import { TCParaOne,TCParaTwo,TCParaThree,TCParaFive,TCParaSix,TCParaSeven,TCParaEight, TCParaNine,TCParaTen,TCParaEleven,TCParaTwleve,TCParaThirteen,TCParaSixteen,TCParaSeventeen,TCParaEighteen,TCParaNineteen,TCParaTwenty,TCParaTwentyOne,TCParaTwentyTwo,TCParaTwentyThree,TCParaTwentyFour,TCParaTwentyFive,TCParaTwentySix,TCParaTwentySeven, TCParaFiftteen, TCParaFourteen} from "../Constants/TermsAndConditions";
 
 const TermsAndConditions = () => {
-
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
   return (

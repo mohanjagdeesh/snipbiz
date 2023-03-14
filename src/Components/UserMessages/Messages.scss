@@ -9,13 +9,13 @@ $text-align:left;
     height: $height;
   }
   .Messages-heading {
-    background-color:$background-color;
+    background-color:#4d184c;
     height: 70px;
     display: $display;
   }
   .Messages-heading h1 {
   color: #ffff;
-  margin-left: 10%;
+  margin-left: 125px;
   }
   .User-profile-list {
   list-style: none;
@@ -27,7 +27,7 @@ $text-align:left;
   .nav{
     width: 80%;
     margin: 40px auto 10px;
-    display: $display;
+    display: flex;
     gap: 32px;
   }
   .nav-list {
@@ -121,7 +121,7 @@ $text-align:left;
   }
   
   .call-btn{
-    width: $width;
+    width: 100%;
     padding: 10px;
     margin-top: 15px;
     background-color: #008CF7;

@@ -1,5 +1,5 @@
 export const TrackingOne ="Tracking your Parcel shipment is easy, just use your full shipment reference number located on your SnipBiz account that begins with SBZ***** and enter it into the tracking tool."
 export const TrackingTwo ="You can also find the shipment reference number on your email confirmation and on the shipping label."
 export const TrackingThree ="Whether you have had your shipment picked or dropped a package off, you can use this tool to follow the status of your shipment."
-export const TrackingFour =" Share the SnipBiz shipment number with the receiver too, so that they can also monitor the movement of the package."
+export const TrackingFour = " Share the SnipBiz shipment number with the receiver too, so that they can also monitor the movement of the package."
 export const TrackingFive ="Need help tracking your parcel? Get in touch and we will be happy to help."

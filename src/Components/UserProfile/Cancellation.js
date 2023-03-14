@@ -1,5 +1,6 @@
 import "./Cancellation.scss";
 
+
 const UserProfileList = [
   "Dashboard",
   "Orders",
@@ -24,7 +25,7 @@ const UserProfile = () => {
         <nav className="nav-list">
           <ul className="User-profile-list">
             {UserProfileList.map((list) => (
-              <li key={list}>{list}</li>
+              <li>{list}</li>
             ))}
           </ul>
         </nav>

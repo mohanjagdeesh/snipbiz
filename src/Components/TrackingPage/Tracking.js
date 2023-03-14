@@ -4,7 +4,7 @@ import {useFormik} from "formik"
 import * as Yup from "yup";
 
 import { TrackingFive, TrackingFour, TrackingThree,TrackingTwo,TrackingOne } from "../Constants/Tracking";
-const TrackingSection = () => {
+const TrackingSection = () =>{
   const isTabletOrMobile = useMediaQuery({query: "(max-width:1124px)"});
   
   const formik =useFormik({
@@ -40,7 +40,6 @@ validationSchema:Yup.object({
     </div>
 
     <div className="tracking-data">
-      
         <div className={isTabletOrMobile? "traking-phone" :  "tracking-data-head"}>
         <h1>Track Your Shipment</h1>
       </div>
