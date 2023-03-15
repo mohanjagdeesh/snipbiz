@@ -1,6 +1,7 @@
-import "./UserProfileDashboard.css";
+import "./UserProfileDashboard.css"
 
 import { BsCaretDown } from "react-icons/bs";
+
 
 const userDashboard = [
   "Dashboard",
@@ -36,15 +37,15 @@ const UserProfileDashboard = () => {
         <table cellPadding="3">
           <thead>
             <tr >
-            <th>Date <BsCaretDown/></th>
-            <th>Order ID <BsCaretDown/></th>
-            <th>From <BsCaretDown/></th>
-            <th>Destination <BsCaretDown/></th>
-            <th>Recipient <BsCaretDown/></th>
-            <th>Carrier Log <BsCaretDown/></th>
-            <th>Item <BsCaretDown/></th>
-            <th>Amount <BsCaretDown/></th>
-            <th>Status <BsCaretDown/></th>
+            <th><div className="arrow-down">Date <BsCaretDown /></div></th>
+            <th><div className="arrow-down">Order ID <BsCaretDown/></div></th>
+            <th>From</th>
+            <th>Destination</th>
+            <th>Recipient</th>
+            <th><div className="arrow-down">Carrier Log <BsCaretDown/></div></th>
+            <th>Item</th>
+            <th>Amount</th>
+            <th><div className="arrow-down">Status <BsCaretDown/></div></th>
             </tr>
           </thead>
           <tbody>
@@ -98,11 +99,11 @@ const UserProfileDashboard = () => {
         <table cellPadding="3">
           <thead>
             <tr >
-            <th>Date <BsCaretDown/></th>
-            <th>Ticket ID <BsCaretDown/></th>
-            <th>Ticket Type <BsCaretDown/></th>
-            <th>Short Description <BsCaretDown/></th>
-            <th>Status <BsCaretDown/></th>
+            <th><div className="arrow-down">Date <BsCaretDown/></div></th>
+            <th>Ticket ID</th>
+            <th>Ticket Type</th>
+            <th>Short Description</th>
+            <th>Status</th>
             </tr>
           </thead>
           <tbody>
@@ -126,14 +127,14 @@ const UserProfileDashboard = () => {
         <table cellPadding="3">
           <thead>
             <tr >
-            <th>Package <BsCaretDown/></th>
-            <th>Sent Package <BsCaretDown/></th>
-            <th>Expected Package <BsCaretDown/></th>
-            <th>Assisted Package <BsCaretDown/></th>
-            <th>Action Require <BsCaretDown/></th>
-            <th>In Progress <BsCaretDown/></th>
-            <th>Ready to Ship <BsCaretDown/></th>
-            <th>Balance A <BsCaretDown/></th>
+            <th>Package</th>
+            <th>Sent Package</th>
+            <th>Expected Package</th>
+            <th>Assisted Package</th>
+            <th>Action Require</th>
+            <th>In Progress</th>
+            <th>Ready to Ship</th>
+            <th>Balance A</th>
             </tr>
           </thead>
           <tbody>

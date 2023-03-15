@@ -1,0 +1,14 @@
+.tabs-container{
+    display: flex;
+    padding-left: 0px;
+    margin-top: -10px;
+}
+
+
+
+.tab-item-button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
