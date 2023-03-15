@@ -69,7 +69,7 @@ const Messages = () => {
             <div className="message-address-second">
               <p>ITEM SHIPPED</p>
               <p>
-                <span>QTY</span> <span>PRICE</span>
+                <span> QTY</span> <span>PRICE</span>
               </p>
             </div>
             <div className="message-address-second-one">
@@ -126,7 +126,7 @@ const Messages = () => {
         </nav>
 
         <table>
-          <caption>Message </caption>
+          <caption>Message</caption>
           <thead>
             <tr>
               <th>Subject</th>

@@ -8,13 +8,13 @@ $text-align:left;
   height: $height;
 }
 .User-profile-heading {
-  background-color:$background-color;
+  background-color:#4d184c;
   height: 70px;
   display: $display;
 }
 .User-profile-heading h1 {
   color: #ffff;
-  margin-left: 10%;
+  margin-left: 125px;
 }
 .User-profile-list {
   list-style: none;
@@ -35,7 +35,7 @@ $text-align:left;
   color: #ffff;
 }
 .nav-list li{
-   margin-left: 10px;
+   margin-left: 20px;
    border-radius: 10px 0 0 10px;
 }
 .nav-list li:hover{
@@ -47,22 +47,23 @@ table{
   width: $display;
   height: fit-content;
   font-size: 12px;
+  
 }
 th{
   text-align: left;
   color: #ffffff;
-  padding: 10px 2px;
-  background-color:$background-color;
+  padding: 8px 5px;
+  background-color:#4d184c;
 }
 td{
-  padding: 10px 0;
+  padding: 15px 10px;
 }
 tbody tr:nth-of-type(odd){
   background-color: #F8F8F8;
 }
 caption{
   color: #ff6200;
-  text-align: $text-align;
+  text-align: left;
   font-size: 18px;
   margin: 10px 0;
 }

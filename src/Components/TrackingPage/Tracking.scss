@@ -2,17 +2,16 @@ $width:100%;
 $height:100%;
 $display:flex;
 $background-color:Persian Indigo;
-$flex-direction: column;
 
 .tracking-main{
     width: $width;
     height: $height;
 }
 .tracking-heading{
-    width: $width;
-    display: $display;
+    width: 100%;
+    display: flex;
     align-items: center;
-    background-color:$background-color;
+    background-color:#4D148C;
     height: 70px;
     padding-left: 10px;
 }
@@ -20,6 +19,8 @@ $flex-direction: column;
     font-size: 34px;
     margin-left: 10px;
     color: #FFFFFF;
+    margin-left: 125px;
+    
 }
 .tracking-data{
     width: 80%;
@@ -31,7 +32,7 @@ $flex-direction: column;
 
 .tracking-data-head{
     background-color: #FF6200;
-    width: $width;
+    width: 100%;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -41,6 +42,7 @@ $flex-direction: column;
     font-size: 30px;
     padding: 15px 0;
     color: #FFFFFF;
+    
 }
 
 .tracking-label-web{
@@ -54,26 +56,26 @@ $flex-direction: column;
     display: $display;
     gap: 16px;
     margin: auto;
-    flex-direction: $flex-direction;
+    flex-direction: column;
 }
 
 .tracking-left, .tracking-right{
     display: $display;
     width: 40%;
-    flex-direction: $flex-direction;
+    flex-direction: column;
     gap: 16px;
     padding: 20px 0;
 }
 .tracking-leftside, .tracking-rightside{
     display: $display;
-    flex-direction: $flex-direction;
+    flex-direction: column;
     gap: 16px;
     padding: 20px 0;
 }
 
 input, select {
     padding: 15px 0;
-    width: $width;
+    width: 100%;
 }
 
 .btn-position{
@@ -88,7 +90,7 @@ input, select {
 .button-web{
     max-width: fit-content;
     padding: 15px 60px ;
-    background-color: $background-color;
+    background-color: #4D148C;
     border: none;
     border-radius: 30px;
     color: #FFFFFF; 
@@ -113,12 +115,13 @@ input, select {
     margin: auto;
 }
 
+
 .tracking-para h3{
-    margin-left: -20px;
+    text-align: start;
 }
 
 .tracking-para ul{
-    margin-left: 15px;
+    margin-left: -15px;
 }
 .tracking-para ul li{
     text-align: left;
@@ -130,8 +133,12 @@ input, select {
 .traking-phone{
     background-color: #FF6200;
     margin: 15px 0;
-    border-radius: 15px ;   
+    border-radius: 15px ;
+    
 }
+
+
+
 
 .tracking button{
     background-color: $background-color;

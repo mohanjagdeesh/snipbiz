@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import { AboutUsFour, AboutUsmain, AboutUsOne, AboutUsThree, AboutUsTwo } from "../Constants/AboutUs";
-
 import "./AboutUs.scss";
 const navigationList = [{
   id : 1,
@@ -40,7 +39,6 @@ const renderTabInformation = () => {
     <div className="aboutheading">
       <h1>About SnipBiz</h1>
     </div>
-
     <div className="about-imgcontainer">
       <div className={isTabletOrMobile?"about-img-data-phn":"about-img-data"}>
         <div className={isTabletOrMobile?"about-dataright-phn":"about-dataright"}>
