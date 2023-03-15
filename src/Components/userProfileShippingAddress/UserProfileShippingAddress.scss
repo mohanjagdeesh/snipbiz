@@ -1,0 +1,249 @@
+$width:100%;
+$height:100%;
+$display:flex;
+$background-color:Persian Indigo;
+$flex-direction:column;
+$text-align:left;
+$justify-content:space-between;
+
+.User-Profile{
+    width: $width;
+    height: $height;
+}
+.User-Profile-Heading{
+    background-color: #4d148c;
+    height: 70px;
+    display: $display;
+    align-items: center;
+}
+.User-Profile-Heading h1{
+    color: #FFFFFF;
+    margin-left: 130px;
+}
+.User-Profile-list{
+list-style: none;
+padding: 5px 0;
+}
+.User-Profile-list li{
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border-radius: 10px 0 0 10px;
+    margin-left: 15px;
+}
+
+.User-Profile-list li:hover{
+    color: #FF6200;
+    background-color: #FFFFFF;
+}
+.User-Profile-data{
+    width: 80%;
+    margin: 20px auto;
+    display: $display;
+    gap: 32px;
+}
+.user-prof-phn{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.UsrProfAddrs{
+    width: 100%;
+    display: $display;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.UsrPrfAdrs-phn{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: fit-content;
+}
+span{
+    font-size: small;
+    display: block;
+}
+
+.User-Profile-container{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: 75%;
+    gap: 16px;
+    justify-content: $justify-content;
+}
+
+.User-Profile-container h4{
+    color: #FF6200;
+    font-size: 18px;
+    text-align: start;
+}
+
+.address-add-btn{
+    text-align: center;
+}
+.add-address{
+    width: fit-content;
+    border: 1px solid darkmagenta;
+}
+.add-btn{
+    font-size: 80px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.User-Profile-form-container{
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #D1D1D1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+}
+
+.checkbx{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+form div{
+    display: $display;
+}
+
+.UsrPrf-data-right-form{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: 70%;
+}
+
+.UsrPrf-form-cont-phn{
+    width: fit-content;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    padding: 10px;
+}
+
+.UsrPrf-data-right-form label{
+    font-size: 14px;
+}
+
+.form-input-fields{
+    width: $width;
+    display: $display;
+    flex-direction: $flex-direction;
+}
+.each-input-field{
+    display: $display;
+    width: $width;
+    gap: 16px;
+}
+.input-phn{
+    display: $display;
+    flex-direction: $flex-direction;
+
+}
+.each-input-fields{
+    width: 310px;
+    display: $display;
+    flex-direction: $flex-direction;
+    gap: 10px;
+}
+.each-input-field section{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: $width;
+    margin: 10px 0;
+    gap: 10px;
+}
+.input-phn section{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: $width;
+    margin: 10px 0;
+    gap: 10px;
+}
+input{
+    padding: 15px 5px;
+    width: 300px;
+}
+select{
+    width: 300px;
+    padding: 15px 5px;
+}
+.submit-btn{
+    font-size: 18px;
+    width: fit-content;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    background-color: $background-color;
+}
+
+.eachAddress{
+    width: 200px;
+    height: 150px;
+    display: $display;
+    flex-direction: $flex-direction;
+    padding-left: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #FFFAF7;
+    border: 1px solid #DDEDF7;
+    margin: 0;
+}
+.eachAddress-phn{
+    width: 200px;
+    height: 150px;
+    padding-left: 10px;
+    background-color: #FFFAF7;
+    border: 1px solid #DDEDF7;
+}
+.eachAddressBtn{
+    width: 210px;
+    height: 150px;
+    display: $display;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAF7;
+    border: 1px solid #DDEDF7;
+}
+.eachAddressBtn-phn{
+    width: 210px;
+    height: 150px;
+    display: $display;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAF7;
+    border: 1px solid #DDEDF7;
+}
+.address-top{
+    width: $width;
+    display: $display;
+    justify-content: $justify-content;
+}
+.eachAddress h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 0 10px;
+}
+.eachAddress-phn h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.eachAddress p, .eachAddress-phn p{
+    font-size: 12px;   
+}
+.addressList{
+    display: $display;
+    width: fit-content;
+    gap: 15px;
+}
+.addressList-phone{
+    display: $display;
+    flex-direction:$flex-direction;
+    width: fit-content;
+    gap: 15px;
+}

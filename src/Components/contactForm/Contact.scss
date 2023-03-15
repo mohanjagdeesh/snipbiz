@@ -1,0 +1,209 @@
+$width:100%;
+$height:100%;
+$display:flex;
+$background-color:Persian Indigo;
+$flex-direction:column;
+$text-align:left;
+$justify-content:space-between;
+
+.contact-main{
+    width: $width;
+    height: $height;
+}
+.contact-heading{
+    width: $width;
+    background-color: #4D148C;
+    box-shadow: 0 1px 2px #000000;
+    height: 70px;
+    display: $display;
+    align-items: center;
+}
+.contact-heading h1{
+    color: #ffffff;
+    font-size: 35px;
+    padding: 0px 135px;
+    font-weight: 600;
+    text-shadow: 0 0 1px white;
+}
+.contact-paragraph{
+    width: 80%;
+    margin: 30px auto 0;
+    display: $display;
+}
+.contact-paragraph h2{
+    color: #4D148C;
+    font-size: 22px;
+    font-weight: 600;
+}
+.contact-icon{
+    font-size: 50px;
+    color: #FF6200;
+}
+.contact-data{
+    display: $display;
+    width: fit-content;
+    margin: 50px auto 20px;
+    box-shadow: 0 0 25px #DDEDF6;
+    gap: 80px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.contact-data-phn{
+    width: fit-content;
+    margin: 50px auto 20px;
+    box-shadow: 0 0 25px #DDEDF6;
+    gap: 80px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.contact-data-form{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: fit-content;
+    margin: auto;
+}
+form h2{
+    margin-bottom: 20px ;
+    font-weight: 400;
+}
+.contact-data-form label{
+    font-size: 14px;
+}
+.form-input-fields{
+    width: $width;
+    display: $display;
+    flex-direction: $flex-direction;
+}
+.each-input-field{
+    display: $display;
+    width: $width;
+    gap: 16px;
+}
+.each-input-field-phn{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: $width;
+}
+.each-input-field-phn section{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: $width;
+    margin: 10px 0;
+}
+.each-input-field section{
+    display: $display;
+    flex-direction: $flex-direction;
+    width: $width;
+    margin: 10px 0;
+}
+input {
+    padding: 15px 10px;
+    width: 300px;
+}
+select{
+    width: 325px;
+    padding: 15px 10px;
+}
+#careers{
+    width: 100%;
+}
+
+textarea{
+    background-color: #F8F7F9;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+}
+.submit-btn{
+    font-size: 18px;
+    width: 180px;
+    padding: 15px;
+    margin: 15px 0 0;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    background-color: #4D148C;
+}
+.submit-btn-phn{
+    font-size: 18px;
+    width: 180px;
+    padding: 15px;
+    margin: 15px 0 0;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    align-self: center;
+    background-color: #4D148C;
+}
+.contact-bottom-data{
+    width: 80%;
+    margin: auto;
+    display: $display;
+    flex-direction: $flex-direction;
+    position: relative;
+    gap: 16px;
+    padding: 40px 0 0;
+}
+.contact-bottom-data-phn{
+    width: fit-content;
+    margin: auto;
+}
+
+.contact-bottom-list{
+    width: 90%;
+    margin: 0  auto 40px;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #0000001f ;
+    display: $display;
+    justify-content: space-around;
+    padding: 10px 0 20px;
+}
+.contact-bottom-list div, .contact-bottom-list-phn div{
+    width: 200px;
+}
+.contact-bottom-list-phn{
+    display: $display;
+    flex-direction: $flex-direction;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #0000001f ;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.contact-bottom-list-phn p{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+.contact-bottom-list p{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    padding: 10px 0;
+}
+
+.contact-bottom-list-phn h6{
+    color: #4D148C;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.contact-bottom-list h6{
+    color: #4D148C;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+li{
+    padding: 5px 0;
+}
+
+.error-message{
+    color: red
+}

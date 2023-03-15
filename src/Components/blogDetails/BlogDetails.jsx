@@ -1,4 +1,9 @@
-import "./Blog.css";
+import "./BlogDetails.scss";
+import { BlogDetailPara1, BlogDetailPara2, BlogDetailPara3, BlogDetailPara4, BlogDetailPara5, BlogDetailPara6 } from "../Constants/BlogDetails";
+import img1 from "./store.png";
+import img2 from "./shipping.png";
+import img3 from "./fedex.png";
+import { useGlobalStore } from "../../store/useGlobalStore";
 import { BsFacebook, BsTwitter, BsInstagram, BsYoutube } from "react-icons/bs";
 import { CiCalendar } from "react-icons/ci";
 
@@ -13,17 +18,18 @@ const blogCategories = [
 ];
 const blogArchives = ["2023", "2022", "2021", "2020", "2019", "2018", "2017"];
 
-const Blog = () => {
+const BlogDetails = () => {
+
+const isMobile = useGlobalStore((state) => state.isMobile);
   return (
     <div className="blog-main">
       <div className="blog-heading">
         <h1>Blog Details</h1>
       </div>
-
-      <div className="blog-data">
+      <div className={isMobile ? "blog-data-phn" : "blog-data"}>
         <div className="blog-data-left">
           <img
-            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454678/Rectangle_619_rbg7oq.png"
+            src={img1}
             alt="blog-container"
           />
           <p id="current-date">
@@ -33,59 +39,29 @@ const Blog = () => {
             Contrary to popular belief, Lorem Ipsum is not simply random text
           </h3>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source.
+            {BlogDetailPara1}
           </p>
           <p>
-            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-            Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-            written in 45 BC. This book is a treatise on the theory of ethics,
-            very popular during the Renaissance. The first line of Lorem Ipsum,
-            "Lorem ipsum dolor sit amet..", comes from a line in section
-            1.10.32.
+            {BlogDetailPara2}
           </p>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            {BlogDetailPara3}
           </p>
           <p>
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            {BlogDetailPara4}
           </p>
           <img
-            src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454678/Rectangle_620_ikthya.png"
+            src={img2}
             alt="blog-container"
           />
           <h4>
             Contrary to popular belief, Lorem Ipsum is not simply random text
           </h4>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source.
+            {BlogDetailPara5}
           </p>
           <p>
-            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-            Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-            written in 45 BC. This book is a treatise on the theory of ethics,
-            very popular during the Renaissance. The first line of Lorem Ipsum,
-            "Lorem ipsum dolor sit amet..", comes from a line in section
-            1.10.32.
+            {BlogDetailPara6}
           </p>
           <span className="share">
             SHARE
@@ -96,14 +72,14 @@ const Blog = () => {
           </span>
         </div>
 
-        <div className="blog-data-right">
+        <div className={isMobile ? "blog-data-right-phn": "blog-data-right"}>
           <div className="blog-recent">
-            <div className="blog-section-right">
+            <div className={isMobile ? "blog-section-right-phn" : "blog-section-right"}>
               <h3>Recent Posts</h3>
               <hr />
               <div className="blog-recent-img-data">
                 <img
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+                  src={img3}
                   alt="recent-posts"
                 />
                 <div>
@@ -114,7 +90,7 @@ const Blog = () => {
               <hr />
               <div className="blog-recent-img-data">
                 <img
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+                  src={img3}
                   alt="recent-posts"
                 />
                 <div>
@@ -125,7 +101,7 @@ const Blog = () => {
               <hr />
               <div className="blog-recent-img-data">
                 <img
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+                  src={img3}
                   alt="recent-posts"
                 />
                 <div>
@@ -136,7 +112,7 @@ const Blog = () => {
               <hr />
               <div className="blog-recent-img-data">
                 <img
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454677/Rectangle_628_q0oxcs.png"
+                  src={img3}
                   alt="recent-posts"
                 />
                 <div>
@@ -154,7 +130,7 @@ const Blog = () => {
               <hr />
               <ul className="blog-list">
                 {blogCategories.map((list) => (
-                  <li>{list}</li>
+                  <li key={list}>{list}</li>
                 ))}
               </ul>
             </div>
@@ -166,15 +142,16 @@ const Blog = () => {
               <hr />
               <ul className="blog-list">
                 {blogArchives.map((list) => (
-                  <li>{list}</li>
+                  <li key={list}>{list}</li>
                 ))}
               </ul>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
 
-export default Blog;
+      </div>
+
+    </div>
+  )
+};
+export default BlogDetails;

@@ -1,1 +1,1 @@
-export const HeadOne = "If you have any questions, contact us using the form below and we’llrespond as soon as we can. The more information you provide, the quicker and more effectively we’ll be able to help you. You can also email customer services directly."
+export const ContactData = "If you have any questions, contact us using the form below and we’llrespond as soon as we can. The more information you provide, the quicker and more effectively we’ll be able to help you. You can also email customer services directly."
