@@ -6,25 +6,24 @@ import {BsTruck} from "react-icons/bs";
 
 
 const servicesInfo = () => (
-
-    <div className="service-bg">
+    <div data-testid="service-bg" className="service-bg">
         <div className="service-container">
-            <div className="service-list">
+            <div data-testid="deliveries" className="service-list">
                 <BsTruck className="service-ico"/>
                 <h1>50K+</h1>
                 <p>Deliveries</p>
             </div>
-            <div className="service-list">
+            <div data-testid="customers-served" className="service-list">
                 <FiUsers className="service-ico"/>
                 <h1>2M+</h1>
                 <p>Customers Served</p>
             </div>
-            <div className="service-list">
+            <div data-testid="countries-served" className="service-list">
                 <CiGlobe className="service-ico"/>
                 <h1>50+</h1>
                 <p>Countries Served</p>
             </div>
-            <div className="service-list">
+            <div data-testid="partners" className="service-list">
                 <FiUsers className="service-ico"/>
                 <h1>5</h1>
                 <p>Partners</p>

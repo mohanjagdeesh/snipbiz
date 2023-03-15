@@ -39,147 +39,161 @@ const legal = [
 
 const Footer = () => {
   return (
-  <footer>
-    <div className="footer-main">
-      <div className="footer-data">
-        <div className="footer-link-data">
-          <div className="link-data-row">
-            <div>
-              <p>ABOUT</p>
-              <hr />
-              <ul>
-                {about.map((list) => (
-                  <p className="footer1">{list}</p>
-                ))}
-              </ul>
+    <footer data-testid="footer">
+      <div className="footer-main">
+        <div className="footer-data">
+          <div className="footer-link-data">
+            <div className="link-data-row">
+              <div>
+                <p data-testid="about">ABOUT</p>
+                <hr />
+                <ul>
+                  {about.map((list) => (
+                    <p key={list} className="footer1">
+                      {list}
+                    </p>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p data-testid="siteMap">SITEMAP</p>
+                <hr />
+                <ul>
+                  {siteMap.map((list) => (
+                    <p key={list} className="footer1">
+                      {list}
+                    </p>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p data-testid="shipForward">SHIP FORWARDING</p>
+                <hr />
+                <ul>
+                  {shipForward.map((list) => (
+                    <p key={list} className="footer1">
+                      {list}
+                    </p>
+                  ))}
+                </ul>
+              </div>
             </div>
-            <div>
-              <p>SITEMAP</p>
-              <hr />
-              <ul>
-                {siteMap.map((list) => (
-                  <p className="footer1">{list}</p>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p>SHIP FORWARDING</p>
-              <hr />
-              <ul>
-                {shipForward.map((list) => (
-                  <p className="footer1">{list}</p>
-                ))}
-              </ul>
+            <div className="link-data-row">
+              <div>
+                <p data-testid="legal">Legal</p>
+                <hr />
+                <ul>
+                  {legal.map((list) => (
+                    <p key={list} className="footer1">
+                      {list}
+                    </p>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p data-testid="maryland">maryland, usa</p>
+                <hr />
+                <p className="footer-link-address">
+                  Corporate Headquarters
+                  <br />
+                  20059 Mattingly ter
+                  <br />
+                  gaithersburg, MD 28079
+                  <br />
+                  Phone: +1 732 447 9779
+                </p>
+                <section className="ico-share">
+                  <span className="share">share:</span>
+                  <BsFacebook />
+                  <BsTwitter />
+                  <BsInstagram />
+                  <BsYoutube />
+                </section>
+              </div>
+              <div>
+                <p data-testid="delaware">delaware, usa</p>
+                <hr />
+                <p className="footer-link-address">
+                  Corporate Headquarters
+                  <br />
+                  20059 Mattingly ter
+                  <br />
+                  gaithersburg, MD 28079
+                  <br />
+                  Phone: +1 732 447 9779
+                </p>
+              </div>
             </div>
           </div>
-          <div className="link-data-row">
-            <div>
-              <p>Legal</p>
+          <div className="footer-payment-data">
+            <div className="payment-data-row">
+              <p>pay with confidence</p>
               <hr />
-              <ul>
-                {legal.map((list) => (
-                  <p className="footer1">{list}</p>
-                ))}
-              </ul>
+              <div className="payment-gateway">
+                <div className="payment-gateway-images">
+                  <img
+                    src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/paypal_1_bqr2uu.png"
+                    alt="paypal"
+                  />
+                  <img
+                    src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/applepay_1_rkmkm7.png"
+                    alt="applepay"
+                  />
+                  <img
+                    src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/amex_1_i1xpqi.png"
+                    alt="americanexp"
+                  />
+                </div>
+                <div className="payment-gateway-images">
+                  <img
+                    id="visa"
+                    src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/visa-mastercard_1_f6bwag.png"
+                    alt="visamaster"
+                  />
+                  <img
+                    id="alipay"
+                    src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/alipay_1_xmiwmk.png"
+                    alt="alipay"
+                    data-testid="alipay-logo"
+                  />
+                  <img
+                    id="discover"
+                    src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/Discover-logo_1_ieosck.png"
+                    alt="discover"
+                    data-testid="discover-logo"
+                  />
+                </div>
+              </div>
             </div>
-            <div>
-              <p>maryland, usa</p>
+            <div className="payment-data-row" data-testid="payment-data-row">
+              <p>know your data is protected</p>
               <hr />
-              <p className="footer-link-address">
-                Corporate Headquarters
-                <br />
-                20059 Mattingly ter
-                <br />
-                gaithersburg, MD 28079
-                <br />
-                Phone: +1 732 447 9779
-              </p>
-              <section className="ico-share">
-                <span className="share">share:</span>
-                <BsFacebook />
-                <BsTwitter />
-                <BsInstagram />
-                <BsYoutube />
-              </section>
-            </div>
-            <div>
-              <p>delaware, usa</p>
-              <hr />
-              <p className="footer-link-address">
-                Corporate Headquarters
-                <br />
-                20059 Mattingly ter
-                <br />
-                gaithersburg, MD 28079
-                <br />
-                Phone: +1 732 447 9779
-              </p>
+              <div className="data-protect">
+                <img
+                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/lets-encrypt_2_hledei.png"
+                  alt="letsencrypt"
+                  data-testid="lets-encrypt-logo"
+                />
+                <img
+                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/ssl_1_ho35cb.png"
+                  alt="fullysecure"
+                  data-testid="ssl-logo"
+                />
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="footer-payment-data">
-          <div className="payment-data-row">
-            <p>pay with confidence</p>
-            <hr />
-            <div className="payment-gateway">
-              <div className="payment-gateway-images">
-                <img
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/paypal_1_bqr2uu.png"
-                  alt="paypal"
-                />
-                <img
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/applepay_1_rkmkm7.png"
-                  alt="applepay"
-                />
-                <img
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/amex_1_i1xpqi.png"
-                  alt="americanexp"
-                />
-              </div>
-              <div className="payment-gateway-images">
-                <img
-                  id="visa"
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/visa-mastercard_1_f6bwag.png"
-                  alt="visamaster"
-                />
-                <img
-                  id="alipay"
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/alipay_1_xmiwmk.png"
-                  alt="alipay"
-                />
-                <img
-                  id="discover"
-                  src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/Discover-logo_1_ieosck.png"
-                  alt="discover"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="payment-data-row">
-            <p>know your data is protected</p>
-            <hr />
-            <div className="data-protect">
-              <img
-                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/lets-encrypt_2_hledei.png"
-                alt="letsencrypt"
-              />
-              <img
-                src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/ssl_1_ho35cb.png"
-                alt="fullysecure"
-              />
-            </div>
-          </div>
+        <hr className="last-line" data-testid="last-line" />
+
+        <div className="copyright">
+          <p data-testid="copyright">
+            Copyright © 2023 SnipBiz. All rights reserved.
+          </p>
         </div>
       </div>
-
-      <hr className="last-line" />
-
-      <div className="copyright">
-        <p>Copyright © 2023 SnipBiz. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-)}
+    </footer>
+  );
+};
 
 export default Footer;

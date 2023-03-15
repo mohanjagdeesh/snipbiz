@@ -20,35 +20,35 @@ const userDashboard = [
 
 const UserProfileDashboard = () => {
   return(
-    <div  className="main-user-profile">
-    <div className="user-profile-heading">
+    <div className="main-user-profile" data-testid="main-user-profile">
+    <div className="user-profile-heading" data-testid="user-profile-heading">
       <h1>User Profile</h1>
     </div>
-    <div className="user-dashboard-container">
-      <div className="user-dashboard">
-        <ul className="user-dashboard-list">
+    <div className="user-dashboard-container" data-testid="user-dashboard-container">
+      <div className="user-dashboard" data-testid="user-dashboard">
+        <ul className="user-dashboard-list" data-testid="user-dashboard-list">
           {userDashboard.map((each) => (
-            <li className="user-list">{each}</li>
+            <li key={each} className="user-list" data-testid="user-list">{each}</li>
           ))}
         </ul>
       </div>
-      <div className="order-details-container">
-        <h2 className="order-details-main-heading">Order Detail</h2>
-        <table cellPadding="3">
+      <div className="order-details-container" data-testid="order-details-container">
+        <h2 className="order-details-main-heading" data-testid="order-details-main-heading">Order Detail</h2>
+        <table cellPadding="3" data-testid="order-details-table">
           <thead>
             <tr >
-            <th><div className="arrow-down">Date <BsCaretDown /></div></th>
-            <th><div className="arrow-down">Order ID <BsCaretDown/></div></th>
-            <th>From</th>
-            <th>Destination</th>
-            <th>Recipient</th>
-            <th><div className="arrow-down">Carrier Log <BsCaretDown/></div></th>
-            <th>Item</th>
-            <th>Amount</th>
-            <th><div className="arrow-down">Status <BsCaretDown/></div></th>
+            <th><div className="arrow-down">Date <BsCaretDown data-testid="date-caret"/></div></th>
+            <th><div className="arrow-down">Order ID <BsCaretDown data-testid="order-id-caret"/></div></th>
+            <th>From <BsCaretDown data-testid="from-caret"/></th>
+            <th>Destination <BsCaretDown data-testid="destination-caret"/></th>
+            <th>Recipient <BsCaretDown data-testid="recipient-caret"/></th>
+            <th><div className="arrow-down">Carrier Log <BsCaretDown data-testid="carrier-log-caret"/></div></th>
+            <th>Item <BsCaretDown data-testid="item-caret"/></th>
+            <th>Amount <BsCaretDown data-testid="amount-caret"/></th>
+            <th><div className="arrow-down">Status <BsCaretDown data-testid="status-caret"/></div></th>
             </tr>
           </thead>
-          <tbody>
+          <tbody data-testid="order-details-table-body">
             <tr>
               <td>02/14/2023</td>
               <td>XB1234VIOUSAIN</td>
@@ -95,46 +95,46 @@ const UserProfileDashboard = () => {
             </tr>
           </tbody>
         </table>
-        <h2 className="order-details-main-heading">Help Desk Items</h2>
-        <table cellPadding="3">
+        <h2 className="order-details-main-heading" data-testid="help-desk-heading">Help Desk Items</h2>
+        <table cellPadding="3" data-testid="help-desk-table">
           <thead>
-            <tr >
-            <th><div className="arrow-down">Date <BsCaretDown/></div></th>
-            <th>Ticket ID</th>
-            <th>Ticket Type</th>
-            <th>Short Description</th>
-            <th>Status</th>
+            <tr data-testid="help-desk-table-header">
+            <th data-testid="date-header"><div className="arrow-down">Date <BsCaretDown/></div></th>
+            <th data-testid="ticket-id-header">Ticket ID <BsCaretDown/></th>
+            <th data-testid="ticket-type-header">Ticket Type <BsCaretDown/></th>
+            <th data-testid="short-description-header">Short Description <BsCaretDown/></th>
+            <th data-testid="status-header">Status <BsCaretDown/></th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>02/14/2023</td>
-              <td>TKT1234NJ</td>
-              <td>Shipment</td>
-              <td>Goods held at customs</td>
-              <td>Work in progress</td>
+            <tr data-testid="help-desk-table-row">
+              <td data-testid="date-cell">02/14/2023</td>
+              <td data-testid="ticket-id-cell">TKT1234NJ</td>
+              <td data-testid="ticket-type-cell">Shipment</td>
+              <td data-testid="short-description-cell">Goods held at customs</td>
+              <td data-testid="status-cell">Work in progress</td>
             </tr>
-            <tr>
-              <td>02/14/2023</td>
-              <td>TKT1234NJ</td>
-              <td>Shipment</td>
-              <td>Goods held at customs</td>
-              <td>Work in progress</td>
+            <tr data-testid="help-desk-table-row">
+              <td data-testid="date-cell">02/14/2023</td>
+              <td data-testid="ticket-id-cell">TKT1234NJ</td>
+              <td data-testid="ticket-type-cell">Shipment</td>
+              <td data-testid="short-description-cell">Goods held at customs</td>
+              <td data-testid="status-cell">Work in progress</td>
             </tr>
           </tbody>
         </table>
-        <h2 className="order-details-main-heading">Forward Shipping</h2>
-        <table cellPadding="3">
+        <h2 className="order-details-main-heading" data-testid="forward-shipping-heading">Forward Shipping</h2>
+        <table cellPadding="3" data-testid="forward-shipping-table">
           <thead>
-            <tr >
-            <th>Package</th>
-            <th>Sent Package</th>
-            <th>Expected Package</th>
-            <th>Assisted Package</th>
-            <th>Action Require</th>
-            <th>In Progress</th>
-            <th>Ready to Ship</th>
-            <th>Balance A</th>
+            <tr data-testid="forward-shipping-table-header">
+            <th data-testid="package-header">Package <BsCaretDown/></th>
+            <th data-testid="sent-package-header">Sent Package <BsCaretDown/></th>
+            <th data-testid="expected-package-header">Expected Package <BsCaretDown/></th>
+            <th data-testid="assisted-package-header">Assisted Package <BsCaretDown/></th>
+            <th data-testid="action-required-header">Action Require <BsCaretDown/></th>
+            <th data-testid="in-progress-header">In Progress <BsCaretDown/></th>
+            <th data-testid="ready-to-ship-header">Ready to Ship <BsCaretDown/></th>
+            <th data-testid="balance-a-header">Balance A <BsCaretDown/></th>
             </tr>
           </thead>
           <tbody>

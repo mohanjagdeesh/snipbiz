@@ -34,21 +34,20 @@ const YouAreInGoodHands = () => (
                 </div>
             </div>
             </div>
-            <div className="good-right">
-                <div className="goodInfo">
-                    <h1>You’re In Good Hands</h1>
-                    <p>We’re happy when our customers are happy. We pride ourselves on going above and beyond.</p><br/>
-                    <h3>Get the help you need, 24/7</h3>
-                    <p>We work around the clock to get your shipments to the right place at the right time. Our support center is second-to-none. <span>See our support center.</span></p><br/>
-                    <h3>Become a shipping expert</h3>
-                    <p>Our resource library has everything you’ve ever wanted to know about shipping. <span> Explore resourece hub.</span></p>
-
-                </div>
-                <div className="ship-btn">
-                    <button className="howit-works-btn">Know more</button>
-                    <button className="get-quote-btn">Shopnow</button>
-                </div>
-            </div>
+            <div className="good-right" data-testid="good-right">
+    <div className="goodInfo">
+        <h1>You’re In Good Hands</h1>
+        <p>We’re happy when our customers are happy. We pride ourselves on going above and beyond.</p><br/>
+        <h3>Get the help you need, 24/7</h3>
+        <p>We work around the clock to get your shipments to the right place at the right time. Our support center is second-to-none. <span>See our support center.</span></p><br/>
+        <h3>Become a shipping expert</h3>
+        <p>Our resource library has everything you’ve ever wanted to know about shipping. <span> Explore resourece hub.</span></p>
+    </div>
+    <div className="ship-btn">
+        <button className="howit-works-btn">Know more</button>
+        <button className="get-quote-btn">Shopnow</button>
+    </div>
+</div>
 
         </div>
 

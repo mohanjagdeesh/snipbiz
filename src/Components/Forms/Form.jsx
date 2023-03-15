@@ -25,10 +25,10 @@ export default function Form({formData}) {
 
   return (
     <div className="form-wrapper">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} data-testid="form">
         <div className="form-control">
           <TextField
-          className="form"
+            className="form"
             type="text"
             placeholder="Enter pickup location"
             name="pickup"
@@ -37,16 +37,17 @@ export default function Form({formData}) {
             InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
-                    <Adjust />
+                    <Adjust data-testid="pickup-icon" />
                   </InputAdornment>
                 ),
               }}
+            data-testid="pickup-input"
           />
         </div>
         <div className="form-control">
           <TextField
             type="text"
-          className="form"
+            className="form"
             placeholder="Enter Destination"
             name="destination"
             value={state.destination}
@@ -54,16 +55,17 @@ export default function Form({formData}) {
             InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
-                    <LocationCityOutlined />
+                    <LocationCityOutlined data-testid="destination-icon" />
                   </InputAdornment>
                 ),
               }}
+            data-testid="destination-input"
           />
         </div>
         <div className="form-control">
           <TextField
             type="number"
-          className="form"
+            className="form"
             placeholder="Enter Weight"
             name="weight"
             value={state.weight}
@@ -71,12 +73,14 @@ export default function Form({formData}) {
             InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
-                    <Scale />
+                    <Scale data-testid="weight-icon" />
                   </InputAdornment>
                 ),
               }}
+            data-testid="weight-input"
           />
         </div>
+        <button type="submit" data-testid="submit-button">Submit</button>
       </form>
     </div>
   );

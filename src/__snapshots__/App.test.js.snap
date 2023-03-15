@@ -6,12 +6,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
 >
   <div
     className="MuiBox-root css-0"
+    data-testid="card-0"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-0"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-0"
         role="img"
         style={
           Object {
@@ -22,9 +25,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-0"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-0"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -60,20 +65,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-0"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-0"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-0"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-0"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -97,12 +106,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-1"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-1"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-1"
         role="img"
         style={
           Object {
@@ -113,9 +125,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-1"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-1"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -151,20 +165,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-1"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-1"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-1"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-1"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -188,12 +206,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-2"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-2"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-2"
         role="img"
         style={
           Object {
@@ -204,9 +225,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-2"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-2"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -242,20 +265,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-2"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-2"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-2"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-2"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -279,12 +306,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-3"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-3"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-3"
         role="img"
         style={
           Object {
@@ -295,9 +325,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-3"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-3"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -333,20 +365,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-3"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-3"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-3"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-3"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -370,12 +406,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-4"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-4"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-4"
         role="img"
         style={
           Object {
@@ -386,9 +425,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-4"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-4"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -424,20 +465,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-4"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-4"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-4"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-4"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -461,12 +506,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-5"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-5"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-5"
         role="img"
         style={
           Object {
@@ -477,9 +525,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-5"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-5"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -515,20 +565,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-5"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-5"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-5"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-5"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -552,12 +606,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-6"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-6"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-6"
         role="img"
         style={
           Object {
@@ -568,9 +625,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-6"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-6"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -606,20 +665,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-6"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-6"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-6"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-6"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -643,12 +706,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-7"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-7"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-7"
         role="img"
         style={
           Object {
@@ -659,9 +725,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-7"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-7"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -697,20 +765,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-7"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-7"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-7"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-7"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -734,12 +806,15 @@ exports[`it Should Match Blog Page snapshot 1`] = `
   </div>
   <div
     className="MuiBox-root css-0"
+    data-testid="card-8"
   >
     <div
       className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1kx0hm1-MuiPaper-root-MuiCard-root"
+      data-testid="card-item-8"
     >
       <div
         className="MuiCardMedia-root css-1aczbip-MuiCardMedia-root"
+        data-testid="card-image-8"
         role="img"
         style={
           Object {
@@ -750,9 +825,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
       />
       <div
         className="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        data-testid="card-content-8"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 css-1chywvb-MuiTypography-root"
+          data-testid="card-date-8"
         >
           <button
             className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-3yajy8-MuiButtonBase-root-MuiIconButton-root"
@@ -788,20 +865,24 @@ exports[`it Should Match Blog Page snapshot 1`] = `
         </p>
         <div
           className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-h93ljk-MuiTypography-root"
+          data-testid="card-title-8"
         >
           Contrary to popular relief
         </div>
         <p
           className="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+          data-testid="card-body-8"
         >
           lorem ipsum whichh has done with work as a devloper
         </p>
       </div>
       <div
         className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+        data-testid="card-actions-8"
       >
         <button
           className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-i4qtcg-MuiButtonBase-root-MuiButton-root"
+          data-testid="card-button-8"
           disabled={false}
           onBlur={[Function]}
           onContextMenu={[Function]}
@@ -829,9 +910,11 @@ exports[`it Should Match Blog Page snapshot 1`] = `
 exports[`it Should Match BlogDetails Page snapshot 1`] = `
 <div
   className="blog-main"
+  data-testid="blog-main"
 >
   <div
     className="blog-heading"
+    data-testid="blog-heading"
   >
     <h1>
       Blog Details
@@ -839,15 +922,18 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
   </div>
   <div
     className="blog-data"
+    data-testid="blog-data"
   >
     <div
       className="blog-data-left"
+      data-testid="blog-data-left"
     >
       <img
         alt="blog-container"
         src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454678/Rectangle_619_rbg7oq.png"
       />
       <p
+        data-testid="current-date"
         id="current-date"
       >
         <svg
@@ -882,39 +968,58 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
         </svg>
          DD MON YYYY
       </p>
-      <h3>
+      <h3
+        data-testid="blog-heading-text"
+      >
         Contrary to popular belief, Lorem Ipsum is not simply random text
       </h3>
-      <p>
+      <p
+        data-testid="blog-paragraph"
+      >
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
       </p>
-      <p>
+      <p
+        data-testid="blog-paragraph"
+      >
         Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
       </p>
-      <p>
+      <p
+        data-testid="blog-paragraph"
+      >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
       </p>
-      <p>
+      <p
+        data-testid="blog-paragraph"
+      >
         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
       <img
         alt="blog-container"
+        data-testid="blog-image"
         src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676454678/Rectangle_620_ikthya.png"
       />
-      <h4>
+      <h4
+        data-testid="blog-heading-text"
+      >
         Contrary to popular belief, Lorem Ipsum is not simply random text
       </h4>
-      <p>
+      <p
+        data-testid="blog-paragraph"
+      >
         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
       </p>
-      <p>
+      <p
+        data-testid="lorem-ipsum-text"
+      >
         Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
       </p>
       <span
         className="share"
+        data-testid="social-media-icons"
       >
         SHARE
         <svg
+          data-testid="BsFacebook"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -933,6 +1038,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           />
         </svg>
         <svg
+          data-testid="BsTwitter"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -951,6 +1057,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           />
         </svg>
         <svg
+          data-testid="BsInstagram"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -969,6 +1076,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           />
         </svg>
         <svg
+          data-testid="BsYoutube"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -990,9 +1098,11 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
     </div>
     <div
       className="blog-data-right"
+      data-testid="blog-data-right"
     >
       <div
         className="blog-recent"
+        data-testid="blog-recent-section"
       >
         <div
           className="blog-section-right"
@@ -1003,6 +1113,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           <hr />
           <div
             className="blog-recent-img-data"
+            data-testid="blog-recent-post-1"
           >
             <img
               alt="recent-posts"
@@ -1022,6 +1133,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           <hr />
           <div
             className="blog-recent-img-data"
+            data-testid="blog-recent-post-2"
           >
             <img
               alt="recent-posts"
@@ -1041,6 +1153,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           <hr />
           <div
             className="blog-recent-img-data"
+            data-testid="blog-recent-post-3"
           >
             <img
               alt="recent-posts"
@@ -1060,6 +1173,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           <hr />
           <div
             className="blog-recent-img-data"
+            data-testid="blog-recent-post-4"
           >
             <img
               alt="recent-posts"
@@ -1078,6 +1192,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           </div>
           <button
             className="view-more"
+            data-testid="view-more-button"
           >
              View More 
           </button>
@@ -1085,6 +1200,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
       </div>
       <div
         className="blog-categories"
+        data-testid="blog-categories"
       >
         <div
           className="blog-section-right"
@@ -1096,25 +1212,39 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           <ul
             className="blog-list"
           >
-            <li>
+            <li
+              data-testid="category-0"
+            >
               Logistics
             </li>
-            <li>
+            <li
+              data-testid="category-1"
+            >
               Shipping
             </li>
-            <li>
+            <li
+              data-testid="category-2"
+            >
               Business
             </li>
-            <li>
+            <li
+              data-testid="category-3"
+            >
               Discounts
             </li>
-            <li>
+            <li
+              data-testid="category-4"
+            >
               Global Growth
             </li>
-            <li>
+            <li
+              data-testid="category-5"
+            >
               Warehouses
             </li>
-            <li>
+            <li
+              data-testid="category-6"
+            >
               Orders
             </li>
           </ul>
@@ -1122,6 +1252,7 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
       </div>
       <div
         className="blog-archives"
+        data-testid="blog-archives"
       >
         <div
           className="blog-section-right"
@@ -1133,25 +1264,39 @@ exports[`it Should Match BlogDetails Page snapshot 1`] = `
           <ul
             className="blog-list"
           >
-            <li>
+            <li
+              data-testid="archive-0"
+            >
               2023
             </li>
-            <li>
+            <li
+              data-testid="archive-1"
+            >
               2022
             </li>
-            <li>
+            <li
+              data-testid="archive-2"
+            >
               2021
             </li>
-            <li>
+            <li
+              data-testid="archive-3"
+            >
               2020
             </li>
-            <li>
+            <li
+              data-testid="archive-4"
+            >
               2019
             </li>
-            <li>
+            <li
+              data-testid="archive-5"
+            >
               2018
             </li>
-            <li>
+            <li
+              data-testid="archive-6"
+            >
               2017
             </li>
           </ul>
@@ -1170,6 +1315,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
 >
   <div
     className="contact-heading"
+    data-testid="contact-heading"
   >
     <h1>
       Contact
@@ -1177,6 +1323,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
   </div>
   <div
     className="contact-paragraph"
+    data-testid="contact-paragraph"
   >
     <h2>
       If you have any questions, contact us using the form below and we’ll respond as soon as we can. The more information you provide, the quicker and more effectively we’ll be able to help you. You can also email customer services directly.
@@ -1184,11 +1331,15 @@ exports[`it Should Match Contact Page snapshot 1`] = `
   </div>
   <div
     className="contact-data"
+    data-testid="contact-data"
   >
     <div
       className="contact-data-left"
+      data-testid="contact-data-left"
     >
-      <div>
+      <div
+        data-testid="contact-chat"
+      >
         <svg
           className="contact-icon"
           fill="currentColor"
@@ -1217,6 +1368,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
       </div>
       <div
         className="contact-data-left-middle"
+        data-testid="contact-email"
       >
         <svg
           className="contact-icon"
@@ -1247,7 +1399,9 @@ exports[`it Should Match Contact Page snapshot 1`] = `
           help@snipbiz.com
         </h4>
       </div>
-      <div>
+      <div
+        data-testid="contact-call"
+      >
         <svg
           className="contact-icon"
           fill="none"
@@ -1279,12 +1433,14 @@ exports[`it Should Match Contact Page snapshot 1`] = `
     </div>
     <form
       className="contact-data-right-form"
+      data-testid="contact-form"
       onSubmit={[Function]}
     >
       <h2>
         I'm interested in...
       </h2>
       <select
+        data-testid="contact-select"
         onChange={[Function]}
       >
         <option
@@ -1324,6 +1480,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
               First Name*
             </label>
             <input
+              data-testid="contact-firstname"
               onChange={[Function]}
               placeholder="First Name"
               required={true}
@@ -1335,6 +1492,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
               Last Name*
             </label>
             <input
+              data-testid="contact-lastname"
               onChange={[Function]}
               placeholder="Last Name"
               required={true}
@@ -1350,6 +1508,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
               Company*
             </label>
             <input
+              data-testid="contact-companyname"
               onChange={[Function]}
               placeholder="Company Name"
               required={true}
@@ -1361,6 +1520,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
               Email*
             </label>
             <input
+              data-testid="contact-emailinput"
               onChange={[Function]}
               placeholder="Your E-mail"
               required={true}
@@ -1376,6 +1536,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
               Country
             </label>
             <select
+              data-testid="contact-country"
               onChange={[Function]}
             >
               <option
@@ -1410,6 +1571,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
               Phone
             </label>
             <input
+              data-testid="contact-phoneNumber"
               onChange={[Function]}
               placeholder="Your Phone Number"
               type="number"
@@ -1418,12 +1580,14 @@ exports[`it Should Match Contact Page snapshot 1`] = `
         </div>
         <div
           className="each-input-field"
+          data-testid="job-title-input"
         >
           <section>
             <label>
               Job Title
             </label>
             <input
+              data-testid="job-title"
               onChange={[Function]}
               placeholder="Job Title"
               type="text"
@@ -1434,6 +1598,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
               City
             </label>
             <input
+              data-testid="city-name"
               onChange={[Function]}
               placeholder="City Name"
               type="text"
@@ -1443,6 +1608,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
       </div>
       <div
         className="each-input-field"
+        data-testid="comments-input"
       >
         <section>
           <label>
@@ -1450,6 +1616,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
           </label>
           <textarea
             cols={30}
+            data-testid="comments"
             onChange={[Function]}
             rows={3}
           />
@@ -1457,6 +1624,7 @@ exports[`it Should Match Contact Page snapshot 1`] = `
       </div>
       <button
         className="submit-btn"
+        data-testid="submit-btn"
         type="submit"
       >
         Submit
@@ -1465,18 +1633,25 @@ exports[`it Should Match Contact Page snapshot 1`] = `
   </div>
   <div
     className="contact-map-data"
+    data-testid="contact-map-data"
   >
-    <h2>
+    <h2
+      data-testid="map-heading"
+    >
       Forwarding warehouse locations
     </h2>
     <img
       alt="map"
+      data-testid="map-image"
       src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676914848/Rectangle_648_mhmpny.png"
     />
     <div
       className="contact-map-bottom-list"
+      data-testid="map-list"
     >
-      <div>
+      <div
+        data-testid="uk-warehouse"
+      >
         <h6>
           UK Warehouse
         </h6>
@@ -1490,7 +1665,9 @@ exports[`it Should Match Contact Page snapshot 1`] = `
           United Kingdom
         </p>
       </div>
-      <div>
+      <div
+        data-testid="uk-tax-free-warehouse"
+      >
         <h6>
           UK Tax Free Warehouse
         </h6>
@@ -1504,7 +1681,9 @@ exports[`it Should Match Contact Page snapshot 1`] = `
           Guernsey
         </p>
       </div>
-      <div>
+      <div
+        data-testid="germany-warehouse"
+      >
         <h6>
           Germany Warehouse
         </h6>
@@ -1518,7 +1697,9 @@ exports[`it Should Match Contact Page snapshot 1`] = `
           Germany
         </p>
       </div>
-      <div>
+      <div
+        data-testid="turkey-warehouse"
+      >
         <h6>
           Turkey Warehouse
         </h6>
@@ -1538,7 +1719,9 @@ exports[`it Should Match Contact Page snapshot 1`] = `
 `;
 
 exports[`it Should Match FooterSection Page snapshot 1`] = `
-<footer>
+<footer
+  data-testid="footer"
+>
   <div
     className="footer-main"
   >
@@ -1552,7 +1735,9 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
           className="link-data-row"
         >
           <div>
-            <p>
+            <p
+              data-testid="about"
+            >
               ABOUT
             </p>
             <hr />
@@ -1590,7 +1775,9 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
             </ul>
           </div>
           <div>
-            <p>
+            <p
+              data-testid="siteMap"
+            >
               SITEMAP
             </p>
             <hr />
@@ -1633,7 +1820,9 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
             </ul>
           </div>
           <div>
-            <p>
+            <p
+              data-testid="shipForward"
+            >
               SHIP FORWARDING
             </p>
             <hr />
@@ -1680,7 +1869,9 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
           className="link-data-row"
         >
           <div>
-            <p>
+            <p
+              data-testid="legal"
+            >
               Legal
             </p>
             <hr />
@@ -1718,7 +1909,9 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
             </ul>
           </div>
           <div>
-            <p>
+            <p
+              data-testid="maryland"
+            >
               maryland, usa
             </p>
             <hr />
@@ -1816,7 +2009,9 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
             </section>
           </div>
           <div>
-            <p>
+            <p
+              data-testid="delaware"
+            >
               delaware, usa
             </p>
             <hr />
@@ -1873,11 +2068,13 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
               />
               <img
                 alt="alipay"
+                data-testid="alipay-logo"
                 id="alipay"
                 src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/alipay_1_xmiwmk.png"
               />
               <img
                 alt="discover"
+                data-testid="discover-logo"
                 id="discover"
                 src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298223/Discover-logo_1_ieosck.png"
               />
@@ -1886,6 +2083,7 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
         </div>
         <div
           className="payment-data-row"
+          data-testid="payment-data-row"
         >
           <p>
             know your data is protected
@@ -1896,10 +2094,12 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
           >
             <img
               alt="letsencrypt"
+              data-testid="lets-encrypt-logo"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/lets-encrypt_2_hledei.png"
             />
             <img
               alt="fullysecure"
+              data-testid="ssl-logo"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676298443/ssl_1_ho35cb.png"
             />
           </div>
@@ -1908,11 +2108,14 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
     </div>
     <hr
       className="last-line"
+      data-testid="last-line"
     />
     <div
       className="copyright"
     >
-      <p>
+      <p
+        data-testid="copyright"
+      >
         Copyright © 2023 SnipBiz. All rights reserved.
       </p>
     </div>
@@ -1925,6 +2128,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
   className="form-wrapper"
 >
   <form
+    data-testid="form"
     onSubmit={[Function]}
   >
     <div
@@ -1932,6 +2136,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
     >
       <div
         className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+        data-testid="pickup-input"
       >
         <div
           className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -1948,7 +2153,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
             <svg
               aria-hidden={true}
               className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-              data-testid="AdjustIcon"
+              data-testid="pickup-icon"
               focusable="false"
               viewBox="0 0 24 24"
             >
@@ -1995,6 +2200,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
     >
       <div
         className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+        data-testid="destination-input"
       >
         <div
           className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -2011,7 +2217,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
             <svg
               aria-hidden={true}
               className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-              data-testid="LocationCityOutlinedIcon"
+              data-testid="destination-icon"
               focusable="false"
               viewBox="0 0 24 24"
             >
@@ -2058,6 +2264,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
     >
       <div
         className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+        data-testid="weight-input"
       >
         <div
           className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -2074,7 +2281,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
             <svg
               aria-hidden={true}
               className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-              data-testid="ScaleIcon"
+              data-testid="weight-icon"
               focusable="false"
               viewBox="0 0 24 24"
             >
@@ -2116,6 +2323,12 @@ exports[`it Should Match Forms Page snapshot 1`] = `
         </div>
       </div>
     </div>
+    <button
+      data-testid="submit-button"
+      type="submit"
+    >
+      Submit
+    </button>
   </form>
 </div>
 `;
@@ -2123,6 +2336,7 @@ exports[`it Should Match Forms Page snapshot 1`] = `
 exports[`it Should Match Home Page snapshot 1`] = `
 <div
   className="MuiBox-root css-0"
+  data-testid="home-container"
 >
   <div
     className="top-container"
@@ -2147,6 +2361,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
           className="form-wrapper"
         >
           <form
+            data-testid="form"
             onSubmit={[Function]}
           >
             <div
@@ -2154,6 +2369,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             >
               <div
                 className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+                data-testid="pickup-input"
               >
                 <div
                   className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -2170,7 +2386,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
                     <svg
                       aria-hidden={true}
                       className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                      data-testid="AdjustIcon"
+                      data-testid="pickup-icon"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2217,6 +2433,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             >
               <div
                 className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+                data-testid="destination-input"
               >
                 <div
                   className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -2233,7 +2450,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
                     <svg
                       aria-hidden={true}
                       className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                      data-testid="LocationCityOutlinedIcon"
+                      data-testid="destination-icon"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2280,6 +2497,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             >
               <div
                 className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+                data-testid="weight-input"
               >
                 <div
                   className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -2296,7 +2514,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
                     <svg
                       aria-hidden={true}
                       className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                      data-testid="ScaleIcon"
+                      data-testid="weight-icon"
                       focusable="false"
                       viewBox="0 0 24 24"
                     >
@@ -2338,10 +2556,17 @@ exports[`it Should Match Home Page snapshot 1`] = `
                 </div>
               </div>
             </div>
+            <button
+              data-testid="submit-button"
+              type="submit"
+            >
+              Submit
+            </button>
           </form>
         </div>
         <a
           className="question"
+          data-testid="help-link"
           href="/"
         >
           Do you need help for get approximate weight and measurements?
@@ -2351,16 +2576,19 @@ exports[`it Should Match Home Page snapshot 1`] = `
         >
           <button
             className="quote"
+            data-testid="get-quote-button"
           >
             Get Quote
           </button>
           <img
             alt="star"
             className="star-img"
+            data-testid="star-image"
             src="https://res.cloudinary.com/duapyyftc/image/upload/v1675425560/Untitled-1_1_s6_vughy5.png"
           />
         </div>
         <a
+          data-testid="multiple-shipments-link"
           href="https://www.google.com"
           rel="noreferrer"
           target="_blank"
@@ -2374,6 +2602,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
         <img
           alt="box"
           className="box"
+          data-testid="box-image"
           src="https://res.cloudinary.com/duapyyftc/image/upload/v1676020325/warehouse-flights---Copy_1_vp9wtn.png"
         />
         <h4
@@ -2383,12 +2612,14 @@ exports[`it Should Match Home Page snapshot 1`] = `
            
           <span
             className="tax"
+            data-testid="tax-span"
           >
             Tax free*
           </span>
         </h4>
         <button
           className="howit-works"
+          data-testid="how-it-works-button"
           onClick={[Function]}
         >
           How it works
@@ -2409,6 +2640,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
     >
       <div
         className="orange-cont"
+        data-testid="orange-cont-1"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
@@ -2428,6 +2660,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
       </div>
       <div
         className="blue-cont"
+        data-testid="blue-cont-1"
       >
         <img
           alt="orange"
@@ -2447,6 +2680,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
       </div>
       <div
         className="orange-cont"
+        data-testid="orange-cont-2"
       >
         <p
           className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
@@ -2466,6 +2700,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
       </div>
       <div
         className="blue-cont"
+        data-testid="blue-cont-2"
       >
         <img
           alt="orange"
@@ -2485,6 +2720,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
       </div>
       <div
         className="orange-cont"
+        data-testid="orange-cont-3"
       >
         <p
           className="para"
@@ -2504,6 +2740,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
       </div>
       <div
         className="blue-cont"
+        data-testid="blue-cont-3"
       >
         <img
           alt="orange"
@@ -2513,23 +2750,27 @@ exports[`it Should Match Home Page snapshot 1`] = `
         <img
           alt="warehouse"
           className="blue-icon"
+          data-testid="blue-icon"
           src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276174/ic_twotone-support-agent_qtcwzw.png"
         />
         <p
           className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+          data-testid="usa-address"
         >
-          Signup & get USA Address 
+          Signup & get USA Address
         </p>
       </div>
     </div>
     <div>
       <button
         className="know-more"
+        data-testid="know-more"
       >
         Know more
       </button>
       <button
         className="start-shipping"
+        data-testid="start-shipping"
       >
         Start shipping
       </button>
@@ -2628,6 +2869,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
       </div>
       <div
         className="good-right"
+        data-testid="good-right"
       >
         <div
           className="goodInfo"
@@ -2678,20 +2920,24 @@ exports[`it Should Match Home Page snapshot 1`] = `
   </div>
   <div
     className="ourpartner-bg"
+    data-testid="our-partners-container"
   >
     <div
       className="ourpartner-main"
     >
       <h1
         className="ourpartner-heading"
+        data-testid="our-partners-heading"
       >
         Our Partners
       </h1>
       <div
         className="courierList"
+        data-testid="courier-list-container"
       >
         <svg
           className="prv-btn"
+          data-testid="prev-button"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -2724,6 +2970,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="dhl"
               className="partner-img"
+              data-testid="dhl-logo"
               id="dhl"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676106119/dhl-png-logo-icon-5997_xdet0d.png"
             />
@@ -2738,6 +2985,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="fedex"
               className="partner-img"
+              data-testid="fedex-logo"
               id="fedex"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/image_2_cnwbdk.png"
             />
@@ -2752,6 +3000,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="ups"
               className="partner-img"
+              data-testid="ups-logo"
               id="ups"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/1200px-United_Parcel_Service_logo_2014_1_dn24o7.png"
             />
@@ -2766,6 +3015,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="aramex"
               className="partner-img"
+              data-testid="aramex-logo"
               id="aramex"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676110102/Aramex_Logo_d9ko3y.png"
             />
@@ -2780,6 +3030,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="usps"
               className="partner-img"
+              data-testid="usps-logo"
               id="usps"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105890/fgfg_1_foktrt.png"
             />
@@ -2787,6 +3038,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
         </div>
         <svg
           className="nxt-btn"
+          data-testid="next-button"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -2815,6 +3067,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
   </div>
   <div
     className="serving-bg"
+    data-testid="serving-bg"
   >
     <div
       className="serving-container"
@@ -2824,20 +3077,24 @@ exports[`it Should Match Home Page snapshot 1`] = `
       >
         <h1
           className="serving-name"
+          data-testid="serving-name"
         >
           Serving Destinations
         </h1>
         <img
           alt="worldmap"
           className="worldmap"
+          data-testid="worldmap"
           src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676113935/world-map_1_fk30vg.png"
         />
       </div>
       <div
         className="serving-List"
+        data-testid="serving-list"
       >
         <svg
           className="prv-btn"
+          data-testid="prv-btn"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -2863,6 +3120,7 @@ exports[`it Should Match Home Page snapshot 1`] = `
         </svg>
         <div
           className="serving-place"
+          data-testid="serving-place-Delhi"
           id="place-Delhi"
         >
           <div
@@ -2871,23 +3129,27 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="delhi"
               className="place-img"
+              data-testid="delhi-img"
               id="delhi"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_4dlh_dwqdvs.png"
             />
           </div>
           <h3
             className="place-name"
+            data-testid="delhi-name"
           >
             Delhi
           </h3>
           <p
             className="place-price"
+            data-testid="delhi-price"
           >
             Lowest Price $10.00
           </p>
         </div>
         <div
           className="serving-place"
+          data-testid="serving-place-newyork"
         >
           <div
             className="place-list"
@@ -2895,23 +3157,27 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="newyork"
               className="place-img"
+              data-testid="newyork-img"
               id="newyork"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5nyk_vwxg2w.png"
             />
           </div>
           <h3
             className="place-name"
+            data-testid="newyork-name"
           >
             Newyork
           </h3>
           <p
             className="place-price"
+            data-testid="newyork-price"
           >
             Lowest Price $25.00
           </p>
         </div>
         <div
           className="serving-place"
+          data-testid="serving-place-london"
         >
           <div
             className="place-list"
@@ -2919,23 +3185,27 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="london"
               className="place-img"
+              data-testid="london-img"
               id="london"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6ldn_lwtrp2.png"
             />
           </div>
           <h3
             className="place-name"
+            data-testid="london-name"
           >
             London
           </h3>
           <p
             className="place-price"
+            data-testid="london-price"
           >
             Lowest Price $15.00
           </p>
         </div>
         <div
           className="serving-place"
+          data-testid="serving-place-frankfurt"
         >
           <div
             className="place-list"
@@ -2943,47 +3213,56 @@ exports[`it Should Match Home Page snapshot 1`] = `
             <img
               alt="frankfurt"
               className="place-img"
+              data-testid="frankfurt-img"
               id="frankfurt"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6fkf_uffo3m.png"
             />
           </div>
           <h3
             className="place-name"
+            data-testid="frankfurt-name"
           >
             Frankfurt
           </h3>
           <p
             className="place-price"
+            data-testid="frankfurt-price"
           >
             Lowest Price $18.00
           </p>
         </div>
         <div
           className="serving-place"
+          data-testid="serving-place-amsterdam"
         >
           <div
             className="place-list"
+            data-testid="place-list"
           >
             <img
               alt="amsterdam"
               className="place-img"
+              data-testid="place-img"
               id="amsterdam"
               src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5ams_nonaxp.png"
             />
           </div>
           <h3
             className="place-name"
+            data-testid="place-name"
           >
             Amsterdam
           </h3>
           <p
             className="place-price"
+            data-testid="place-price"
           >
             Lowest Price $17.00
           </p>
         </div>
         <svg
           className="nxt-btn"
+          data-testid="nxt-btn"
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -3016,9 +3295,11 @@ exports[`it Should Match Home Page snapshot 1`] = `
 exports[`it Should Match Howit Works Page snapshot 1`] = `
 <div
   className="howitworks-main"
+  data-testid="howitworks-main"
 >
   <div
     className="howitworks-heading"
+    data-testid="howitworks-heading"
   >
     <h1>
       How it Works
@@ -3026,13 +3307,19 @@ exports[`it Should Match Howit Works Page snapshot 1`] = `
   </div>
   <nav>
     <ul>
-      <li>
+      <li
+        data-testid="courier-service"
+      >
         Courier Service
       </li>
-      <li>
+      <li
+        data-testid="forward-shipping"
+      >
         Forward Shipping
       </li>
-      <li>
+      <li
+        data-testid="us-debit-cards"
+      >
         US Debit Cards
       </li>
     </ul>
@@ -3061,6 +3348,7 @@ exports[`it Should Match Howit Works Page snapshot 1`] = `
     />
     <div
       className="howitworks-process"
+      data-testid="signup-process"
     >
       <div
         className="process-data-info"
@@ -3079,14 +3367,17 @@ exports[`it Should Match Howit Works Page snapshot 1`] = `
       </div>
       <img
         alt="howitworks-img"
+        data-testid="signup-img"
         src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw1_eyuyag.png"
       />
     </div>
     <div
       className="howitworks-process"
+      data-testid="shop-process"
     >
       <img
         alt="howitworks-img"
+        data-testid="shop-img"
         src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw2_lw193c.png"
       />
       <div
@@ -3107,90 +3398,13 @@ exports[`it Should Match Howit Works Page snapshot 1`] = `
     </div>
     <div
       className="howitworks-process"
+      data-testid="consolidate-process"
     >
       <div
         className="process-data-info"
       >
         <h3>
           We Consolidate Your Packages
-        </h3>
-        <p>
-          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
-        </p>
-      </div>
-      <div
-        className="process-number"
-      >
-        3
-      </div>
-      <img
-        alt="howitworks-img"
-        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw3_gh9zoz.png"
-      />
-    </div>
-    <div
-      className="howitworks-process"
-    >
-      <img
-        alt="howitworks-img"
-        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw4_jscv4w.png"
-      />
-      <div
-        className="process-number"
-      >
-        4
-      </div>
-      <div
-        className="process-data-info"
-      >
-        <h3>
-          We Ship Your Goods to Your Country
-        </h3>
-        <p>
-          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
-        </p>
-      </div>
-    </div>
-    <div
-      className="howitworks-process"
-    >
-      <div
-        className="process-data-info"
-      >
-        <h3>
-          We Deliver to Your Doorsteps
-        </h3>
-        <p>
-          SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
-        </p>
-      </div>
-      <div
-        className="process-number"
-      >
-        5
-      </div>
-      <img
-        alt="howitworks-img"
-        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771584/Rectangle_606hiw5_yeam0l.png"
-      />
-    </div>
-    <div
-      className="howitworks-process"
-    >
-      <img
-        alt="howitworks-img"
-        src="https://res.cloudinary.com/dgkb0snud/image/upload/v1675771583/Rectangle_606hiw6_cnidbl.png"
-      />
-      <div
-        className="process-number"
-      >
-        6
-      </div>
-      <div
-        className="process-data-info"
-      >
-        <h3>
-          CustomerSupport
         </h3>
         <p>
           SnipBiz offers a solution to your every shopping and shipping need from the USA including, Repacking, Consolidation, And Detail Images of Packages. Moreover, check your electronic items before shipping them to your doorstep. We promise to display the highest degree of integrity towards our customers and fellow employees.
@@ -3225,6 +3439,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
         className="form-wrapper"
       >
         <form
+          data-testid="form"
           onSubmit={[Function]}
         >
           <div
@@ -3232,6 +3447,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
           >
             <div
               className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              data-testid="pickup-input"
             >
               <div
                 className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -3248,7 +3464,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
                   <svg
                     aria-hidden={true}
                     className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="AdjustIcon"
+                    data-testid="pickup-icon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -3295,6 +3511,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
           >
             <div
               className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              data-testid="destination-input"
             >
               <div
                 className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -3311,7 +3528,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
                   <svg
                     aria-hidden={true}
                     className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="LocationCityOutlinedIcon"
+                    data-testid="destination-icon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -3358,6 +3575,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
           >
             <div
               className="MuiFormControl-root MuiTextField-root form css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              data-testid="weight-input"
             >
               <div
                 className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
@@ -3374,7 +3592,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
                   <svg
                     aria-hidden={true}
                     className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="ScaleIcon"
+                    data-testid="weight-icon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
@@ -3416,10 +3634,17 @@ exports[`it Should Match Landing Page snapshot 1`] = `
               </div>
             </div>
           </div>
+          <button
+            data-testid="submit-button"
+            type="submit"
+          >
+            Submit
+          </button>
         </form>
       </div>
       <a
         className="question"
+        data-testid="help-link"
         href="/"
       >
         Do you need help for get approximate weight and measurements?
@@ -3429,16 +3654,19 @@ exports[`it Should Match Landing Page snapshot 1`] = `
       >
         <button
           className="quote"
+          data-testid="get-quote-button"
         >
           Get Quote
         </button>
         <img
           alt="star"
           className="star-img"
+          data-testid="star-image"
           src="https://res.cloudinary.com/duapyyftc/image/upload/v1675425560/Untitled-1_1_s6_vughy5.png"
         />
       </div>
       <a
+        data-testid="multiple-shipments-link"
         href="https://www.google.com"
         rel="noreferrer"
         target="_blank"
@@ -3452,6 +3680,7 @@ exports[`it Should Match Landing Page snapshot 1`] = `
       <img
         alt="box"
         className="box"
+        data-testid="box-image"
         src="https://res.cloudinary.com/duapyyftc/image/upload/v1676020325/warehouse-flights---Copy_1_vp9wtn.png"
       />
       <h4
@@ -3461,12 +3690,14 @@ exports[`it Should Match Landing Page snapshot 1`] = `
          
         <span
           className="tax"
+          data-testid="tax-span"
         >
           Tax free*
         </span>
       </h4>
       <button
         className="howit-works"
+        data-testid="how-it-works-button"
         onClick={[Function]}
       >
         How it works
@@ -3479,9 +3710,11 @@ exports[`it Should Match Landing Page snapshot 1`] = `
 exports[`it Should Match Navbar Page snapshot 1`] = `
 <li
   className="nav-item"
+  data-testid="nav-dropdown-item"
 >
   <a
     className="nav-link"
+    data-testid="dropdown-toggle"
     href="#"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -3492,20 +3725,24 @@ exports[`it Should Match Navbar Page snapshot 1`] = `
 exports[`it Should Match OurOartners Page snapshot 1`] = `
 <div
   className="ourpartner-bg"
+  data-testid="our-partners-container"
 >
   <div
     className="ourpartner-main"
   >
     <h1
       className="ourpartner-heading"
+      data-testid="our-partners-heading"
     >
       Our Partners
     </h1>
     <div
       className="courierList"
+      data-testid="courier-list-container"
     >
       <svg
         className="prv-btn"
+        data-testid="prev-button"
         fill="currentColor"
         height="1em"
         stroke="currentColor"
@@ -3538,6 +3775,7 @@ exports[`it Should Match OurOartners Page snapshot 1`] = `
           <img
             alt="dhl"
             className="partner-img"
+            data-testid="dhl-logo"
             id="dhl"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676106119/dhl-png-logo-icon-5997_xdet0d.png"
           />
@@ -3552,6 +3790,7 @@ exports[`it Should Match OurOartners Page snapshot 1`] = `
           <img
             alt="fedex"
             className="partner-img"
+            data-testid="fedex-logo"
             id="fedex"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/image_2_cnwbdk.png"
           />
@@ -3566,6 +3805,7 @@ exports[`it Should Match OurOartners Page snapshot 1`] = `
           <img
             alt="ups"
             className="partner-img"
+            data-testid="ups-logo"
             id="ups"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105925/1200px-United_Parcel_Service_logo_2014_1_dn24o7.png"
           />
@@ -3580,6 +3820,7 @@ exports[`it Should Match OurOartners Page snapshot 1`] = `
           <img
             alt="aramex"
             className="partner-img"
+            data-testid="aramex-logo"
             id="aramex"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676110102/Aramex_Logo_d9ko3y.png"
           />
@@ -3594,6 +3835,7 @@ exports[`it Should Match OurOartners Page snapshot 1`] = `
           <img
             alt="usps"
             className="partner-img"
+            data-testid="usps-logo"
             id="usps"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676105890/fgfg_1_foktrt.png"
           />
@@ -3601,6 +3843,7 @@ exports[`it Should Match OurOartners Page snapshot 1`] = `
       </div>
       <svg
         className="nxt-btn"
+        data-testid="next-button"
         fill="currentColor"
         height="1em"
         stroke="currentColor"
@@ -3638,9 +3881,11 @@ exports[`it Should Match Partners Page snapshot 1`] = `
 exports[`it Should Match Privacy Polict Page snapshot 1`] = `
 <div
   className="privacyPolicy-main"
+  data-testid="privacy-policy-main"
 >
   <div
     className="privacyPolicy-heading"
+    data-testid="privacy-policy-heading"
   >
     <h1>
       Privacy Policy
@@ -3650,7 +3895,9 @@ exports[`it Should Match Privacy Polict Page snapshot 1`] = `
     className="privacyPolicy-data"
   >
     <ol>
-      <li>
+      <li
+        data-testid="privacy-policy"
+      >
         General
         <ol>
           <li>
@@ -3658,7 +3905,9 @@ exports[`it Should Match Privacy Polict Page snapshot 1`] = `
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="information-about-us"
+      >
         Information about us
         <ol>
           <li>
@@ -3666,7 +3915,9 @@ exports[`it Should Match Privacy Polict Page snapshot 1`] = `
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="information-we-may-collect"
+      >
         Information we may collect from you
         <ol>
           <li>
@@ -3674,109 +3925,168 @@ exports[`it Should Match Privacy Polict Page snapshot 1`] = `
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="ip-cookies-section"
+      >
         IP addresses and cookies
         <ol>
-          <li>
+          <li
+            data-testid="ip-address-info"
+          >
             We may collect information about your computer including, where available, your IP address, operating system and browser type, for system administration and to report aggregate information to our advertisers. This is statistical data about our users' browsing actions and patterns, and does not identify any individual.
           </li>
-          <li>
+          <li
+            data-testid="cookie-info"
+          >
             For the same reason, we may obtain information about your general internet usage by using a cookie file which is stored on the hard drive of your computer. They help us to improve the Site and to deliver a better and more personalised service. They enable us to: 4.2.1 estimate our audience size and usage pattern;4.2.2 store information about your preferences, and so allow us to customise the Site according to your individual interests;4.2.3 speed up your searches;4.2.4 and recognise you when you return to the Site.
           </li>
-          <li>
+          <li
+            data-testid="cookie-acceptance"
+          >
             You may refuse to accept cookies by activating the setting on your browser which allows you to refuse the setting of cookies. However, if you select this setting, you may be unable to access certain parts of the Site. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you use the Site. The "Help" menu of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether. For more information about cookies and how to stop cookies being installed or how to delete existing cookies from your hard drive visit the following website: http://www.allaboutcookies.org.
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="processing-storage-section"
+      >
         How we process and store your information
         <ol>
-          <li>
+          <li
+            data-testid="data-controller-info"
+          >
             For the purpose of the Data Protection Act 1998, the data controller is website Limited.
           </li>
-          <li>
+          <li
+            data-testid="staff-info"
+          >
             The data that we collect from you is processed by staff who work either for us or one of our group companies or for one of our service providers. Such staff may be engaged in, among other things, the fulfilment of your order, the processing of your payment details and the provision of support services.
           </li>
-          <li>
+          <li
+            data-testid="information-security-info"
+          >
             All information you provide to us is stored on secure servers. Any payment transactions will be encrypted using secure sockets layer (SSL) technology. Where we have given you (or where you have chosen) a password which enables you to access certain features or parts of the Site, you are responsible for keeping this password confidential. You must not share the password with anyone.
           </li>
-          <li>
+          <li
+            data-testid="checkout-info"
+          >
             When you proceed to the Checkout data relating to your order and your personal details will all pass to our server in an encrypted format. As an additional protection for you, our system is designed so that when using our website you are always safely within secure mode (https).
           </li>
-          <li>
+          <li
+            data-testid="payment-info"
+          >
             All payment transactions will be processed on our behalf by one of our payment providers such as PayPal. This means that your credit/debit card details are provided directly to your choice of payment provider and are never revealed to us. We do not store any of your financial details such as credit card numbers. Our payment providers operate a secure server to process your payment details. The payment provider encrypts your credit/debit card information and authorises payment.
           </li>
-          <li>
+          <li
+            data-testid="payment-card-info"
+          >
             We recommend that you do not communicate your payment card details to anyone, including us, by email. We cannot be responsible for any losses you may incur in transmitting information to us by internet link or by email. Any such loss shall be entirely your responsibility.
           </li>
-          <li>
+          <li
+            data-testid="security-information"
+          >
             Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to the Site; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access. Remember to close your browser when you have finished your user session. This will help to ensure that others do not access your personal information if you share your computer or use a computer in a public places such as a library or internet café.
           </li>
-          <li>
+          <li
+            data-testid="security-email"
+          >
             If you have any queries about security, please email us at: info@website.com.
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="overseas-transfer"
+      >
         Transfers of your Personal Information Overseas
         <ol>
-          <li>
+          <li
+            data-testid="overseas-transfer-info"
+          >
             In order to fulfil your order, your data may be transferred to, and stored at, a destination outside the European Economic Area (EEA). It may also be processed by staff operating outside the EEA. By submitting your personal data, you agree to this transfer, storing and/or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="information-use"
+      >
         Uses made of your information
         <ol>
-          <li>
+          <li
+            data-testid="information-use-fulfillment"
+          >
             In order to carry out our obligations arising from any contracts entered into between you and us and, specifically, to fulfil your orders, we may pass on information held about you to our sub-contractors, including delivery service providers. Depending upon the requirements of your individual order, such third parties may be based and/or operate outside the EEA.
           </li>
-          <li>
+          <li
+            data-testid="information-use-other"
+          >
             In addition, we use information held about you in the following ways: 7.2.1 to provide you with information, products or services that you request from us or which we feel may interest you, where you have indicated that you wish to be contacted for such purposes by post, email, SMS, telephone or other means of electronic communication;7.2.2 to ensure that content from the Site is presented in the most effective manner for you and for your computer;7.2.3 to allow you to participate in any interactive features of our services, when you choose to do so;7.2.4 and to notify you about changes to our services.
           </li>
-          <li>
+          <li
+            data-testid="information-use-direct-marketing"
+          >
             We may also use your data, or permit selected third parties to use your data, to provide you with information about third party goods and services which may be of interest to you and we or they may contact you about these, where you have indicated that you wish to be contacted for such purposes by post, email, SMS, telephone or other means of electronic communication. If you do not want us to use your data for direct marketing purposes, or to pass your details on to third parties for marketing purposes, please check or un-check (as directed) the relevant box situated on the form on which we collect your data.
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="information-disclosure"
+      >
         Disclosure of your information
         <ol>
-          <li>
+          <li
+            data-testid="information-disclosure-affiliated-company"
+          >
             We may disclose your personal information to any affiliated company within our group.
           </li>
-          <li>
+          <li
+            data-testid="information-disclosure-third-parties"
+          >
             We may disclose your personal information to third parties: 8.2.1 in the event that we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets;8.2.2 if we or substantially all of our assets are acquired by a third party, in which case personal data held by us about our customers will be one of the transferred assets;8.2.3 or if we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply our website Terms of Use or Trading Terms or other agreements; or to protect our rights, property, or safety or those of our customers or other third parties. This includes exchanging information with other companies and organisations for the purposes of fraud protection and credit risk reduction.
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="rights"
+      >
         Your rights
         <ol>
-          <li>
+          <li
+            data-testid="right1"
+          >
             You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can exercise your right to prevent such processing by checking or un-checking (as directed) certain boxes on the forms we use to collect your data or by following the unsubscribe@website.com on any marketing emails we send you. You can also exercise the right at any time by contacting us at website Limited, York House, Green Lane West, Preston, PR3 1NJ or info@website.com.
           </li>
-          <li>
+          <li
+            data-testid="right2"
+          >
             You have the right to ask us to delete your account and all your personal information at any time. Transactional information and supporting documentation may be kept after this time for customers located in countries where this is required by law enforcement, tax authorities or other official bodies.
           </li>
-          <li>
+          <li
+            data-testid="right3"
+          >
             The Site may, from time to time, contain hyperlinks to and from internet sites operated by other organisations. If you follow a hyperlink to any of these sites, please note that they will have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to such sites.
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="access"
+      >
         Access to your information
         <ol>
-          <li>
+          <li
+            data-testid="access-info"
+          >
             The Data Protection Act 1998 gives you the right to access information held about you. Your right of access can be exercised in accordance with that Act. Any access request may be subject to a fee not exceeding £10 to meet our costs in providing you with details of the information we hold about you.
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="contact"
+      >
         How to contact us
         <ol>
           <li
             className=".privacy-points"
+            data-testid="contact-info"
           >
             If you have any questions, comments or requests regarding this privacy policy, please feel free to contact us in any of the following ways:
             <p>
@@ -3848,16 +4158,22 @@ exports[`it Should Match Privacy Polict Page snapshot 1`] = `
           </li>
         </ol>
       </li>
-      <li>
+      <li
+        data-testid="updates"
+      >
         Updates
         <ol>
-          <li>
+          <li
+            data-testid="update-info"
+          >
             We reserve the right to change this privacy policy from time to time by changing it on the Site.
           </li>
         </ol>
       </li>
     </ol>
-    <p>
+    <p
+      data-testid="last-updated"
+    >
       This privacy policy was last updated on 14th September 2020.
     </p>
   </div>
@@ -3866,19 +4182,22 @@ exports[`it Should Match Privacy Polict Page snapshot 1`] = `
 
 exports[`it Should Match Responsive Page snapshot 1`] = `
 <div
-  class="row-view"
+  className="row-view"
+  data-testid="wrapper"
 />
 `;
 
 exports[`it Should Match ServicesInfo Page snapshot 1`] = `
 <div
   className="service-bg"
+  data-testid="service-bg"
 >
   <div
     className="service-container"
   >
     <div
       className="service-list"
+      data-testid="deliveries"
     >
       <svg
         className="service-ico"
@@ -3908,6 +4227,7 @@ exports[`it Should Match ServicesInfo Page snapshot 1`] = `
     </div>
     <div
       className="service-list"
+      data-testid="customers-served"
     >
       <svg
         className="service-ico"
@@ -3950,6 +4270,7 @@ exports[`it Should Match ServicesInfo Page snapshot 1`] = `
     </div>
     <div
       className="service-list"
+      data-testid="countries-served"
     >
       <svg
         className="service-ico"
@@ -3983,6 +4304,7 @@ exports[`it Should Match ServicesInfo Page snapshot 1`] = `
     </div>
     <div
       className="service-list"
+      data-testid="partners"
     >
       <svg
         className="service-ico"
@@ -4030,6 +4352,7 @@ exports[`it Should Match ServicesInfo Page snapshot 1`] = `
 exports[`it Should Match Serving Destiny Page snapshot 1`] = `
 <div
   className="serving-bg"
+  data-testid="serving-bg"
 >
   <div
     className="serving-container"
@@ -4039,20 +4362,24 @@ exports[`it Should Match Serving Destiny Page snapshot 1`] = `
     >
       <h1
         className="serving-name"
+        data-testid="serving-name"
       >
         Serving Destinations
       </h1>
       <img
         alt="worldmap"
         className="worldmap"
+        data-testid="worldmap"
         src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676113935/world-map_1_fk30vg.png"
       />
     </div>
     <div
       className="serving-List"
+      data-testid="serving-list"
     >
       <svg
         className="prv-btn"
+        data-testid="prv-btn"
         fill="currentColor"
         height="1em"
         stroke="currentColor"
@@ -4078,6 +4405,7 @@ exports[`it Should Match Serving Destiny Page snapshot 1`] = `
       </svg>
       <div
         className="serving-place"
+        data-testid="serving-place-Delhi"
         id="place-Delhi"
       >
         <div
@@ -4086,23 +4414,27 @@ exports[`it Should Match Serving Destiny Page snapshot 1`] = `
           <img
             alt="delhi"
             className="place-img"
+            data-testid="delhi-img"
             id="delhi"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_4dlh_dwqdvs.png"
           />
         </div>
         <h3
           className="place-name"
+          data-testid="delhi-name"
         >
           Delhi
         </h3>
         <p
           className="place-price"
+          data-testid="delhi-price"
         >
           Lowest Price $10.00
         </p>
       </div>
       <div
         className="serving-place"
+        data-testid="serving-place-newyork"
       >
         <div
           className="place-list"
@@ -4110,23 +4442,27 @@ exports[`it Should Match Serving Destiny Page snapshot 1`] = `
           <img
             alt="newyork"
             className="place-img"
+            data-testid="newyork-img"
             id="newyork"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5nyk_vwxg2w.png"
           />
         </div>
         <h3
           className="place-name"
+          data-testid="newyork-name"
         >
           Newyork
         </h3>
         <p
           className="place-price"
+          data-testid="newyork-price"
         >
           Lowest Price $25.00
         </p>
       </div>
       <div
         className="serving-place"
+        data-testid="serving-place-london"
       >
         <div
           className="place-list"
@@ -4134,23 +4470,27 @@ exports[`it Should Match Serving Destiny Page snapshot 1`] = `
           <img
             alt="london"
             className="place-img"
+            data-testid="london-img"
             id="london"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6ldn_lwtrp2.png"
           />
         </div>
         <h3
           className="place-name"
+          data-testid="london-name"
         >
           London
         </h3>
         <p
           className="place-price"
+          data-testid="london-price"
         >
           Lowest Price $15.00
         </p>
       </div>
       <div
         className="serving-place"
+        data-testid="serving-place-frankfurt"
       >
         <div
           className="place-list"
@@ -4158,47 +4498,56 @@ exports[`it Should Match Serving Destiny Page snapshot 1`] = `
           <img
             alt="frankfurt"
             className="place-img"
+            data-testid="frankfurt-img"
             id="frankfurt"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_6fkf_uffo3m.png"
           />
         </div>
         <h3
           className="place-name"
+          data-testid="frankfurt-name"
         >
           Frankfurt
         </h3>
         <p
           className="place-price"
+          data-testid="frankfurt-price"
         >
           Lowest Price $18.00
         </p>
       </div>
       <div
         className="serving-place"
+        data-testid="serving-place-amsterdam"
       >
         <div
           className="place-list"
+          data-testid="place-list"
         >
           <img
             alt="amsterdam"
             className="place-img"
+            data-testid="place-img"
             id="amsterdam"
             src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676131225/Rectangle_5ams_nonaxp.png"
           />
         </div>
         <h3
           className="place-name"
+          data-testid="place-name"
         >
           Amsterdam
         </h3>
         <p
           className="place-price"
+          data-testid="place-price"
         >
           Lowest Price $17.00
         </p>
       </div>
       <svg
         className="nxt-btn"
+        data-testid="nxt-btn"
         fill="currentColor"
         height="1em"
         stroke="currentColor"
@@ -4241,6 +4590,7 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
   >
     <div
       className="orange-cont"
+      data-testid="orange-cont-1"
     >
       <p
         className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
@@ -4260,6 +4610,7 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
     </div>
     <div
       className="blue-cont"
+      data-testid="blue-cont-1"
     >
       <img
         alt="orange"
@@ -4279,6 +4630,7 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
     </div>
     <div
       className="orange-cont"
+      data-testid="orange-cont-2"
     >
       <p
         className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
@@ -4298,6 +4650,7 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
     </div>
     <div
       className="blue-cont"
+      data-testid="blue-cont-2"
     >
       <img
         alt="orange"
@@ -4317,6 +4670,7 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
     </div>
     <div
       className="orange-cont"
+      data-testid="orange-cont-3"
     >
       <p
         className="para"
@@ -4336,6 +4690,7 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
     </div>
     <div
       className="blue-cont"
+      data-testid="blue-cont-3"
     >
       <img
         alt="orange"
@@ -4345,23 +4700,27 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
       <img
         alt="warehouse"
         className="blue-icon"
+        data-testid="blue-icon"
         src="https://res.cloudinary.com/duapyyftc/image/upload/v1676276174/ic_twotone-support-agent_qtcwzw.png"
       />
       <p
         className="MuiTypography-root MuiTypography-body2 para css-e784if-MuiTypography-root"
+        data-testid="usa-address"
       >
-        Signup & get USA Address 
+        Signup & get USA Address
       </p>
     </div>
   </div>
   <div>
     <button
       className="know-more"
+      data-testid="know-more"
     >
       Know more
     </button>
     <button
       className="start-shipping"
+      data-testid="start-shipping"
     >
       Start shipping
     </button>
@@ -4372,9 +4731,11 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
 exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
 <div
   className="main-user-profile"
+  data-testid="main-user-profile"
 >
   <div
     className="user-profile-heading"
+    data-testid="user-profile-heading"
   >
     <h1>
       User Profile
@@ -4382,65 +4743,79 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
   </div>
   <div
     className="user-dashboard-container"
+    data-testid="user-dashboard-container"
   >
     <div
       className="user-dashboard"
+      data-testid="user-dashboard"
     >
       <ul
         className="user-dashboard-list"
+        data-testid="user-dashboard-list"
       >
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Dashboard
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Orders
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Cancellation/Refund
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           User Profile
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Shipping Address
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Help Desk
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Message Center
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           My Saved Cards
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Us Debit Card
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           My Coupons
         </li>
         <li
           className="user-list"
+          data-testid="user-list"
         >
           Forward Shipping
         </li>
@@ -4448,20 +4823,24 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
     </div>
     <div
       className="order-details-container"
+      data-testid="order-details-container"
     >
       <h2
         className="order-details-main-heading"
+        data-testid="order-details-main-heading"
       >
         Order Detail
       </h2>
       <table
         cellPadding="3"
+        data-testid="order-details-table"
       >
         <thead>
           <tr>
             <th>
               Date 
               <svg
+                data-testid="date-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4483,6 +4862,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               Order ID 
               <svg
+                data-testid="order-id-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4504,6 +4884,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               From 
               <svg
+                data-testid="from-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4525,6 +4906,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               Destination 
               <svg
+                data-testid="destination-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4546,6 +4928,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               Recipient 
               <svg
+                data-testid="recipient-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4567,6 +4950,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               Carrier Log 
               <svg
+                data-testid="carrier-log-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4588,6 +4972,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               Item 
               <svg
+                data-testid="item-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4609,6 +4994,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               Amount 
               <svg
+                data-testid="amount-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4630,6 +5016,7 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th>
               Status 
               <svg
+                data-testid="status-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -4650,7 +5037,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody
+          data-testid="order-details-table-body"
+        >
           <tr>
             <td>
               02/14/2023
@@ -4771,15 +5160,21 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
       </table>
       <h2
         className="order-details-main-heading"
+        data-testid="help-desk-heading"
       >
         Help Desk Items
       </h2>
       <table
         cellPadding="3"
+        data-testid="help-desk-table"
       >
         <thead>
-          <tr>
-            <th>
+          <tr
+            data-testid="help-desk-table-header"
+          >
+            <th
+              data-testid="date-header"
+            >
               Date 
               <svg
                 fill="currentColor"
@@ -4800,7 +5195,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="ticket-id-header"
+            >
               Ticket ID 
               <svg
                 fill="currentColor"
@@ -4821,7 +5218,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="ticket-type-header"
+            >
               Ticket Type 
               <svg
                 fill="currentColor"
@@ -4842,7 +5241,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="short-description-header"
+            >
               Short Description 
               <svg
                 fill="currentColor"
@@ -4863,7 +5264,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="status-header"
+            >
               Status 
               <svg
                 fill="currentColor"
@@ -4887,37 +5290,61 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>
+          <tr
+            data-testid="help-desk-table-row"
+          >
+            <td
+              data-testid="date-cell"
+            >
               02/14/2023
             </td>
-            <td>
+            <td
+              data-testid="ticket-id-cell"
+            >
               TKT1234NJ
             </td>
-            <td>
+            <td
+              data-testid="ticket-type-cell"
+            >
               Shipment
             </td>
-            <td>
+            <td
+              data-testid="short-description-cell"
+            >
               Goods held at customs
             </td>
-            <td>
+            <td
+              data-testid="status-cell"
+            >
               Work in progress
             </td>
           </tr>
-          <tr>
-            <td>
+          <tr
+            data-testid="help-desk-table-row"
+          >
+            <td
+              data-testid="date-cell"
+            >
               02/14/2023
             </td>
-            <td>
+            <td
+              data-testid="ticket-id-cell"
+            >
               TKT1234NJ
             </td>
-            <td>
+            <td
+              data-testid="ticket-type-cell"
+            >
               Shipment
             </td>
-            <td>
+            <td
+              data-testid="short-description-cell"
+            >
               Goods held at customs
             </td>
-            <td>
+            <td
+              data-testid="status-cell"
+            >
               Work in progress
             </td>
           </tr>
@@ -4925,15 +5352,21 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
       </table>
       <h2
         className="order-details-main-heading"
+        data-testid="forward-shipping-heading"
       >
         Forward Shipping
       </h2>
       <table
         cellPadding="3"
+        data-testid="forward-shipping-table"
       >
         <thead>
-          <tr>
-            <th>
+          <tr
+            data-testid="forward-shipping-table-header"
+          >
+            <th
+              data-testid="package-header"
+            >
               Package 
               <svg
                 fill="currentColor"
@@ -4954,7 +5387,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="sent-package-header"
+            >
               Sent Package 
               <svg
                 fill="currentColor"
@@ -4975,7 +5410,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="expected-package-header"
+            >
               Expected Package 
               <svg
                 fill="currentColor"
@@ -4996,7 +5433,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="assisted-package-header"
+            >
               Assisted Package 
               <svg
                 fill="currentColor"
@@ -5017,7 +5456,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="action-required-header"
+            >
               Action Require 
               <svg
                 fill="currentColor"
@@ -5038,7 +5479,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="in-progress-header"
+            >
               In Progress 
               <svg
                 fill="currentColor"
@@ -5059,7 +5502,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="ready-to-ship-header"
+            >
               Ready to Ship 
               <svg
                 fill="currentColor"
@@ -5080,7 +5525,9 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                 />
               </svg>
             </th>
-            <th>
+            <th
+              data-testid="balance-a-header"
+            >
               Balance A 
               <svg
                 fill="currentColor"

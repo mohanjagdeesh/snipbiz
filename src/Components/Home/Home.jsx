@@ -8,22 +8,22 @@ import ServicingDestiny from "../servicingDestiny/ServicingDestiny"
 import YouAreInGoodHands from '../youAreInGoodHands/YouArein'
 
 const Home = () => {
-  
-  return (
-    <>
-    <Box>   
-      <LandingPage/>
-      <ShipForwarding/>
-      <YouAreInGoodHands/>
-      <OurPartners/>
-      <ServicingDestiny/>
-      {/* <HowitWorks/> */}
-      {/* <ServicesInfo/> */}
-      {/* <PrivacyPolicy/> */}
-      {/* <Contacts/> */}
-    </Box>
-    </>
-  )
+
+return (
+<>
+<Box data-testid="home-container">
+<LandingPage data-testid="landing-page"/>
+<ShipForwarding data-testid="ship-forwarding"/>
+<YouAreInGoodHands data-testid="you-are-in-good-hands"/>
+<OurPartners data-testid="our-partners"/>
+<ServicingDestiny data-testid="servicing-destiny"/>
+{/* <HowitWorks/> /}
+{/ <ServicesInfo/> /}
+{/ <PrivacyPolicy/> /}
+{/ <Contacts/> */}
+</Box>
+</>
+)
 }
 
 export default Home

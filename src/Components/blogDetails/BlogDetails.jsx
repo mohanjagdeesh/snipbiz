@@ -22,20 +22,21 @@ const BlogDetails = () => {
 
 const isMobile = useGlobalStore((state) => state.isMobile);
   return (
-    <div className="blog-main">
-      <div className="blog-heading">
+    <div className="blog-main" data-testid="blog-main">
+      <div className="blog-heading" data-testid="blog-heading">
         <h1>Blog Details</h1>
       </div>
-      <div className={isMobile ? "blog-data-phn" : "blog-data"}>
-        <div className="blog-data-left">
+
+      <div className={isMobile ? "blog-data-phn" : "blog-data"} data-testid="blog-data">
+        <div className="blog-data-left" data-testid="blog-data-left">
           <img
             src={img1}
             alt="blog-container"
           />
-          <p id="current-date">
+          <p id="current-date" data-testid="current-date">
             <CiCalendar className="cal-icon" /> DD MON YYYY
           </p>
-          <h3>
+          <h3 data-testid="blog-heading-text">
             Contrary to popular belief, Lorem Ipsum is not simply random text
           </h3>
           <p>
@@ -53,8 +54,9 @@ const isMobile = useGlobalStore((state) => state.isMobile);
           <img
             src={img2}
             alt="blog-container"
+            data-testid="blog-image"
           />
-          <h4>
+          <h4 data-testid="blog-heading-text">
             Contrary to popular belief, Lorem Ipsum is not simply random text
           </h4>
           <p>
@@ -63,21 +65,22 @@ const isMobile = useGlobalStore((state) => state.isMobile);
           <p>
             {BlogDetailPara6}
           </p>
-          <span className="share">
+
+          <span className="share" data-testid="social-media-icons">
             SHARE
-            <BsFacebook />
-            <BsTwitter />
-            <BsInstagram />
-            <BsYoutube />
+            <BsFacebook data-testid="BsFacebook" />
+            <BsTwitter data-testid="BsTwitter" />
+            <BsInstagram data-testid="BsInstagram" />
+            <BsYoutube data-testid="BsYoutube" />
           </span>
         </div>
 
-        <div className={isMobile ? "blog-data-right-phn": "blog-data-right"}>
-          <div className="blog-recent">
+        <div className={isMobile ? "blog-data-right-phn": "blog-data-right"} data-testid="blog-data-right">
+          <div className="blog-recent" data-testid="blog-recent-section">
             <div className={isMobile ? "blog-section-right-phn" : "blog-section-right"}>
               <h3>Recent Posts</h3>
               <hr />
-              <div className="blog-recent-img-data">
+              <div className="blog-recent-img-data" data-testid="blog-recent-post-1">
                 <img
                   src={img3}
                   alt="recent-posts"
@@ -88,7 +91,7 @@ const isMobile = useGlobalStore((state) => state.isMobile);
                 </div>
               </div>
               <hr />
-              <div className="blog-recent-img-data">
+              <div className="blog-recent-img-data" data-testid="blog-recent-post-2">
                 <img
                   src={img3}
                   alt="recent-posts"
@@ -99,7 +102,7 @@ const isMobile = useGlobalStore((state) => state.isMobile);
                 </div>
               </div>
               <hr />
-              <div className="blog-recent-img-data">
+              <div className="blog-recent-img-data" data-testid="blog-recent-post-3">
                 <img
                   src={img3}
                   alt="recent-posts"
@@ -110,7 +113,7 @@ const isMobile = useGlobalStore((state) => state.isMobile);
                 </div>
               </div>
               <hr />
-              <div className="blog-recent-img-data">
+              <div className="blog-recent-img-data" data-testid="blog-recent-post-4">
                 <img
                   src={img3}
                   alt="recent-posts"
@@ -120,37 +123,35 @@ const isMobile = useGlobalStore((state) => state.isMobile);
                   <p className="current-date">DD MON YYYY</p>
                 </div>
               </div>
-              <button className="view-more"> View More </button>
+              <button className="view-more" data-testid="view-more-button"> View More </button>
             </div>
           </div>
 
-          <div className="blog-categories">
+          <div className="blog-categories" data-testid="blog-categories">
             <div className="blog-section-right">
               <h3>Categories</h3>
               <hr />
               <ul className="blog-list">
-                {blogCategories.map((list) => (
-                  <li key={list}>{list}</li>
+                {blogCategories.map((list, index) => (
+                  <li key={index} data-testid={`category-${index}`}>{list}</li>
                 ))}
               </ul>
             </div>
           </div>
 
-          <div className="blog-archives">
+          <div className="blog-archives" data-testid="blog-archives">
             <div className="blog-section-right">
               <h3>Archives</h3>
               <hr />
               <ul className="blog-list">
-                {blogArchives.map((list) => (
-                  <li key={list}>{list}</li>
+                {blogArchives.map((list, index) => (
+                  <li key={index} data-testid={`archive-${index}`}>{list}</li>
                 ))}
               </ul>
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
   )
 };

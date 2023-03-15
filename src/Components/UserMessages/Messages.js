@@ -17,7 +17,7 @@ const UserProfileList = [
   "Forward Shipping",
 ];
 
-const tablesData = [
+export const tablesData = [
   {
     id: uuidv4(),
     subject: "Email subject message here",
@@ -47,23 +47,23 @@ const Messages = () => {
   const [tableData, setTableData] = useState(tablesData);
 
   const messageDesplay = () => (
-    <tr>
+    <tr data-testid="message-details">
       <td colSpan="3">
         <div className="message-details-card">
           <div className="message-details">
             <div className="message-address-data">
               <div>
                 <h4>Summary:</h4>
-                <p>Order# : 423423</p>
-                <p>Order Date: 25,February,2023</p>
-                <p>Order Total: $250.00</p>
+                <p data-testid="order-number">Order# : 423423</p>
+                <p data-testid="order-date">Order Date: 25,February,2023</p>
+                <p data-testid="order-total">Order Total: $250.00</p>
               </div>
               <hr />
               <div>
                 <h4>Shipping Address:</h4>
-                <p>Miss Bean officials</p>
-                <p>123 street Average</p>
-                <p>Boston, Ma</p>
+                <p data-testid="shipping-company">Miss Bean officials</p>
+                <p data-testid="shipping-street">123 street Average</p>
+                <p data-testid="shipping-city-state">Boston, Ma</p>
               </div>
             </div>
             <div className="message-address-second">
@@ -72,26 +72,30 @@ const Messages = () => {
                 <span> QTY</span> <span>PRICE</span>
               </p>
             </div>
-            <div className="message-address-second-one">
-              <p>20+ Email Templates</p>
+            <div className="message-address-second-one" data-testid="item1">
+              <p data-testid="item1-description">20+ Email Templates</p>
               <p>
-                <span>X3</span> <span>$242.0</span>
+                <span data-testid="item1-quantity">X3</span>{" "}
+                <span data-testid="item1-price">$242.0</span>
               </p>
             </div>
             <hr />
-            <div className="message-address-second-one">
-              <p>20+ Email Templates</p>
+            <div className="message-address-second-one" data-testid="item2">
+              <p data-testid="item2-description">20+ Email Templates</p>
               <p>
-                <span>X3</span> <span>$242.0</span>
+                <span data-testid="item2-quantity">X3</span>{" "}
+                <span data-testid="item2-price">$242.0</span>
               </p>
             </div>
             <div className="message-total">
-              <p>Subtotal(2 items): $442</p>
-              <p>Flat-Rate Shipping: $442</p>
-              <p>Estimated Tax: $442</p>
-              <p>Order Total: $442</p>
+              <p data-testid="subtotal">Subtotal(2 items): $442</p>
+              <p data-testid="shipping-cost">Flat-Rate Shipping: $442</p>
+              <p data-testid="estimated-tax">Estimated Tax: $442</p>
+              <p data-testid="order-total-amount">Order Total: $442</p>
             </div>
-            <button className="call-btn">Call us at (+1) 401-5344-342</button>
+            <button className="call-btn" data-testid="call-button">
+              Call us at (+1) 401-5344-342
+            </button>
           </div>
         </div>
       </td>
@@ -111,44 +115,45 @@ const Messages = () => {
     setTableData(updatedTableData);
   };
   return (
-    <div className="Messages-Profile">
-      <div className="Messages-heading">
+    <div className="Messages-Profile" data-testid="messages-profile">
+      <div className="Messages-heading" data-testid="messages-heading">
         <h1>UserProfile</h1>
       </div>
 
       <div className="nav">
-        <nav className="nav-list">
-          <ul className="User-profile-list">
-            {UserProfileList.map((list) => (
-              <li>{list}</li>
-            ))}
-          </ul>
-        </nav>
+    <nav className="nav-list">
+      <ul className="User-profile-list" data-testid="user-profile-list">
+        {UserProfileList.map((list, index) => (
+          <li key={index}>{list}</li>
+        ))}
+      </ul>
+    </nav>
 
-        <table>
-          <caption>Message</caption>
-          <thead>
-            <tr>
-              <th>Subject</th>
-              <th>Send Date</th>
-              <th>Delete</th>
+    <table cellPadding="15" data-testid="message-table">
+      <caption>Message </caption>
+      <thead>
+        <tr>
+          <th width="70%" data-testid="table-header-subject">Subject</th>
+          <th data-testid="table-header-send-date">Send Date</th>
+          <th data-testid="table-header-delete">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        {tableData.map((eachData) => (
+          <>
+            <tr key={eachData.id} onClick={() => onClickTableData(eachData.id)} data-testid={`table-row-${eachData.id}`}>
+              <td data-testid={`table-row-subject-${eachData.id}`}>{eachData.subject}</td>
+              <td data-testid={`table-row-send-date-${eachData.id}`}>{eachData.sendDate}</td>
+              <td data-testid={`table-row-delete-${eachData.id}`}>delete</td>
             </tr>
-          </thead>
-          <tbody>
-            {tableData.map((eachData) => (
-              <>
-                <tr onClick={() => onClickTableData(eachData.id)}>
-                  <td>{eachData.subject}</td>
-                  <td>{eachData.sendDate}</td>
-                  <td><MdDeleteOutline/></td>
-                </tr>
-                {eachData.isMessageDisplay && messageDesplay()}
-              </>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
+            {eachData.isMessageDisplay && messageDesplay()}
+          </>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
   );
 };
 export default Messages;

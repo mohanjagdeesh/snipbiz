@@ -29,7 +29,7 @@ export const Navbar = (props) => {
     setAnchorElNav(null);
   };
 
- 
+
   return (
     <>
       <AppBar
@@ -37,11 +37,31 @@ export const Navbar = (props) => {
         elevation={0}
         className="navbar"
         sx={{ background: "white", color: "black" }}
+        data-testid="navbar"
       >
-        <Container maxWidth="xl" className="navBar-container">
-          <Toolbar disableGutters style={{ gap: 60 }}>
-            <img src={snip} alt="logo" style={{ width: 200 }} />
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+        <Container
+          maxWidth="xl"
+          className="navBar-container"
+          data-testid="navbar-container"
+        >
+          <Toolbar
+            disableGutters
+            style={{ gap: 60 }}
+            data-testid="navbar-toolbar"
+          >
+            <img
+              src={snip}
+              alt="logo"
+              style={{ width: 200 }}
+              data-testid="navbar-logo"
+            />
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: { xs: "flex", md: "none" },
+              }}
+              data-testid="navbar-box"
+            >
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -49,8 +69,9 @@ export const Navbar = (props) => {
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
                 color="black"
+                data-testid="navbar-icon-button"
               >
-                <MenuIcon sx={{ color: "white" }} />
+                <MenuIcon sx={{ color: "white" }} data-testid="navbar-menu-icon" />
               </IconButton>
               <Menu
                 id="menu-appbar"
@@ -69,15 +90,23 @@ export const Navbar = (props) => {
                 sx={{
                   display: { xs: "block", md: "none" },
                 }}
+                data-testid="navbar-menu"
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <MenuItem
+                    key={page}
+                    onClick={handleCloseNavMenu}
+                    data-testid={`navbar-menu-item-${page}`}
+                  >
                     <Typography textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}
               </Menu>
             </Box>
-            <LaptopIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+            <LaptopIcon
+              sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+              data-testid="navbar-laptop-icon"
+            />
             <Typography
               variant="h5"
               noWrap
@@ -93,6 +122,7 @@ export const Navbar = (props) => {
                 color: "black",
                 textDecoration: "none",
               }}
+              data-testid="navbar-typography"
             >
               SNIPBIZ
             </Typography>
@@ -104,68 +134,56 @@ export const Navbar = (props) => {
                 padding: "0 16px",
               }}
             >
-         
-                <button
-                class="btn"
-                >
-                  How It Works
-                </button>
-              <button
-                href="partners"
-                class="btn"
-               
-              >
-              <a href="partners">
-                Partners
+
+              <button className="btn" data-testid="how-it-works-btn">
+                How It Works
+              </button>
+
+              <button className="btn" href="partners" data-testid="partners-btn">
+                <a href="partners">
+                  Partners
                 </a>
               </button>
 
-       
-                <button
-                  class="btn"
-                >
-                  Tracking
-                </button>
-           
-                <button
-                  class="btn"
-                >
-                  FAQ
-                </button>
-             
-              <button
-                class="btn"
-              >
+              <button className="btn" data-testid="tracking-btn">
+                Tracking
+              </button>
+
+              <button className="btn" data-testid="faq-btn">
+                FAQ
+              </button>
+
+              <button className="btn" data-testid="us-debit-card-btn">
                 Us Debit Card
               </button>
-                
-              <button
-                class="btn"
-              >
-                <a href="contact">
 
-                Contact
+              <button className="btn" data-testid="contact-btn">
+                <a href="contact">
+                  Contact
                 </a>
               </button>
 
-                  <button class="login">
-                    <SignInButton />
-                  </button>
-                <IconButton>
-                  <LocalGroceryStoreOutlined />
-                </IconButton>
-                <Button
-                  sx={{
-                    "&:hover": { backgroundColor: "white" },
-                    color: "black",
-                  }}
-                >
-                  EN
-                </Button>
-                <IconButton>
-                  <SearchOutlined />
-                </IconButton>
-              
+              <button className="login" data-testid="signin-btn">
+                <SignInButton />
+              </button>
+
+              <IconButton data-testid="grocery-store-icon-btn">
+                <LocalGroceryStoreOutlined data-testid="grocery-store-icon" />
+              </IconButton>
+
+              <Button
+                sx={{
+                  "&:hover": { backgroundColor: "white" },
+                  color: "black",
+                }}
+                data-testid="en-btn"
+              >
+                EN
+              </Button>
+
+              <IconButton data-testid="search-icon-btn">
+                <SearchOutlined data-testid="search-icon" />
+              </IconButton>
             </Box>
           </Toolbar>
         </Container>

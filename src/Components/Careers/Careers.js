@@ -109,21 +109,23 @@ const Careers = () => {
   });
 
   const careersList = () => (
-    <ul className={isMobile ? "careers-list-mob" : "careers-list-web"}>
-      {listOfCareers.map((eachCareer) => {
+    <ul className={isMobile ? "careers-list-mob" : "careers-list-web"} data-testid="careers-list">
+      {listOfCareers.map((eachCareer, index) => {
         return (
           <li
             className={
               isMobile ? "career-item-cont-mob" : "career-item-cont-web"
             }
+            key={`career-item-${index}`}
+            data-testid={`career-item-${index}`}
           >
             <div>
-              <p className="type">{eachCareer.jobType}</p>
-              <p className="role">{eachCareer.jobRole}</p>
+              <p className="type" data-testid={`career-job-type-${index}`}>{eachCareer.jobType}</p>
+              <p className="role" data-testid={`career-job-role-${index}`}>{eachCareer.jobRole}</p>
             </div>
             <div>
               <p className="type">Location</p>
-              <p className="city">
+              <p className="city" data-testid={`career-location-${index}`}>
                 {eachCareer.city},{eachCareer.state},{eachCareer.country}
               </p>
             </div>
@@ -136,6 +138,7 @@ const Careers = () => {
                 })
               }
               className="apply-button"
+              data-testid={`career-apply-button-${index}`}
             >
               Apply Now
             </button>
@@ -146,81 +149,59 @@ const Careers = () => {
   );
 
   const careersContainer = () => (
-    <div className="careers-cont">
-      <h2 className={isMobile ? "we-hire-mob" : "we-hire-web"}>
-        GREAT PEOPLE DESERVE GREAT BENEFITS
-      </h2>
-      <p className={isMobile ? "we-hire-para-mob" : "we-hire-para-web"}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
-      </p>
-      <div className={isMobile ? "tfg-list-mob" : "tfg-list-web"}>
-        <div className={isMobile ? "tfg-cont-mob" : "tfg-cont-web"}>
-          <img
-            className={isMobile ? "tfg-img-mob" : "tfg-img-web"}
-            src="https://res.cloudinary.com/duapyyftc/image/upload/v1676452432/Vector_1_lg6ygt.png"
-            alt="teamwork"
-          />
-          <h3 className={isMobile ? "tfg-head-mob" : "tfg-head-web"}>
-            TEAM WORK
-          </h3>
-          <p className={isMobile ? "tfg-para-mob" : "tfg-para-web"}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-        <div className={isMobile ? "tfg-cont-mob" : "tfg-cont-web"}>
-          <img
-            className={isMobile ? "tfg-img-mob" : "tfg-img-web"}
-            src="https://res.cloudinary.com/duapyyftc/image/upload/v1676457126/Vector_2_v3zvhj.png"
-            alt="teamwork"
-          />
-          <h3 className={isMobile ? "tfg-head-mob" : "tfg-head-web"}>
-            FLEXIBLE
-          </h3>
-          <p className={isMobile ? "tfg-para-mob" : "tfg-para-web"}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-        <div className={isMobile ? "tfg-cont-mob" : "tfg-cont-web"}>
-          <img
-            className={isMobile ? "tfg-img-mob" : "tfg-img-web"}
-            src="https://res.cloudinary.com/duapyyftc/image/upload/v1676457121/Vector_3_dbhlxw.png"
-            alt="teamwork"
-          />
-          <h3 className={isMobile ? "tfg-head-mob" : "tfg-head-web"}>GROW</h3>
-          <p className={isMobile ? "tfg-para-mob" : "tfg-para-web"}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-      </div>
-      <h2 className={isMobile ? "we-hire-mob" : "we-hire-web"}>We’re Hiring</h2>
-      <p className={isMobile ? "we-hire-para-mob" : "we-hire-para-web"}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
-      </p>
+    <div className="careers-cont" data-testid="careers-cont">
+      <h2 className={isMobile ? "we-hire-mob" : "we-hire-web"} data-testid="heading">
+  GREAT PEOPLE DESERVE GREAT BENEFITS
+</h2>
+<p className={isMobile ? "we-hire-para-mob" : "we-hire-para-web"} data-testid="paragraph">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+</p>
+<div className={isMobile ? "tfg-list-mob" : "tfg-list-web"} data-testid="list">
+  <div className={isMobile ? "tfg-cont-mob" : "tfg-cont-web"} data-testid="list-item1">
+    <img className={isMobile ? "tfg-img-mob" : "tfg-img-web"} src="https://res.cloudinary.com/duapyyftc/image/upload/v1676452432/Vector_1_lg6ygt.png" alt="teamwork" />
+    <h3 className={isMobile ? "tfg-head-mob" : "tfg-head-web"} data-testid="list-item1-heading">TEAM WORK</h3>
+    <p className={isMobile ? "tfg-para-mob" : "tfg-para-web"} data-testid="list-item1-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+  </div>
+  <div className={isMobile ? "tfg-cont-mob" : "tfg-cont-web"} data-testid="list-item2">
+    <img className={isMobile ? "tfg-img-mob" : "tfg-img-web"} src="https://res.cloudinary.com/duapyyftc/image/upload/v1676457126/Vector_2_v3zvhj.png" alt="teamwork" />
+    <h3 className={isMobile ? "tfg-head-mob" : "tfg-head-web"} data-testid="list-item2-heading">FLEXIBLE</h3>
+    <p className={isMobile ? "tfg-para-mob" : "tfg-para-web"} data-testid="list-item2-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+  </div>
+  <div className={isMobile ? "tfg-cont-mob" : "tfg-cont-web"} data-testid="list-item3">
+    <img className={isMobile ? "tfg-img-mob" : "tfg-img-web"} src="https://res.cloudinary.com/duapyyftc/image/upload/v1676457121/Vector_3_dbhlxw.png" alt="teamwork" />
+    <h3 className={isMobile ? "tfg-head-mob" : "tfg-head-web"} data-testid="list-item3-heading">GROW</h3>
+    <p className={isMobile ? "tfg-para-mob" : "tfg-para-web"} data-testid="list-item3-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+  </div>
+</div>
+
+<h2 className={isMobile ? "we-hire-mob" : "we-hire-web"} data-testid="hiring-heading">
+  We’re Hiring
+</h2>
+<p className={isMobile ? "we-hire-para-mob" : "we-hire-para-web"} data-testid="hiring-paragraph">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+  luctus nec ullamcorper mattis, pulvinar dapibus leo.
+</p>
+
     </div>
   );
 
   const joinWithUs = () => (
-    <div className={isMobile ? "join-with-us-mob" : "join-with-us-web"}>
+    <div className={isMobile ? "join-with-us-mob" : "join-with-us-web"} data-testid="join-with-us">
       <img
         className={isMobile ? "direction-img-mob" : "direction-img-web"}
         src="https://res.cloudinary.com/duapyyftc/image/upload/v1676460393/Vector_4_ozhmqr.png"
         alt="map"
       />
       <div>
-        <h1 className={isMobile ? "join-us-head-mob" : "join-us-head"}>
+        <h1 className={isMobile ? "join-us-head-mob" : "join-us-head"} data-testid="join-us-heading">
           Let’s join with us
         </h1>
-        <p className={isMobile ? "join-us-para-mob" : "join-us-para"}>
+        <p className={isMobile ? "join-us-para-mob" : "join-us-para"} data-testid="join-us-paragraph">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
           tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
         </p>
       </div>
-      <button className="join-now-button">Join Now</button>
+      <button className="join-now-button" data-testid="join-now-button">Join Now</button>
     </div>
   );
 
@@ -231,17 +212,16 @@ const Careers = () => {
       </div>
       {values.booleanValue ? (
         <div>
-          <h1 className={isMobile ? "we-hire-mob" : "we-hire-web"}>
+          <h1 data-testid="applying-job-title" className={isMobile ? "we-hire-mob" : "we-hire-web"}>
             Applying for {values.applyingJobFor}
           </h1>
-          <p className={isMobile ? "we-hire-para-mob" : "we-hire-para-web"}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-          <div className="job-application-container">
+<p data-testid="applying-job-description" className={isMobile ? "we-hire-para-mob" : "we-hire-para-web"}>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+</p>
+<div className="job-application-container" data-testid="job-application-container">
             <form onSubmit={formik.handleSubmit}>
-              <div className="inputs-container">
-                <div className="career-input-container">
+              <div className="inputs-container" data-testid="inputs-container">
+                <div className="career-input-container" data-testid="career-input-container-firstName">
                   <label className="input-label-text" htmlFor="firstName">
                     First Name
                   </label>
@@ -253,14 +233,15 @@ const Careers = () => {
                     name="firstName"
                     value={formik.values.firstName}
                     onChange={formik.handleChange}
+                    data-testid="firstName-input"
                   />
-                  <p className="error-message">
+                  <p className="error-message" data-testid="firstName-error">
                     {formik.touched.firstName && formik.errors.firstName
                       ? "*Required"
                       : ""}
                   </p>
                 </div>
-                <div className="career-input-container">
+                <div className="career-input-container" data-testid="career-input-container-lastName">
                   <label className="input-label-text" htmlFor="lastName">
                     Last Name
                   </label>
@@ -272,16 +253,17 @@ const Careers = () => {
                     name="lastName"
                     value={formik.values.lastName}
                     onChange={formik.handleChange}
+                    data-testid="lastName-input"
                   />
-                  <p className="error-message">
+                  <p className="error-message" data-testid="lastName-error">
                     {formik.touched.lastName && formik.errors.lastName
                       ? "*Required"
                       : ""}
                   </p>
                 </div>
               </div>
-              <div className="inputs-container">
-                <div className="career-input-container">
+              <div className="inputs-container" data-testid="inputs-container">
+                <div className="career-input-container" data-testid="career-input-container-mobileNumber">
                   <label className="input-label-text" htmlFor="mobieNumber">
                     Mobile
                   </label>
@@ -293,14 +275,15 @@ const Careers = () => {
                     name="mobileNumber"
                     value={formik.values.mobileNumber}
                     onChange={formik.handleChange}
+                    data-testid="mobileNumber-input"
                   />
-                  <p className="error-message">
+                  <p className="error-message" data-testid="mobileNumber-error">
                     {formik.touched.mobileNumber && formik.errors.mobileNumber
                       ? "*Required or Must be a Number"
                       : ""}
                   </p>
                 </div>
-                <div className="career-input-container">
+                <div className="career-input-container" data-testid="career-input-container-emailAddress">
                   <label className="input-label-text" htmlFor="emailAddress">
                     Email Address
                   </label>
@@ -312,15 +295,16 @@ const Careers = () => {
                     name="emailAddress"
                     value={formik.values.emailAddress}
                     onChange={formik.handleChange}
+                    data-testid="emailAddress-input"
                   />
-                  <p className="error-message">
+                  <p className="error-message" data-testid="emailAddress-error">
                     {formik.touched.emailAddress && formik.errors.emailAddress
                       ? "*Required"
                       : ""}
                   </p>
                 </div>
               </div>
-              <div className="career-input-container">
+              <div className="career-input-container" data-testid="career-input-container-fileUpload">
                 <label className="input-label-text" htmlFor="uplaodFile">
                   Upload Resume
                 </label>
@@ -331,9 +315,10 @@ const Careers = () => {
                   name="fileUpload"
                   value={formik.values.fileUpload}
                   onChange={formik.handleChange}
+                  data-testid="fileUpload-input"
                 />
               </div>
-              <button className="apply-now-button" type="submit">
+              <button className="apply-now-button" type="submit" data-testid="apply-now-button">
                 Apply Now
               </button>
             </form>

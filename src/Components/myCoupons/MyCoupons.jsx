@@ -47,14 +47,14 @@ const MyCoupons = () => {
     const [coupons,setCoupons] = useState(couponsList)
 
     return(
-    <div className='coupons-main-cont'>
-        <p className='coupons-head'>My Coupons</p>
-        <div className='coupons-cards-cont'>
+        <div className='coupons-main-cont' data-testid="coupons-container">
+        <p className='coupons-head' data-testid="coupons-heading">My Coupons</p>
+        <div className='coupons-cards-cont' data-testid="coupons-cards-container">
             {coupons.map(eachOffer => (
-                <CouponCard eachOffer={eachOffer} key = {eachOffer.id}/>
+                <CouponCard eachOffer={eachOffer} key={eachOffer.id} data-testid={`coupon-card-${eachOffer.id}`}/>
             ))}
         </div>
-    </div>
+</div>
 )
     }
 export default MyCoupons
