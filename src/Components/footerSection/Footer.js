@@ -47,24 +47,27 @@ const Footer = () => {
               <div>
                 <p data-testid="about">ABOUT</p>
                 <hr />
-                <ul>
-                  {about.map((list) => (
-                    <p key={list} className="footer1">
-                      {list}
-                    </p>
-                  ))}
-                </ul>
+                <ul className="footer2">
+                <a className="footer1" href="/howitworks">How It Works</a>
+                <a className="footer1" href="/tracking">Tracking</a>
+                <a className="footer1" href="/partners">Partners</a>
+                <a className="footer1" href="/usdebitcard">US DebitCad</a>
+                <a className="footer1" href="/contact">Contact</a>
+                <a className="footer1" href="/">Home</a>
+              </ul>
               </div>
               <div>
                 <p data-testid="siteMap">SITEMAP</p>
                 <hr />
-                <ul>
-                  {siteMap.map((list) => (
-                    <p key={list} className="footer1">
-                      {list}
-                    </p>
-                  ))}
-                </ul>
+                <ul className="footer2">
+                <a className="footer1" href="/press">Press</a>
+                <a className="footer1" href="/howitworks">Meidia</a>
+                <a className="footer1" href="/careers">Careers</a>
+                <a className="footer1" href="/partners">Partners</a>
+                <a className="footer1" href="/review-customer-stories">review/customer stories</a>
+                <a className="footer1" href="/volumetric-weight">volumetric weight</a>
+                <a className="footer1" href="/calculator">calculator</a>
+              </ul>
               </div>
               <div>
                 <p data-testid="shipForward">SHIP FORWARDING</p>
@@ -82,13 +85,14 @@ const Footer = () => {
               <div>
                 <p data-testid="legal">Legal</p>
                 <hr />
-                <ul>
-                  {legal.map((list) => (
-                    <p key={list} className="footer1">
-                      {list}
-                    </p>
-                  ))}
-                </ul>
+                <ul className="footer2">
+                <a className="footer1" href="/login">Login</a>
+                <a className="footer1" href="/register">Register</a>
+                <a className="footer1" href="/cancel-return-policy">Cancel/Return Policy</a>
+                <a className="footer1" href="/privacy-policy">Privacy Policy</a>
+                <a className="footer1" href="/terms">Terms And Conditions</a>
+                <a className="footer1" href="/legal-disclaimer">Legal Disclaimer</a>
+              </ul>
               </div>
               <div>
                 <p data-testid="maryland">maryland, usa</p>

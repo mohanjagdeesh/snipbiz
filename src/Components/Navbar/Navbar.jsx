@@ -136,25 +136,37 @@ export const Navbar = (props) => {
             >
 
               <button className="btn" data-testid="how-it-works-btn">
+                <a href="how-it-works">
+                  
                 How It Works
+                </a>
               </button>
 
               <button className="btn" href="partners" data-testid="partners-btn">
-                <a href="partners">
+                <a href="/partners">
                   Partners
                 </a>
               </button>
 
               <button className="btn" data-testid="tracking-btn">
+                <a href="/tracking">
+
                 Tracking
+                </a>
               </button>
 
               <button className="btn" data-testid="faq-btn">
+              <a href="/faq">
+
                 FAQ
+              </a>
               </button>
 
               <button className="btn" data-testid="us-debit-card-btn">
+                <a href="usdebitcard">
+
                 Us Debit Card
+                </a>
               </button>
 
               <button className="btn" data-testid="contact-btn">

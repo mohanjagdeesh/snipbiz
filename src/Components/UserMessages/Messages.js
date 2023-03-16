@@ -1,21 +1,8 @@
 import { useState } from "react";
 import "./Messages.scss";
 import { v4 as uuidv4 } from "uuid";
-import{MdDeleteOutline} from 'react-icons/md';
 
-const UserProfileList = [
-  "Dashboard",
-  "Orders",
-  "Cancellation/Refund",
-  "UserProfile",
-  "Shipping Address",
-  "HelpDask",
-  "Message Centre",
-  "My Saved Cards",
-  "US Debit Card",
-  "My Coupons",
-  "Forward Shipping",
-];
+
 
 export const tablesData = [
   {
@@ -116,19 +103,7 @@ const Messages = () => {
   };
   return (
     <div className="Messages-Profile" data-testid="messages-profile">
-      <div className="Messages-heading" data-testid="messages-heading">
-        <h1>UserProfile</h1>
-      </div>
-
       <div className="nav">
-    <nav className="nav-list">
-      <ul className="User-profile-list" data-testid="user-profile-list">
-        {UserProfileList.map((list, index) => (
-          <li key={index}>{list}</li>
-        ))}
-      </ul>
-    </nav>
-
     <table cellPadding="15" data-testid="message-table">
       <caption>Message </caption>
       <thead>

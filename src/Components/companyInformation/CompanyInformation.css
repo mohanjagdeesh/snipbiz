@@ -38,15 +38,14 @@ label{
     color: #4F4F4F;
 }
 
-input{
+.input-feild{
     font-size: 16px;
     color: #4F4F4F;
     background: #FFFFFF;
-    border: 1px solid #D1D1D1;
+    border: 1px solid #c1c0c0;
     outline: none;
     padding: 10px 10px;
     width: 250px;
-    margin-top: 10px;
 }
 
 select{

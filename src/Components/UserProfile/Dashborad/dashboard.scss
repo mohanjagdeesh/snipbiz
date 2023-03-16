@@ -1,0 +1,48 @@
+$color_1: #fff;
+$color_2: #F57921;
+$background-orange: #F57921;
+$background-transparent: transparent;
+$background-white: #fff;
+
+* {
+	box-sizing: border-box;
+}
+.dashboard-main-container {
+	width: 200px;
+	margin: 20px;
+	display: flex;
+	height: auto;
+}
+.dashboard-list-container {
+	background-color: $background-orange;
+	padding-inline-start: 0px;
+	padding-top: 25px;
+	padding-left: 25px;
+	margin-right: 20px;
+}
+.dashboard-list-item {
+	list-style: none;
+	height: 50px;
+}
+.list-button:hover{
+	cursor: pointer;
+}
+
+.list-button {
+	background-color: $background-transparent;
+	color: $color_1;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 400;
+	border-width: 0px;
+	padding: 15px;
+	list-style: none;
+	text-align: left;
+}
+.active-button {
+	background-color: $background-white;
+	color: $color_2;
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}

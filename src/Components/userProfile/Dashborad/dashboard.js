@@ -3,8 +3,15 @@ import SavedCards from "../SavedCards/savedcards";
 import UserProfileTabs from "../UserProfileTabs/userProfileTabs";
 import UsDebitCard from "../UsDebitCard/UsDebitCard";
 import Orders from "../orders/Order";
+<<<<<<< HEAD:src/Components/userProfile/Dashborad/dashboard.js
 
 import "./dashboard.css";
+=======
+import "./dashboard.scss";
+import UsDebitCard from "../UsDebitCard/USDebit";
+import UserProfile from "../cancellation/UserProfile";
+import Messages from "../../UserMessages/Messages";
+>>>>>>> c096f31 (complete routes):src/Components/UserProfile/Dashborad/Dashboard.jsx
 
 const dashboardList = [
   { id: 1, listName: "Dashboard" },
@@ -50,7 +57,7 @@ const Dashboard = () => {
         return <Orders />;
 
       case "Cancellation/Refund":
-        return "cancel";
+        return <UserProfile/>;
 
       case "User Profile":
         return renderUserProfileDetails();
@@ -62,7 +69,7 @@ const Dashboard = () => {
         return "helpdesk";
 
       case "Message Center":
-        return "messagecenter";
+        return <Messages/>;
 
       case "My Saved Cards":
         return renderMysavedCards();

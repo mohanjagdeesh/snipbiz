@@ -3,6 +3,11 @@ footer{
     min-height: 100px;
     background-color: #40484E;
 }
+.footer2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .footer-main{
     width: 78%;
     height: auto;

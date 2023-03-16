@@ -6,8 +6,9 @@ import UPPersonnelInfo from "../upPersonalInfo/UpPersonalInfo";
 
 import * as Yup from "yup";
 
-import "./userProfileTabs.css";
-
+import "./userProfileTabs.scss";
+import Address from "../../address/Address";
+import CompanyInformation from "../../companyInformation/CompanyInformation";
 const tabsList = [
   { id: uuidv4(), tabName: "Personal Information" },
   { id: uuidv4(), tabName: "Address" },
@@ -123,9 +124,9 @@ const Tabs = () => {
     if (userProfileSection === "Personal Information") {
       return <UPPersonnelInfo />;
     } else if (userProfileSection === "Address") {
-      return "Address";
+      return <Address/>
     } else if (userProfileSection === "Company Information") {
-      return "Company Information";
+      return <CompanyInformation/>
     } else if (userProfileSection === "ChangePassword") {
       return renderChangePasswordSection();
     }
@@ -133,7 +134,7 @@ const Tabs = () => {
 
   const renderTabItems = () => {
     return (
-      <div>
+      <>
   <ul className="tabs-cont" data-testid="tabs-list">
     {tabsList.map((tab) => {
       const active = tab.id === activeTabId;
@@ -153,7 +154,7 @@ const Tabs = () => {
   </ul>
   <hr />
   {renderUserProfileInformation()}
-</div>
+</>
 
     );
   };

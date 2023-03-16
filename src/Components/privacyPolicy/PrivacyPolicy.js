@@ -1,12 +1,11 @@
 import "./PrivacyPolicy.css";
 import {RxDotFilled} from "react-icons/rx";
 
-const privacyPolicy = () => (
+const PrivacyPolicy = () => (
   <div className="privacyPolicy-main" data-testid="privacy-policy-main">
     <div className="privacyPolicy-heading" data-testid="privacy-policy-heading">
       <h1>Privacy Policy</h1>
     </div>
-
     <div className="privacyPolicy-data">
         <ol>
         <li data-testid="privacy-policy">General
@@ -14,7 +13,6 @@ const privacyPolicy = () => (
         <li>At website we take your privacy seriously. This Privacy Policy (together with our website Terms of Use and Trading Terms) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it.</li>
     </ol>
 </li>
-
 <li data-testid="information-about-us">Information about us
   <ol>
     <li>This site is operated by website Limited (we, our or us). We are registered in England and Wales under company number 07323718. Our registered office is at York House, Green Lane West, Preston, PR3 1NJ. Our VAT number is GB994 6929 42.</li>
@@ -96,4 +94,4 @@ const privacyPolicy = () => (
     </div>
   </div>
 );
-export default privacyPolicy;
+export default PrivacyPolicy;

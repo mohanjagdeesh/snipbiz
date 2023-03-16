@@ -1,5 +1,4 @@
-
-import './TableOrderDetails.css'
+import './TableOrderDetails.scss'
 import image22 from './image22.png';
 import collectLabel1 from './collectLabel1.png';
 
@@ -12,7 +11,7 @@ const TableOrdersDetails = (props) => {
     const statusTable = () => (
 
         <div>
-            <table className='status-table-head' data-testid="status-table-head">
+            <table className='status-table-head'>
                 <thead className='table-head'>
                     <tr >
                         <th className='status-table-head-name'>Shipment Info: </th>
@@ -50,84 +49,84 @@ const TableOrdersDetails = (props) => {
 
     const orderDetailesMiddleCard = () => (
 
-        <tr data-testid="order-details-middle-card" >
-        <td colSpan="9">
-            <div className='order-details-middle-card'>
-                <div className='order-status'>
-                    <div className='shipment-card'>
-                        <p className='shipment-name'>Shipment 1 with 1 parcel: PMSUH8G6</p>
-                        <p className='status-name'>Status:<span className='status-span-name'>Pending</span></p>
+        <tr>
+            <td colSpan="9">
+                <div className='order-details-middle-card'>
+                    <div className='order-status'>
+                        <div className='shipment-card'>
+                            <p className='shipment-name'>Shipment 1 with 1 parcel: PMSUH8G6</p>
+                            <p className='status-name'>Status:<span className='status-span-name'>Pending</span></p>
+                        </div>
+                        <img className='ems-img' src={image22} alt='EMS' />
+                        {statusTable()}
+                        <h1 className='cancle-order-head'>Cancel this Order</h1>
                     </div>
-                    <img className='ems-img' src={image22} alt='EMS' />
-                    {statusTable()}
-                    <h1 className='cancle-order-head' data-testid="cancel-order-head">Cancel this Order</h1>
-                </div>
-                <div className='middle-caerd2'>
-                    <div className='from-address-card' data-testid="from-address-card">
-                        <div className='from-card1'>
-                    </div>
-                    <div className='from-card2'>
-                        <img className='collect-label-img' src={collectLabel1} alt='Collect Label' />
-                    </div>
-                </div>
-                <div className='to-address-card' data-testid="to-address-card">
-                    <div className='to-card1'>
-                        <p className='to-card1-para'><span className='to-card1-span-para'>TO:</span><br /> {recipient}<br />{destination}</p>
-                    </div>
-                    <div className='to-card2'>
-                        <p className='to-card2-para'>Order Date:<span className='to-card2-span-para'> {date}</span></p>
-                        <p className='to-card2-para'>Order ID:<span className='to-card2-span-para'> {orderId}</span></p>
-                        <p className='to-card2-para'>Carrier/Logistic:<span className='to-card2-span-para'> {carrierLog}</span></p>
-                    </div>
-                </div>
-                <div className='items-card' data-testid="items-card">
-                    <table className='items-table' data-testid="items-table">
-                        <thead className='items-table-head'>
-                            <tr >
-                                <th className='items-table-head-name'>ITEMS</th>
-                                <th className='items-table-head-name'>QTY</th>
-                                <th className='items-table-head-name'>PRICE</th>
-                                <th className='items-table-head-name'>AMOUNT</th>
-                            </tr>
-                        </thead>
-                        <tbody className='items-table-body'>
-                            {item.map((item, index) => (
-                                <tr key={index}>
-                                    <td className='item-td'>{item.name}</td>
-                                    <td className='item-td'>{item.quantity}</td>
-                                    <td className='item-td'>{item.price}</td>
-                                    <td className='item-td'>{item.amount}</td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
-                    <div className='total-amount-card'>
-                        <p className='total-amount-para'>Total Amount: <span className='total-amount-value'>${amount}</span></p>
+                    <div className='middle-caerd2'>
+                        <div className='from-address-card'>
+                            <div className='from-card1'>
+                                <p className='from-card1-para'><span className='from-card1-span-para'>FROM:</span><br /> John Doe Example Corp 4009 Marathon Blvd Austin TX 78756</p>
+                                <p className='from-card1-para-num'>(908) 999 9898</p>
+                            </div>
+                            <div className='from-card2'>
+                                <p className='from-card2-para'>Ship Date: 07 FEB23<br /> ACTWGT: 0.06 LB<br /> CAD: 112001404/WSX13500</p>
+                            </div>
+                        </div>
+                        <div className='to-address-card'>
+                            <div className='to-card-info'>
+                                <p className='to-card-para'><span className='to-card-span-para'>TO</span><br />
+                                    David Miller<br />
+                                    Test Co<br />
+                                    500 South Buena Vista Street<br />
+                                    Burbank CA 91521<br />
+                                    (604) 898 9898
+                                    <span className='ref-span'>REF:</span>
+                                </p>
+                                <div className='us-para-card'>
+                                    <p className='us-para'>(US)</p>
+                                </div>
+                            </div>
+                            <p className='inv-para'>INV:</p>
+                            <div className='po-dep-card'>
+                                <p className='po-para'>PO:</p>
+                                <p className='inv-para'>DEPT:</p>
+                            </div>
+                        </div>
+                        <div className='middle-card-part3'>
+                            <div className='trk-collect-part'>
+                                <p className='trk-para'><span className='trk-span'>TRK#</span>3945 9445 9756</p>
+                                <p className='collect-para'>COLLECT</p>
+                            </div>
+                            <p className='part3-num-para'>91521</p>
+                        </div>
+                        <img src={collectLabel1} alt='collectLabel1' className='collectLabel1-img' />
                     </div>
                 </div>
-            </div>
-        </div>
-    </td>
-</tr>
+            </td>
+        </tr>
+
 
 
 
 
 
     )
+
+
+
     return (
         <>
-             <tr className='order-details-top-card' onClick={onClickOrderDetails} data-testid="order-details-top-card">
-                <td className='order-details-top-card-first'>{id}</td>
-                <td className='order-details-top-card-second'>{recipient}</td>
-                <td className='order-details-top-card-third'>{from}</td>
-                <td className='order-details-top-card-fourth'>{destination}</td>
-                <td className='order-details-top-card-fifth'>{date}</td>
-                <td className='order-details-top-card-sixth'>{orderId}</td>
-                <td className='order-details-top-card-seventh'>{carrierLog}</td>
-                <td className='order-details-top-card-eighth'>{status}</td>
-                <td className='order-details-top-card-nineth'>{isOrderDisplay ? '-' : '+'}</td>
+            <tr onClick={() => onClickOrderDetails(id)}>
+                <td className='table-body-name'>{date}</td>
+                <td className='table-body-name'>{orderId}</td>
+                <td className='table-body-name'>{from}</td>
+                <td className='table-body-name'>{destination}</td>
+                <td className='table-body-name'>{recipient}</td>
+                <td className='table-body-name'>{carrierLog}</td>
+                <td className='table-body-name'>{item}</td>
+                <td className='table-body-name'>{amount}</td>
+                <td className='table-body-name pending-status'>{status}</td>
             </tr>
+
             {isOrderDisplay && orderDetailesMiddleCard()}
 
         </>

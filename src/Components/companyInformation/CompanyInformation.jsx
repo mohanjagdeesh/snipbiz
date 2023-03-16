@@ -98,12 +98,12 @@ const CompanyInformation = () => {
                     <div className={isMobile ? 'm-comp-det-cont' : 'comp-det-cont'}>
                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
                             <label htmlFor='companyName'>Company Name</label>
-                            <Field type='text' placeholder='Enter Name' id='companyName' name='companyName' data-testid='company-name-field' />
+                            <Field className='input-feild' type='text' placeholder='Enter Name' id='companyName' name='companyName' data-testid='company-name-field' />
                             <ErrorMessage className='error-msg' name='companyName' component={'div'} data-testid='company-name-error' />
                         </div>
                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
                             <label htmlFor='taxId'>Tax Id</label>
-                            <Field type='text' placeholder='Enter Tax Id' id='taxId' name='taxId' data-testid='tax-id-field' />
+                            <Field className='input-feild' type='text' placeholder='Enter Tax Id' id='taxId' name='taxId' data-testid='tax-id-field' />
                             <ErrorMessage className='error-msg' name='taxId' component={'div'} data-testid='tax-id-error' />
                         </div>
                     </div>
@@ -120,19 +120,19 @@ const CompanyInformation = () => {
                                                     <div className={isMobile ? 'm-contact-wrap-cont' : 'contact-wrap-cont'} data-testid="contact-persons-wrap">
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
                                                             <label htmlFor='firstName'>Contact Person First Name</label>
-                                                            <Field type='text' placeholder='Enter First Name' id='firstName' name={`contactPersons[${index}].firstName`} data-testid={`contact-persons-firstname-${index}`} />
+                                                            <Field className='input-feild' type='text' placeholder='Enter First Name' id='firstName' name={`contactPersons[${index}].firstName`} data-testid={`contact-persons-firstname-${index}`} />
                                                             <ErrorMessage className='error-msg' name={`contactPersons[${index}].firstName`} component={'div'} data-testid={`contact-persons-firstname-error-${index}`} />
                                                         </div>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
                                                             <label htmlFor='lastName'>Contact Person Last Name</label>
-                                                            <Field type='text' placeholder='Enter Last Name' id='lastName' name={`contactPersons[${index}].lastName`} data-testid={`contact-persons-lastname-${index}`} />
+                                                            <Field className='input-feild' type='text' placeholder='Enter Last Name' id='lastName' name={`contactPersons[${index}].lastName`} data-testid={`contact-persons-lastname-${index}`} />
                                                             <ErrorMessage className='error-msg' name={`contactPersons[${index}].lastName`} component={'div'} data-testid={`contact-persons-lastname-error-${index}`} />
                                                         </div>
                                                     </div>
                                                     <div className={isMobile ? 'm-contact-wrap-cont' : 'contact-wrap-cont'} data-testid="contact-persons-wrap">
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
                                                             <label htmlFor='designation'>Designation</label>
-                                                            <Field type='text' placeholder='Enter Designation' id='designation' name={`contactPersons[${index}].designation`} data-testid={`contact-persons-designation-${index}`} />
+                                                            <Field className='input-feild' type='text' placeholder='Enter Designation' id='designation' name={`contactPersons[${index}].designation`} data-testid={`contact-persons-designation-${index}`} />
                                                             <ErrorMessage className='error-msg' name={`contactPersons[${index}].designation`} component={'div'} data-testid={`contact-persons-designation-error-${index}`} />
                                                         </div>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
@@ -157,7 +157,7 @@ const CompanyInformation = () => {
                                                                             <div>
                                                                                 {contactPerson.email.map((eachMail, mailIndex) => (
                                                                                     <div key={mailIndex}>
-                                                                                        <Field type='email' placeholder='Enter Email Address' id='email' name={`contactPersons[${index}].email[${mailIndex}]`} validate={validateEmails} data-testid={`contact-person-email-input-${index}-${mailIndex}`} />
+                                                                                        <Field className='input-feild' type='email' placeholder='Enter Email Address' id='email' name={`contactPersons[${index}].email[${mailIndex}]`} validate={validateEmails} data-testid={`contact-person-email-input-${index}-${mailIndex}`} />
 
                                                                                         {mailIndex > 0 && <CloseIcon sx={{ color: `red` }} onClick={() => remove(mailIndex)} />}
                                                                                         <ErrorMessage className='error-msg' name={`contactPersons[${index}].email[${mailIndex}]`} component={'div'} data-testid={`contact-person-email-error-${index}-${mailIndex}`} />
@@ -179,7 +179,7 @@ const CompanyInformation = () => {
                                                                             <div>
                                                                                 {contactPerson.mobile.map((eachMobile, mobileIndex) => (
                                                                                     <div key={mobileIndex}>
-                                                                                        <Field type='text' placeholder='Enter Mobile Number' id='mobile' name={`contactPersons[${index}].mobile[${mobileIndex}]`} validate={validatePhoneNumbers} data-testid={`contact-person-mobile-input-${index}-${mobileIndex}`} />
+                                                                                        <Field className='input-feild' type='text' placeholder='Enter Mobile Number' id='mobile' name={`contactPersons[${index}].mobile[${mobileIndex}]`} validate={validatePhoneNumbers} data-testid={`contact-person-mobile-input-${index}-${mobileIndex}`} />
 
                                                                                         {mobileIndex > 0 && <CloseIcon sx={{ color: `red` }} onClick={() => remove(mobileIndex)} />}
                                                                                         <ErrorMessage className='error-msg' name={`contactPersons[${index}].mobile[${mobileIndex}]`} component={'div'} data-testid={`contact-person-mobile-error-${index}-${mobileIndex}`} />
@@ -247,19 +247,19 @@ const CompanyInformation = () => {
                                                     <div className={isMobile ? 'm-contact-wrap-cont' : 'contact-wrap-cont'}>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'} data-testid="address1">
                                                             <label htmlFor='address1'>Address 1</label>
-                                                            <Field type='text' placeholder='Enter Name' id='address1' name={`addresses[${index}].addressOne`} />
+                                                            <Field className='input-feild' type='text' placeholder='Enter Name' id='address1' name={`addresses[${index}].addressOne`} />
                                                             <ErrorMessage className='error-msg' name={`addresses[${index}].addressOne`} component={'div'} />
                                                         </div>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'} data-testid="address2">
                                                             <label htmlFor='address2'>Address 2</label>
-                                                            <Field type='text' placeholder='Enter Name' id='address2' name={`addresses[${index}].addressTwo`} />
+                                                            <Field className='input-feild' type='text' placeholder='Enter Name' id='address2' name={`addresses[${index}].addressTwo`} />
                                                             <ErrorMessage className='error-msg' name={`addresses[${index}].addressTwo`} component={'div'} />
                                                         </div>
                                                     </div>
                                                     <div className={isMobile ? 'm-contact-wrap-cont' : 'contact-wrap-cont'}>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
                                                             <label htmlFor='city'>City</label>
-                                                            <Field type='text' placeholder='Enter Name' id='city' name={`addresses[${index}].city`} data-testid={`city-${index}`} />
+                                                            <Field className='input-feild' type='text' placeholder='Enter Name' id='city' name={`addresses[${index}].city`} data-testid={`city-${index}`} />
                                                             <ErrorMessage className='error-msg' name={`addresses[${index}].city`} component={'div'} data-testid={`city-error-${index}`} />
                                                         </div>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
@@ -275,7 +275,7 @@ const CompanyInformation = () => {
                                                     <div className={isMobile ? 'm-contact-wrap-cont' : 'contact-wrap-cont'}>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
                                                             <label htmlFor='country'>Country</label>
-                                                            <Field type='text' placeholder='Enter Country' id='country' name={`addresses[${index}].country`} data-testid={`country-${index}`} />
+                                                            <Field className='input-feild' type='text' placeholder='Enter Country' id='country' name={`addresses[${index}].country`} data-testid={`country-${index}`} />
                                                             <ErrorMessage className='error-msg' name={`addresses[${index}].country`} component={'div'} data-testid={`country-error-${index}`} />
                                                         </div>
                                                         <div className={isMobile ? 'comp-det m-comp-det' : 'comp-det'}>
@@ -289,7 +289,7 @@ const CompanyInformation = () => {
                                                         </div>
                                                     </div>
                                                     <div className='set-default'>
-                                                        <Field type='checkbox' id='checkbox' className='checkbox' name={`addresses[${index}].isDefault`} data-testid={`default-address-${index}`} />
+                                                        <Field  type='checkbox' id='checkbox' className='checkbox input-feild' name={`addresses[${index}].isDefault`} data-testid={`default-address-${index}`} />
                                                         <label htmlFor='checkbox' className='check-label'>Set as default address</label>
                                                     </div>
                                                 </div>

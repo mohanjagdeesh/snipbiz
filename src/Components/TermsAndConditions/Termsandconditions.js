@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import "./TermsAndConditions.scss";
+import "./termsAndConditions.scss";
 import { TCParaOne,TCParaTwo,TCParaThree,TCParaFive,TCParaSix,TCParaSeven,TCParaEight, TCParaNine,TCParaTen,TCParaEleven,TCParaTwleve,TCParaThirteen,TCParaSixteen,TCParaSeventeen,TCParaEighteen,TCParaNineteen,TCParaTwenty,TCParaTwentyOne,TCParaTwentyTwo,TCParaTwentyThree,TCParaTwentyFour,TCParaTwentyFive,TCParaTwentySix,TCParaTwentySeven, TCParaFiftteen, TCParaFourteen} from "../Constants/TermsAndConditions";
 
 const TermsAndConditions = () => {
@@ -10,9 +10,7 @@ const TermsAndConditions = () => {
       <div className={isTabletOrMobile ?"tnc-head-phone" :"termsandconditions-heading"}>
         <h1>Terms And Conditions</h1>
       </div>
-      <div className={isTabletOrMobile ? "phone" : "termsandconditiondata"}>
-
-        
+      <div className={isTabletOrMobile ? "phone" : "termsandconditiondata"}>       
         <ol>
           <li>
           Updates to the TermsAndConditions
@@ -104,7 +102,6 @@ const TermsAndConditions = () => {
               </li>
             </ol>
           </li>
-
           <li>
           Package Refusal/Return to Sender:
             <ol>

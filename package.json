@@ -54,6 +54,9 @@
     "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.4.0",
     "jest": "^27.5.1",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.0",
+    "webpack": "^5.76.1"
   }
 }

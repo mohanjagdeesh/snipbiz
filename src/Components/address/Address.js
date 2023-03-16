@@ -7,19 +7,6 @@ import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import * as Yup from "yup";
 
-const userDashboard = [
-  "Dashboard",
-  "Orders",
-  "Cancellation/Refund",
-  "User Profile",
-  "Shipping Address",
-  "Help Desk",
-  "Message Center",
-  "My Saved Cards",
-  "Us Debit Card",
-  "My Coupons",
-  "Forward Shipping",
-];
 
 const Address = () => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width:1124px)" });
@@ -86,30 +73,8 @@ useEffect(()=>{
   };
   return (
     <div className="main-user-profile">
-      <div
-        className={
-          isTabletOrMobile
-            ? "user-profile-mobile-heading"
-            : "user-profile-heading"
-        }
-      >
-        <h1>User Profile</h1>
-      </div>
       <div className="user-dashboard-container">
-        <div
-          className={
-            isTabletOrMobile ? "user-dashboard-mobile" : "user-dashboard"
-          }
-        >
-          <ul className="user-dashboard-list">
-            {userDashboard.map((each) => (
-              <li className="user-list">{each}</li>
-            ))}
-          </ul>
-        </div>
         <div className="address-container">
-          <Tabs />
-          <hr />
           <div
             className={
               isTabletOrMobile ? "form-container-mobile" : "form-container"
