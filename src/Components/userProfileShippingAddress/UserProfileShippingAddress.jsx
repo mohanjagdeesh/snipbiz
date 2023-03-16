@@ -22,18 +22,17 @@ const UserProfileShippingAddress = () => {
     }
 
     return (
-      <div className="User-Profile">
-        <div className="User-Profile-Heading">
-          <h1>User Profile</h1>
-        </div>
-        
-  
-        <div className={isMobile? "user-prof-phn": "User-Profile-data"}>
-          <div className="User-Profile-container">
-            <h4>Shipping Address</h4>
-            <div className={isMobile ? 'addressList-phone': 'addressList'}>
-                {addressList.map(eachAddress => (
-              <div key = {eachAddress.id} className={isMobile ? 'eachAddress-phn':'eachAddress'}>
+      <div className="User-Profile" data-testid="user-profile">
+      <div className="User-Profile-Heading" data-testid="user-profile-heading">
+        <h1>User Profile</h1>
+      </div>
+    
+      <div className={isMobile? "user-prof-phn": "User-Profile-data"} data-testid="user-profile-data">
+        <div className="User-Profile-container" data-testid="user-profile-container">
+          <h4>Shipping Address</h4>
+          <div className={isMobile ? 'addressList-phone': 'addressList'} data-testid="address-list">
+            {addressList.map(eachAddress => (
+              <div key={eachAddress.id} className={isMobile ? 'eachAddress-phn':'eachAddress'} data-testid="each-address">
                 <h3 className='address-top'>{eachAddress.addresstype} <MdModeEdit/></h3>
                 <p>{eachAddress.address1},</p>
                 <p>{eachAddress.address2},</p>
@@ -42,16 +41,16 @@ const UserProfileShippingAddress = () => {
                 <p>{eachAddress.zipcode}</p>
                 <label className='checkbx' htmlFor='chk-box' ><input type="checkbox" className="chk-box" name="chk-box" id="chk-box" /> Set Default Address </label>
               </div>
-              ))}
-              <div className={isMobile ? 'eachAddressBtn-phn':'eachAddressBtn'}>
-                  <button className="add-btn" onClick={()=>setAddAddress(true) }> + <span>Add Address</span></button> 
-              </div>
+            ))}
+            <div className={isMobile ? 'eachAddressBtn-phn':'eachAddressBtn'} data-testid="add-address-button">
+              <button className="add-btn" onClick={()=>setAddAddress(true)}>+<span>Add Address</span></button>
             </div>
-            {addAddress ? <AddressForm addNewAddress = {onAddingNewAddress}/> : null}
-
           </div>
+          {addAddress ? <AddressForm addNewAddress={onAddingNewAddress}/> : null}
         </div>
       </div>
+    </div>
+    
     );
   };
   export default UserProfileShippingAddress;
