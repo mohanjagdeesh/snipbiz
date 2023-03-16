@@ -11,6 +11,8 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+name: $(SourceBranchName)_$(Date:yyyyMMdd)$(Rev:.r)
+
 steps:
 - task: NodeTool@0
   inputs:
