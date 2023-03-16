@@ -1,6 +1,4 @@
 import { Component } from "react";
-
-import "./Contact.css";
 import { BsChatLeft } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhoneCall } from "react-icons/fi";
