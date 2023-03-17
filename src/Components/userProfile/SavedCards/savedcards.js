@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import cardName from "../../HowitWorks/img2.png";
+import cardName from "../../howItWorks/img2.png";
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { MdDeleteOutline } from "react-icons/md";
 import { useState } from "react";
