@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useFormik } from "formik";
-
+import "./UpPersonalInfo.scss"
 import * as Yup from "yup";
-import Ellipse14 from "../../howItWorks/img1.png";
+// import Ellipse14 from "./Ellipse14";
 
 //for mobile version
 const isMobile = false;
@@ -135,7 +135,7 @@ const UpPersonalInfo = () => {
       data-testid="upload-img-card"
     >
       <img
-        src={Ellipse14}
+        // src={Ellipse14}
         className="upload-img"
         alt="Profile"
         data-testid="upload-img"

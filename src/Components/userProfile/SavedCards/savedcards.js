@@ -2,9 +2,9 @@ import { v4 as uuidv4 } from "uuid";
 import cardName from "../../HowitWorks/img2.png";
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { MdDeleteOutline } from "react-icons/md";
-import NewCard from "../NewCard/NewCard";
 import { useState } from "react";
-
+// import NewCard from "../NewCard/NewCard";
+import "./savedcards.css"
 const cardsData = [];
 
 const SavedCards = () => {
@@ -82,7 +82,7 @@ const SavedCards = () => {
         </div>
       </div>
     </div>
-    {newCard ? <NewCard addingNewCard={onAddingNewCard} /> : null}
+    {/* {newCard ? <NewCard addingNewCard={onAddingNewCard} /> : null} */}
 </div>
 
   );

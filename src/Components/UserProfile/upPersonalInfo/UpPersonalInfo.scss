@@ -1,0 +1,240 @@
+$color_blue: #4D148C;
+$color_orange: #F57921;
+$color_white: #ffffff;
+$color_black: #000000;
+$color_gray: #4F4F4F;
+$color_red: red;
+$background-color_blue: #4D148C;
+$background-color_transparent: transparent;
+
+.info-card {
+	display: flex;
+	width: 1160px;
+	border-bottom: 1px solid #4D148C;
+	margin-left: 20px;
+}
+.mobile-info-card {
+	display: flex;
+	border-bottom: 1px solid #4D148C;
+	padding: 10px;
+}
+.li-info {
+	list-style-type: none;
+	margin-right: 60px;
+	color: $color_blue;
+	font-weight: 600;
+	padding: 7px 1px;
+	&:hover {
+		color: $color_orange;
+		border-bottom: 3px solid #F57921;
+	}
+}
+.mobile-li-info {
+	list-style-type: none;
+	margin-right: 18px;
+	color: $color_blue;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 7px 1px;
+	&:hover {
+		color: $color_orange;
+		border-bottom: 4px solid #F57921;
+	}
+}
+.form-container {
+	border: 2px solid #4F4F4F;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.mobile-form-container {
+	margin: 0px;
+}
+.upload-img-container {
+	height: 300px;
+	padding-top: 40px;
+	display: flex;
+}
+.mobile-upload-img-container {
+	padding: 10px;
+	flex-direction: row;
+}
+.upload-img-card {
+	margin-left: 200px;
+	position: relative;
+}
+.mobile-upload-img-card {
+	position: relative;
+	margin: 0px;
+}
+.upload-img {
+	width: 150px;
+	height: 150px;
+}
+.add-plus {
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	background-color: $background-color_blue;
+	color: $color_white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 110px;
+	bottom: 130px;
+}
+.mobile-add-plus {
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	background-color: $background-color_blue;
+	color: $color_white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 120px;
+	bottom: 85px;
+}
+.photo-head {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 22px;
+	color: $color_black;
+	padding-left: 20px;
+}
+.company-info-card {
+	display: flex;
+	width: 200px;
+	margin-left: 80px;
+	margin-top: 170px;
+}
+.mobile-company-info-card {
+	display: flex;
+	width: 200px;
+}
+.form-card {
+	display: flex;
+	margin-bottom: 15px;
+}
+.mobile-form-card {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+.input-card {
+	margin-right: 25px;
+	width: 400px;
+	height: 86px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+.mobile-input-card {
+	margin-bottom: 10px;
+}
+.label-element {
+	height: 23px;
+	width: 87px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	color: $color_gray;
+}
+.input-element {
+	outline: none;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	width: 350px;
+	height: 50px;
+	background-color: $background-color_transparent;
+	font-size: 15px;
+	padding: 15px;
+	color: $color_gray;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+.mobile-input-element {
+	width: 220px;
+	height: 40px;
+}
+.select-input {
+	outline: none;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	width: 350px;
+	height: 50px;
+	background-color: $background-color_transparent;
+	font-size: 15px;
+	padding: 15px;
+	color: $color_gray;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+.mobile-select-element {
+	width: 220px;
+	height: 40px;
+	margin-top: 10px;
+}
+.add-email-phone {
+	margin-top: 10px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: $color_orange;
+}
+.remove-email-phone {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: $color_orange;
+	margin-top: 50px;
+}
+.default-checkbox-card {
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+.mobile-default-checkbox-card {
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.default-card {
+	display: flex;
+	width: 200px;
+}
+.checkbox-input {
+	height: 24px;
+	width: 24px;
+	border-radius: 4px;
+	margin-right: 10px;
+	accent-color: #4D148C;
+}
+.lable-emailDefault {
+	letter-spacing: 0em;
+	text-align: left;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: $color_gray;
+}
+.error-msg {
+	color: $color_red;
+	margin-bottom: 10px;
+}
+.save-btn {
+	height: 35px;
+	width: 137.40740966796875px;
+	background-color: $background-color_blue;
+	border: none;
+	font-weight: 500;
+	border-radius: 50px;
+	padding: 15px 55px;
+	color: $color_white;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

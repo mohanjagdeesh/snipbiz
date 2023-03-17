@@ -1,0 +1,87 @@
+
+
+
+/* .card-inputs-cont{
+    height: 1040px;
+    width: 1161px;
+    border: 2px solid red;
+
+} */
+* {
+	box-sizing: border-box;
+}
+.cards-main-cont {
+	width: 1161px;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 50px;
+}
+.cards-sub-cont {
+	display: flex;
+	width: 90%;
+	flex-wrap: wrap;
+}
+.cards-cont {
+	display: flex;
+}
+.bg-card {
+	background-image: url(../SavedCards/Design.png);
+	background-size: cover;
+	height: 200px;
+	width: 327px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+	margin-right: 20px;
+}
+.card-names-cont {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.card-company {
+	height: 18.333332061767578px;
+	width: 55.916664123535156px;
+}
+.card-type {
+	font-family: 'Inria Sans';
+	color: #fff;
+	font-size: 16px;
+}
+.card-validity-cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card-validity {
+	font-size: 7px;
+	color: #fff;
+}
+span {
+	font-size: 15px;
+}
+.delete-button {
+	background-color: transparent;
+	border-width: 0px;
+	cursor: pointer;
+}
+.delete-icon {
+	height: 24px;
+	width: 25px;
+	color: #fff;
+}
+.new-card {
+	background-image: url(../SavedCards/transparentCard.png) ;
+	background-size: cover;
+	height: 200px;
+	width: 327px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.plus-button {
+	border: 0px;
+	background-color: transparent;
+	cursor: pointer;
+}

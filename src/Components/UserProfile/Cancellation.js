@@ -1,18 +1,6 @@
 import "./Cancellation.scss";
 
-const UserProfileList = [
-  "Dashboard",
-  "Orders",
-  "Cancellation/Refund",
-  "UserProfile",
-  "Shipping Address",
-  "HelpDask",
-  "Message Centre",
-  "My Saved Cards",
-  "US Debit Card",
-  "My Coupons",
-  "Forward Shipping",
-];
+
 
 const UserProfile = () => {
   return (
@@ -21,13 +9,6 @@ const UserProfile = () => {
 
   <div className="nav">
     <nav className="nav-list">
-      <ul className="User-profile-list" data-testid="user-profile-list">
-        {UserProfileList.map((list, index) => (
-          <li key={index} data-testid={`user-profile-item-${index}`}>
-            {list}
-          </li>
-        ))}
-      </ul>
     </nav>
     <table cellPadding="13" data-testid="user-profile-table">
       <caption>Cancellation/Refund</caption>

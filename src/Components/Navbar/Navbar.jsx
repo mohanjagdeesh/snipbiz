@@ -2,7 +2,6 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -13,6 +12,7 @@ import LaptopIcon from "@mui/icons-material/Laptop";
 import snip from "./snip.png";
 import "./Navbar.css";
 import { LocalGroceryStoreOutlined, SearchOutlined } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 import { SignInButton } from "../../Auth/LoginButton";
 
 const pages = ["What We Do", "About Us ", "Careers", "Blog", "Contact Us"];
@@ -28,7 +28,6 @@ export const Navbar = (props) => {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
 
   return (
     <>
@@ -175,9 +174,8 @@ export const Navbar = (props) => {
                 </a>
               </button>
 
-              <button className="login" data-testid="signin-btn">
                 <SignInButton />
-              </button>
+              
 
               <IconButton data-testid="grocery-store-icon-btn">
                 <LocalGroceryStoreOutlined data-testid="grocery-store-icon" />

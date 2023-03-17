@@ -1,5 +1,6 @@
-import image22 from '../../howItWorks/img1.png';
-import collectLabel1 from '../../howItWorks/img1.png';
+// import image22 from './image22';
+// import collectLabel1 from './collectLabel1';
+import "./TableOrderDetails.scss";
 
 
 const TableOrdersDetails = (props) => {
@@ -56,7 +57,7 @@ const TableOrdersDetails = (props) => {
                             <p className='shipment-name'>Shipment 1 with 1 parcel: PMSUH8G6</p>
                             <p className='status-name'>Status:<span className='status-span-name'>Pending</span></p>
                         </div>
-                        <img className='ems-img' src={image22} alt='EMS' />
+                        {/* <img className='ems-img' src={image22} alt='EMS' /> */}
                         {statusTable()}
                         <h1 className='cancle-order-head'>Cancel this Order</h1>
                     </div>
@@ -97,7 +98,7 @@ const TableOrdersDetails = (props) => {
                             </div>
                             <p className='part3-num-para'>91521</p>
                         </div>
-                        <img src={collectLabel1} alt='collectLabel1' className='collectLabel1-img' />
+                        {/* <img src={collectLabel1} alt='collectLabel1' className='collectLabel1-img' /> */}
                     </div>
                 </div>
             </td>

@@ -1,0 +1,334 @@
+$color_gray: #404D61;
+$color_orange: #F57921;
+$color_sky_blue: #0064FF;
+$color_green: #13AE35;
+$color_black: #000000;
+$color_gray_1: #60637C;
+$color_red: #FF271A;
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_white: #FFFFFF;
+
+.table-body-name {
+	max-width: 160px;
+	height: 26px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-size: 12px;
+	color: $color_gray;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.pending-status {
+	color: $color_orange;
+}
+.Recived-status {
+	color: $color_sky_blue;
+}
+.completed-status {
+	color: $color_green;
+}
+.order-details-middle-card {
+	display: flex;
+	min-width: 1100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.order-status {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 650px;
+	height: 400px;
+	background-color: $background-color_white;
+	border: 1px solid #DDEDF7;
+}
+.shipment-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 15px;
+}
+.shipment-name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color_black;
+}
+.status-name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color_black;
+}
+.status-span-name {
+	color: $color_orange;
+}
+.ems-img {
+	width: 110px;
+	height: 32px;
+	margin: 5px 15px;
+}
+.status-table-head {
+	width: 650px;
+	height: 30px;
+	padding-left: 5px;
+}
+.status-table-head-name {
+	text-align: left;
+	font-size: 12px;
+	font-weight: 300;
+}
+.price-info {
+	text-align: center;
+}
+.tax-info {
+	text-align: center;
+}
+.status-table-data {
+	display: flex;
+	width: 650px;
+	height: auto;
+	border: 1px solid #C4C4C4;
+}
+.shipment-info-data {
+	border-right: 1px solid #C4C4C4;
+	height: auto;
+	width: 270px;
+	padding: 5px;
+}
+.shipment-para1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 18px;
+	color: $color_gray_1;
+}
+.shipment-para2 {
+	font-style: normal;
+	font-weight: 100;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color_gray_1;
+}
+.protocted-value {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 18px;
+	color: $color_gray_1;
+}
+.parcel-info {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color_orange;
+}
+.from-data {
+	width: 110px;
+	height: auto;
+	border-right: 1px solid #C4C4C4;
+	padding: 5px;
+}
+.from-para {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 18px;
+	color: $color_gray_1;
+}
+.to-data {
+	width: 110px;
+	height: auto;
+	border-right: 1px solid #C4C4C4;
+	padding: 5px;
+}
+.to-para {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 18px;
+	color: $color_gray_1;
+}
+.price-data {
+	width: 100px;
+	height: auto;
+	border-right: 1px solid #C4C4C4;
+	padding: 5px;
+}
+.price-para {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color_gray_1;
+}
+.tax-data {
+	padding: 5px;
+}
+.cancle-order-head {
+	font-style: normal;
+	font-weight: 650;
+	font-size: 25px;
+	line-height: 22px;
+	color: $color_red;
+	align-self: flex-end;
+	margin: 10px;
+}
+.middle-caerd2 {
+	width: 500px;
+	height: 800px;
+	background: #FFFFFF;
+	border: 1px solid #DDEDF7;
+	margin-left: 15px;
+}
+.from-address-card {
+	display: flex;
+	padding: 5px;
+}
+.from-card1 {
+	display: flex;
+	width: 250px;
+	height: 120px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.from-card1-para {
+	font-style: normal;
+	width: 100px;
+	height: 114px;
+	font-size: 11px;
+	line-height: 21px;
+	color: $color_black;
+}
+.from-card1-span-para {
+	font-weight: 600;
+}
+.from-card1-para-num {
+	font-style: normal;
+	width: 90px;
+	height: 114px;
+	font-size: 11px;
+	line-height: 21px;
+	color: $color_black;
+}
+.from-card2 {
+	width: 250px;
+	height: 120px;
+	border-bottom: 1px solid black;
+}
+.from-card2-para {
+	font-style: normal;
+	font-size: 11px;
+	line-height: 18px;
+	color: $color_black;
+	width: 154px;
+	height: 72px;
+	margin: 7px;
+}
+.to-address-card {
+	padding: 8px;
+	border-bottom: 1px solid black;
+	height: 265px;
+}
+.to-card-info {
+	display: flex;
+}
+.to-card-para {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: $color_black;
+	width: 234px;
+	height: 140px;
+}
+.to-card-span-para {
+	font-weight: normal;
+	color: $color_gray_1;
+}
+.ref-span {
+	font-weight: normal;
+	color: $color_gray_1;
+	margin-left: 60px;
+	font-size: 12px;
+}
+.us-para-card {
+	width: 234px;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+}
+.us-para {
+	align-self: flex-end;
+	margin-top: 100px;
+	margin-right: 20px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: $color_black;
+}
+.inv-para {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color_black;
+}
+.po-dep-card {
+	display: flex;
+}
+.po-para {
+	width: 180px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color_black;
+}
+.middle-card-part3 {
+	display: flex;
+	flex-direction: column;
+}
+.trk-collect-part {
+	display: flex;
+	justify-content: space-between;
+	padding: 4px 10px;
+}
+.trk-para {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: $color_black;
+	margin-right: 50px;
+}
+.trk-span {
+	margin-right: 40px;
+	font-weight: normal;
+}
+.collect-para {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: $color_black;
+}
+.part3-num-para {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: right;
+	color: $color_black;
+	margin-right: 10px;
+}
+.collectLabel1-img {
+	width: 280px;
+	height: 180px;
+	margin-left: 120px;
+}

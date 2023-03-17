@@ -1,0 +1,101 @@
+$color_orange: #F57921;
+$color_gray: #4F4F4F;
+$color_white: #fff;
+$color_red: red;
+$background-transparent: transparent;
+$background-blue: #4D148C;
+
+.new-card-main-cont {
+	height: 1050px;
+	width: 100%;
+	padding: 50px;
+	border: 2px solid #D1D1D1;
+	margin-top: 50px;
+}
+.cards-heading {
+	color: $color_orange;
+}
+.card-inputs-container {
+	display: flex;
+	flex-direction: column;
+}
+.card-input-label {
+	color: $color_gray;
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.card-input-el {
+	outline: none;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	width: 350px;
+	height: 50px;
+	background-color: $background-transparent;
+	font-size: 15px;
+	padding: 15px;
+	color: $color_gray;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+.cvv-cont {
+	outline: none;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	width: 165px;
+	height: 50px;
+	background-color: $background-transparent;
+	font-size: 15px;
+	padding: 15px;
+	color: $color_gray;
+	font-weight: 500;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+.cvv-expiry-cont {
+	display: flex;
+}
+.address-input-el {
+	outline: none;
+	border: 1px solid #D1D1D1;
+	border-radius: 3px;
+	width: 350px;
+	height: 50px;
+	background-color: $background-transparent;
+	font-size: 15px;
+	padding: 15px;
+	color: $color_gray;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-right: 20px;
+}
+.checkbox-el {
+	height: 24px;
+	width: 24px;
+	accent-color: #4D148C;
+	margin-right: 10px;
+}
+.checkbox-label {
+	color: $color_gray;
+	font-size: 17px;
+	font-weight: 300;
+}
+.default-address-cont {
+	display: flex;
+	align-items: center;
+}
+.add-card-button {
+	background-color: $background-blue;
+	border-width: 0px;
+	height: 55px;
+	width: 221px;
+	border-radius: 27.5px;
+	color: $color_white;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.error-message {
+	color: $color_red;
+	margin-bottom: 15px;
+}

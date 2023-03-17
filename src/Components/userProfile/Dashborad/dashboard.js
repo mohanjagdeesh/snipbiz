@@ -1,11 +1,12 @@
 import { Fragment, useState } from "react";
 import SavedCards from "../SavedCards/savedcards";
 import UserProfileTabs from "../UserProfileTabs/userProfileTabs";
-import UsDebitCard from "../UsDebitCard/UsDebitCard";
+// import UsDebitCard from "../UsDebitCard/usDebitCard";
 import Orders from "../orders/Order";
 import "./dashboard.scss";
 import Messages from "../../UserMessages/Messages";
 import UserProfile from "../Cancellation";
+import UsDebitCard from "../../usDebitCard/UsDebitCard";
 
 const dashboardList = [
   { id: 1, listName: "Dashboard" },
@@ -31,9 +32,9 @@ const Dashboard = () => {
     );
     const dashboardName = filteredListName[0].listName;
 
-    const renderMysavedCards = () => {
-      return <SavedCards />;
-    };
+    // const renderMysavedCards = () => {
+    //   return <SavedCards />;
+    // };
 
     const renderUserProfileDetails = () => {
       return <UserProfileTabs />;
@@ -66,7 +67,7 @@ const Dashboard = () => {
         return <Messages/>;
 
       case "My Saved Cards":
-        return renderMysavedCards();
+        return "saved cards";
 
       case "US Debit Card":
         return renderUsDebitCards();

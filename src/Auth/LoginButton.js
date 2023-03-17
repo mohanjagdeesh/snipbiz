@@ -16,6 +16,6 @@ export const SignInButton = () => {
         }
     }
     return (
-        <div onClick={() => handleLogin("popup")}>Login/Register</div>
+        <div onClick={() => handleLogin("popup")} style={{color:"white",background:"orange",borderRadius:"10px",padding:"10px"}}>Login/Register</div>
     );
 }

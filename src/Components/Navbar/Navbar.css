@@ -1,4 +1,18 @@
 
+.login{
+    color:black;
+    border: none;
+    height: 35px;
+    background: orange;
+    border-radius: 20px;
+    
+}
+.login:hover{
+    color: transparent !important;
+    background: orange;
+}
+
+
 .navbar:hover{
     background: white;
 }

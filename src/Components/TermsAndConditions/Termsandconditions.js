@@ -1,5 +1,5 @@
 import { useMediaQuery } from "react-responsive";
-import "./termsAndConditions.scss";
+import "./TermsAndConditions.scss";
 import { TCParaOne,TCParaTwo,TCParaThree,TCParaFive,TCParaSix,TCParaSeven,TCParaEight, TCParaNine,TCParaTen,TCParaEleven,TCParaTwleve,TCParaThirteen,TCParaSixteen,TCParaSeventeen,TCParaEighteen,TCParaNineteen,TCParaTwenty,TCParaTwentyOne,TCParaTwentyTwo,TCParaTwentyThree,TCParaTwentyFour,TCParaTwentyFive,TCParaTwentySix,TCParaTwentySeven, TCParaFiftteen, TCParaFourteen} from "../Constants/TermsAndConditions";
 
 const TermsAndConditions = () => {
