@@ -39,16 +39,10 @@ const renderTabInformation = () => {
     <div className="aboutheading" data-testid="aboutus-heading">
       <h1>About SnipBiz</h1>
     </div>
-<<<<<<< HEAD
-    <div className="about-imgcontainer">
-      <div className={isTabletOrMobile?"about-img-data-phn":"about-img-data"}>
-        <div className={isTabletOrMobile?"about-dataright-phn":"about-dataright"}>
-=======
   
     <div className="about-imgcontainer" data-testid="aboutus-img-container">
       <div className={isTabletOrMobile?"about-img-data-phn":"about-img-data"} data-testid="aboutus-img-data">
         <div className={isTabletOrMobile?"about-dataright-phn":"about-dataright"} data-testid="aboutus-data-right">
->>>>>>> f5d7321 (tests have been done)
           <h3>SnipBiz LLC is a Delaware registered company</h3>
           <p>
             {AboutUsmain}

@@ -5,8 +5,6 @@ import { v4 as uuidv4 } from "uuid";
 import UPPersonnelInfo from "../upPersonalInfo/UpPersonalInfo";
 
 import * as Yup from "yup";
-
-import "./userProfileTabs.scss";
 import Address from "../../address/Address";
 import CompanyInformation from "../../companyInformation/CompanyInformation";
 const tabsList = [

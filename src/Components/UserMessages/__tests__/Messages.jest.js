@@ -3,7 +3,7 @@ import Messages, { tablesData as tableData } from "../Messages";
 
 test("renders messages profile heading", () => {
   render(<Messages />);
-  const headingElement = screen.getByTestId("messages-heading");
+  const headingElement = screen.getByTestId("messages-profile");
   expect(headingElement).toBeInTheDocument();
 });
 

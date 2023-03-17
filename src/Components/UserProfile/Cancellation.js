@@ -1,5 +1,18 @@
 import "./Cancellation.scss";
 
+const UserProfileList = [
+  "Dashboard",
+  "Orders",
+  "Cancellation/Refund",
+  "UserProfile",
+  "Shipping Address",
+  "HelpDask",
+  "Message Centre",
+  "My Saved Cards",
+  "US Debit Card",
+  "My Coupons",
+  "Forward Shipping",
+];
 
 const UserProfile = () => {
   return (
@@ -7,7 +20,6 @@ const UserProfile = () => {
   
 
   <div className="nav">
-<<<<<<<< HEAD:src/Components/UserProfile/Cancellation.js
     <nav className="nav-list">
       <ul className="User-profile-list" data-testid="user-profile-list">
         {UserProfileList.map((list, index) => (
@@ -17,9 +29,6 @@ const UserProfile = () => {
         ))}
       </ul>
     </nav>
-
-========
->>>>>>>> c096f31 (complete routes):src/Components/UserProfile/UserProfile.jsx
     <table cellPadding="13" data-testid="user-profile-table">
       <caption>Cancellation/Refund</caption>
       <thead>

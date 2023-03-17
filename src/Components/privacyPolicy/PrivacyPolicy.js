@@ -1,4 +1,4 @@
-import "./PrivacyPolicy.css";
+import "./PrivacyPolicy.scss";
 import {RxDotFilled} from "react-icons/rx";
 
 const PrivacyPolicy = () => (

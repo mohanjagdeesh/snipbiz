@@ -1,4 +1,4 @@
-import "./Blog.css";
+import "./BlogDetails.scss";
 import { BsFacebook, BsTwitter, BsInstagram, BsYoutube } from "react-icons/bs";
 import { CiCalendar } from "react-icons/ci";
 
@@ -154,18 +154,8 @@ const Blog = () => {
               <h3>Categories</h3>
               <hr />
               <ul className="blog-list">
-<<<<<<< HEAD
-<<<<<<< HEAD
                 {blogCategories.map((list, index) => (
                   <li key={index} data-testid={`category-${index}`}>{list}</li>
-=======
-                {blogCategories.map((list) => (
-                  <li key={list}>{list}</li>
->>>>>>> f0c234a (Added test cases)
-=======
-                {blogCategories.map((list, index) => (
-                  <li key={index} data-testid={`category-${index}`}>{list}</li>
->>>>>>> e82a320 (Added more test cases)
                 ))}
               </ul>
             </div>
@@ -176,18 +166,8 @@ const Blog = () => {
               <h3>Archives</h3>
               <hr />
               <ul className="blog-list">
-<<<<<<< HEAD
-<<<<<<< HEAD
                 {blogArchives.map((list, index) => (
                   <li key={index} data-testid={`archive-${index}`}>{list}</li>
-=======
-                {blogArchives.map((list) => (
-                  <li key={list}>{list}</li>
->>>>>>> f0c234a (Added test cases)
-=======
-                {blogArchives.map((list, index) => (
-                  <li key={index} data-testid={`archive-${index}`}>{list}</li>
->>>>>>> e82a320 (Added more test cases)
                 ))}
               </ul>
             </div>

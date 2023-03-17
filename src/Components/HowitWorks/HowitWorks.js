@@ -1,4 +1,4 @@
-import "./HowitWorks.css";
+import "./HowitWorks.scss";
 
 const HowitWorks = () => (
     <div className="howitworks-main" data-testid="howitworks-main">

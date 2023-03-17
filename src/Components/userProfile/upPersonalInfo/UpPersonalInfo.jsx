@@ -2,8 +2,7 @@ import { useState } from "react";
 import { useFormik } from "formik";
 
 import * as Yup from "yup";
-import Ellipse14 from "./Ellipse14.png";
-import "./UpPersonalInfo.css";
+import Ellipse14 from "../../howItWorks/img1.png";
 
 //for mobile version
 const isMobile = false;

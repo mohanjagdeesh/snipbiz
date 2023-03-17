@@ -1741,37 +1741,45 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
               ABOUT
             </p>
             <hr />
-            <ul>
-              <p
+            <ul
+              className="footer2"
+            >
+              <a
                 className="footer1"
+                href="/howitworks"
               >
                 How It Works
-              </p>
-              <p
+              </a>
+              <a
                 className="footer1"
-              >
-                Partners
-              </p>
-              <p
-                className="footer1"
+                href="/tracking"
               >
                 Tracking
-              </p>
-              <p
+              </a>
+              <a
                 className="footer1"
+                href="/partners"
               >
-                FAQ
-              </p>
-              <p
+                Partners
+              </a>
+              <a
                 className="footer1"
+                href="/usdebitcard"
               >
-                US Debit Card
-              </p>
-              <p
+                US DebitCad
+              </a>
+              <a
                 className="footer1"
+                href="/contact"
               >
                 Contact
-              </p>
+              </a>
+              <a
+                className="footer1"
+                href="/"
+              >
+                Home
+              </a>
             </ul>
           </div>
           <div>
@@ -1781,42 +1789,51 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
               SITEMAP
             </p>
             <hr />
-            <ul>
-              <p
+            <ul
+              className="footer2"
+            >
+              <a
                 className="footer1"
+                href="/press"
               >
-                press
-              </p>
-              <p
+                Press
+              </a>
+              <a
                 className="footer1"
+                href="/howitworks"
               >
-                media
-              </p>
-              <p
+                Meidia
+              </a>
+              <a
                 className="footer1"
+                href="/careers"
               >
-                careers
-              </p>
-              <p
+                Careers
+              </a>
+              <a
                 className="footer1"
+                href="/partners"
               >
-                partners
-              </p>
-              <p
+                Partners
+              </a>
+              <a
                 className="footer1"
+                href="/review-customer-stories"
               >
-                reviews/customer stories
-              </p>
-              <p
+                review/customer stories
+              </a>
+              <a
                 className="footer1"
+                href="/volumetric-weight"
               >
                 volumetric weight
-              </p>
-              <p
+              </a>
+              <a
                 className="footer1"
+                href="/calculator"
               >
                 calculator
-              </p>
+              </a>
             </ul>
           </div>
           <div>
@@ -1875,37 +1892,45 @@ exports[`it Should Match FooterSection Page snapshot 1`] = `
               Legal
             </p>
             <hr />
-            <ul>
-              <p
+            <ul
+              className="footer2"
+            >
+              <a
                 className="footer1"
+                href="/login"
               >
-                login
-              </p>
-              <p
+                Login
+              </a>
+              <a
                 className="footer1"
+                href="/register"
               >
-                register
-              </p>
-              <p
+                Register
+              </a>
+              <a
                 className="footer1"
+                href="/cancel-return-policy"
               >
-                cancel/return policy
-              </p>
-              <p
+                Cancel/Return Policy
+              </a>
+              <a
                 className="footer1"
+                href="/privacy-policy"
               >
-                privacy policy
-              </p>
-              <p
+                Privacy Policy
+              </a>
+              <a
                 className="footer1"
+                href="/terms"
               >
-                terms & conditions
-              </p>
-              <p
+                Terms And Conditions
+              </a>
+              <a
                 className="footer1"
+                href="/legal-disclaimer"
               >
-                legal disclaimer
-              </p>
+                Legal Disclaimer
+              </a>
             </ul>
           </div>
           <div>
@@ -4838,48 +4863,56 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
         <thead>
           <tr>
             <th>
-              Date 
-              <svg
-                data-testid="date-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <div
+                className="arrow-down"
               >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
+                Date 
+                <svg
+                  data-testid="date-caret"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                  />
+                </svg>
+              </div>
             </th>
             <th>
-              Order ID 
-              <svg
-                data-testid="order-id-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <div
+                className="arrow-down"
               >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
+                Order ID 
+                <svg
+                  data-testid="order-id-caret"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                  />
+                </svg>
+              </div>
             </th>
             <th>
               From 
@@ -4948,26 +4981,30 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
               </svg>
             </th>
             <th>
-              Carrier Log 
-              <svg
-                data-testid="carrier-log-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <div
+                className="arrow-down"
               >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
+                Carrier Log 
+                <svg
+                  data-testid="carrier-log-caret"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                  />
+                </svg>
+              </div>
             </th>
             <th>
               Item 
@@ -5014,26 +5051,30 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
               </svg>
             </th>
             <th>
-              Status 
-              <svg
-                data-testid="status-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <div
+                className="arrow-down"
               >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
+                Status 
+                <svg
+                  data-testid="status-caret"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                  />
+                </svg>
+              </div>
             </th>
           </tr>
         </thead>
@@ -5175,25 +5216,29 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
             <th
               data-testid="date-header"
             >
-              Date 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <div
+                className="arrow-down"
               >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
+                Date 
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+                  />
+                </svg>
+              </div>
             </th>
             <th
               data-testid="ticket-id-header"

@@ -9,14 +9,6 @@ describe('SavedCards component', () => {
     expect(headingElement.textContent).toBe('My Saved Cards');
   });
 
-  test('displays "Add Another Card" button', () => {
-    render(<SavedCards />);
-    const addButton = screen.getByTestId('plus-button');
-    expect(addButton).toBeInTheDocument();
-    expect(addButton.firstChild).toHaveAttribute('alt', 'plus-icon');
-    expect(screen.getByTestId('add-another-card')).toBeInTheDocument();
-  });
-
   test('opens the new card form when "Add Another Card" button is clicked', () => {
     render(<SavedCards />);
     const addButton = screen.getByTestId('plus-button');

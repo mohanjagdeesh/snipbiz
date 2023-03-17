@@ -1,10 +1,9 @@
 import { v4 as uuidv4 } from "uuid";
-import cardName from "./visa.png";
-import plusIcon from "./plusIcon.png";
+import cardName from "../../HowitWorks/img2.png";
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { MdDeleteOutline } from "react-icons/md";
 import NewCard from "../NewCard/NewCard";
 import { useState } from "react";
-import "./savedcards.css";
 
 const cardsData = [];
 
@@ -77,7 +76,7 @@ const SavedCards = () => {
             type="button"
             data-testid="plus-button"
           >
-            <img src={plusIcon} alt="plus-icon" data-testid="plus-icon" />
+            <AddCircleOutlineIcon/>
           </button>
           <p data-testid="add-another-card">Add Another Card</p>
         </div>

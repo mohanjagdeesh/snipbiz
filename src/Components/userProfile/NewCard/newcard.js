@@ -1,8 +1,6 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
-import "./newcard.css";
-
 const NewCard = (props) => {
   const { addingNewCard } = props;
 

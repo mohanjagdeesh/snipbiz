@@ -1,6 +1,5 @@
-import './TableOrderDetails.scss'
-import image22 from './image22.png';
-import collectLabel1 from './collectLabel1.png';
+import image22 from '../../howItWorks/img1.png';
+import collectLabel1 from '../../howItWorks/img1.png';
 
 
 const TableOrdersDetails = (props) => {

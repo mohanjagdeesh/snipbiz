@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './Order.css'
 import { BsCaretDown } from "react-icons/bs";
 import TableOrdersDetails from '../tableOrderDetails/TableOrderDetails';
 

@@ -10,7 +10,7 @@ import TrackingSection from "../TrackingPage/TrackingSection";
 import HowitWorks from "../HowitWorks/HowitWorks";
 import ContactForm from "../contactForm/Contact";
 import Dashboard from "../UserProfile/Dashborad/Dashboard";
-import TermsAndConditions from "../termsAndConditions/termsandconditions";
+import TermsAndConditions from "../TermsAndConditions/Termsandconditions";
 import Careers from "../Careers/Careers";
 
 const allRoutes = [

@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import "./usdebitcard.css";
-
 export const usDebitCardTabs = [
   {
     id: 1,
