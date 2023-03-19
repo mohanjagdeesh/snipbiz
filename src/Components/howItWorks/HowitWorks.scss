@@ -24,11 +24,12 @@ $justify-content:space-between;
 }
 .howitworks-heading-phn{
     width: $width;
-    background-color: $background-color;
+    background-color: #4D148C;
     box-shadow: 0 1px 2px #000000;
     height: 70px;
     display: $display;
     justify-content: center;
+    align-items: center;
 }
 .howitworks-heading h1 {
     color: #ffffff;
@@ -40,8 +41,7 @@ $justify-content:space-between;
 }
 .howitworks-heading-phn h1{
     color: #ffffff;
-    padding: 13px 120px;
-}
+    }
 .hiw-nav{
     width: 80%;
     height: fit-content;
@@ -53,7 +53,8 @@ $justify-content:space-between;
     justify-content: flex-start;
 }
 .hiw-nav-mobile{
-    width: $width;
+    width: 75%;
+    margin: auto;
     height: fit-content;
     background-color: #FF6200;
     border-radius: 4px;
@@ -61,15 +62,31 @@ $justify-content:space-between;
     align-items: center;
     justify-content: flex-start;
 }
-.howitworks-main nav ul{
+.hiw-nav-mobile .nav-btn{
+    font-size: 10px;
+}
+.hiw-nav ul{
     width: auto;
     height: auto;
     list-style: none;
     display: $display;
 }
-.howitworks-main nav ul li{
+.hiw-nav-mobile ul{
+    width: auto;
+    height: auto;
+    list-style: none;
+    display: $display;
+}
+
+.hiw-nav ul li{
     padding: 10px 15px;
     margin: 10px 5px -1px;
+}
+
+.hiw-nav-mobile ul li{
+    font-size: 10px;
+    // padding: 5px ;
+    margin: 5px 5px -1px;
 }
 
 .howitworks-video{
@@ -119,7 +136,7 @@ $justify-content:space-between;
 }
 #process-direction{
     position: absolute;
-    width: 7.8%;
+    width: 8%;
     left: 46%;
     top: 10.5%;
     z-index: 0;

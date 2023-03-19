@@ -1,13 +1,8 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import AddressForm from "../AddressForm";
-
-
-
 test("renders AddressForm without errors", () => {
     render(<AddressForm />);
   });
-
-
 test("renders all form elements correctly", () => {
     render(<AddressForm />);
     expect(screen.getByLabelText(/Address Type/)).toBeInTheDocument();
