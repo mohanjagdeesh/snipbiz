@@ -4755,496 +4755,37 @@ exports[`it Should Match ShipForwarding Page snapshot 1`] = `
 
 exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
 <div
-  className="main-user-profile"
-  data-testid="main-user-profile"
+  className="user-dashboard-container"
+  data-testid="user-dashboard-container"
 >
   <div
-    className="user-profile-heading"
-    data-testid="user-profile-heading"
+    className="order-details-container"
+    data-testid="order-details-container"
   >
-    <h1>
-      User Profile
-    </h1>
-  </div>
-  <div
-    className="user-dashboard-container"
-    data-testid="user-dashboard-container"
-  >
-    <div
-      className="user-dashboard"
-      data-testid="user-dashboard"
+    <h2
+      className="order-details-main-heading"
+      data-testid="order-details-main-heading"
     >
-      <ul
-        className="user-dashboard-list"
-        data-testid="user-dashboard-list"
-      >
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Dashboard
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Orders
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Cancellation/Refund
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          User Profile
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Shipping Address
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Help Desk
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Message Center
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          My Saved Cards
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Us Debit Card
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          My Coupons
-        </li>
-        <li
-          className="user-list"
-          data-testid="user-list"
-        >
-          Forward Shipping
-        </li>
-      </ul>
-    </div>
-    <div
-      className="order-details-container"
-      data-testid="order-details-container"
+      Order Detail
+    </h2>
+    <table
+      cellPadding="3"
+      className="table-order"
+      data-testid="order-details-table"
     >
-      <h2
-        className="order-details-main-heading"
-        data-testid="order-details-main-heading"
-      >
-        Order Detail
-      </h2>
-      <table
-        cellPadding="3"
-        data-testid="order-details-table"
-      >
-        <thead>
-          <tr>
-            <th>
-              <div
-                className="arrow-down"
-              >
-                Date 
-                <svg
-                  data-testid="date-caret"
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  strokeWidth="0"
-                  style={
-                    Object {
-                      "color": undefined,
-                    }
-                  }
-                  viewBox="0 0 16 16"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                  />
-                </svg>
-              </div>
-            </th>
-            <th>
-              <div
-                className="arrow-down"
-              >
-                Order ID 
-                <svg
-                  data-testid="order-id-caret"
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  strokeWidth="0"
-                  style={
-                    Object {
-                      "color": undefined,
-                    }
-                  }
-                  viewBox="0 0 16 16"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                  />
-                </svg>
-              </div>
-            </th>
-            <th>
-              From 
-              <svg
-                data-testid="from-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th>
-              Destination 
-              <svg
-                data-testid="destination-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th>
-              Recipient 
-              <svg
-                data-testid="recipient-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th>
-              <div
-                className="arrow-down"
-              >
-                Carrier Log 
-                <svg
-                  data-testid="carrier-log-caret"
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  strokeWidth="0"
-                  style={
-                    Object {
-                      "color": undefined,
-                    }
-                  }
-                  viewBox="0 0 16 16"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                  />
-                </svg>
-              </div>
-            </th>
-            <th>
-              Item 
-              <svg
-                data-testid="item-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th>
-              Amount 
-              <svg
-                data-testid="amount-caret"
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th>
-              <div
-                className="arrow-down"
-              >
-                Status 
-                <svg
-                  data-testid="status-caret"
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  strokeWidth="0"
-                  style={
-                    Object {
-                      "color": undefined,
-                    }
-                  }
-                  viewBox="0 0 16 16"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                  />
-                </svg>
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody
-          data-testid="order-details-table-body"
+      <thead>
+        <tr
+          className="track"
         >
-          <tr>
-            <td>
-              02/14/2023
-            </td>
-            <td>
-              XB1234VIOUSAIN
-            </td>
-            <td>
-              Edison, NJ US
-            </td>
-            <td>
-              Mumbai
-            </td>
-            <td>
-              Victor
-            </td>
-            <td>
-              DHL
-            </td>
-            <td>
-              Cloths
-            </td>
-            <td>
-              $52.68
-            </td>
-            <td>
-              Recieve
-            </td>
-          </tr>
-          <tr>
-            <td>
-              02/14/2023
-            </td>
-            <td>
-              XB1234VIOUSAIN
-            </td>
-            <td>
-              Edison, NJ US
-            </td>
-            <td>
-              Mumbai
-            </td>
-            <td>
-              Victor
-            </td>
-            <td>
-              DHL
-            </td>
-            <td>
-              Cloths
-            </td>
-            <td>
-              $52.68
-            </td>
-            <td>
-              Recieve
-            </td>
-          </tr>
-          <tr>
-            <td>
-              02/14/2023
-            </td>
-            <td>
-              XB1234VIOUSAIN
-            </td>
-            <td>
-              Edison, NJ US
-            </td>
-            <td>
-              Mumbai
-            </td>
-            <td>
-              Victor
-            </td>
-            <td>
-              DHL
-            </td>
-            <td>
-              Cloths
-            </td>
-            <td>
-              $52.68
-            </td>
-            <td>
-              Recieve
-            </td>
-          </tr>
-          <tr>
-            <td>
-              02/14/2023
-            </td>
-            <td>
-              XB1234VIOUSAIN
-            </td>
-            <td>
-              Edison, NJ US
-            </td>
-            <td>
-              Mumbai
-            </td>
-            <td>
-              Victor
-            </td>
-            <td>
-              DHL
-            </td>
-            <td>
-              Cloths
-            </td>
-            <td>
-              $52.68
-            </td>
-            <td>
-              Recieve
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <h2
-        className="order-details-main-heading"
-        data-testid="help-desk-heading"
-      >
-        Help Desk Items
-      </h2>
-      <table
-        cellPadding="3"
-        data-testid="help-desk-table"
-      >
-        <thead>
-          <tr
-            data-testid="help-desk-table-header"
+          <th
+            className="thead-heading"
           >
-            <th
-              data-testid="date-header"
+            <div
+              className="arrow-down"
             >
-              <div
-                className="arrow-down"
-              >
-                Date 
-                <svg
-                  fill="currentColor"
-                  height="1em"
-                  stroke="currentColor"
-                  strokeWidth="0"
-                  style={
-                    Object {
-                      "color": undefined,
-                    }
-                  }
-                  viewBox="0 0 16 16"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                  />
-                </svg>
-              </div>
-            </th>
-            <th
-              data-testid="ticket-id-header"
-            >
-              Ticket ID 
+              Date 
               <svg
+                data-testid="date-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -5262,12 +4803,17 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
                 />
               </svg>
-            </th>
-            <th
-              data-testid="ticket-type-header"
+            </div>
+          </th>
+          <th
+            className="thead-heading"
+          >
+            <div
+              className="arrow-down"
             >
-              Ticket Type 
+              Order ID 
               <svg
+                data-testid="order-id-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -5285,12 +4831,32 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
                 />
               </svg>
-            </th>
-            <th
-              data-testid="short-description-header"
+            </div>
+          </th>
+          <th
+            className="thead-heading"
+          >
+            From
+          </th>
+          <th
+            className="thead-heading"
+          >
+            Destination
+          </th>
+          <th
+            className="thead-heading"
+          >
+            Recipient
+          </th>
+          <th
+            className="thead-heading"
+          >
+            <div
+              className="arrow-down"
             >
-              Short Description 
+              Carrier Log 
               <svg
+                data-testid="carrier-log-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -5308,12 +4874,27 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
                 />
               </svg>
-            </th>
-            <th
-              data-testid="status-header"
+            </div>
+          </th>
+          <th
+            className="thead-heading"
+          >
+            Item
+          </th>
+          <th
+            className="thead-heading"
+          >
+            Amount
+          </th>
+          <th
+            className="thead-heading"
+          >
+            <div
+              className="arrow-down"
             >
               Status 
               <svg
+                data-testid="status-caret"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -5331,88 +4912,165 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
                 />
               </svg>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr
-            data-testid="help-desk-table-row"
-          >
-            <td
-              data-testid="date-cell"
-            >
-              02/14/2023
-            </td>
-            <td
-              data-testid="ticket-id-cell"
-            >
-              TKT1234NJ
-            </td>
-            <td
-              data-testid="ticket-type-cell"
-            >
-              Shipment
-            </td>
-            <td
-              data-testid="short-description-cell"
-            >
-              Goods held at customs
-            </td>
-            <td
-              data-testid="status-cell"
-            >
-              Work in progress
-            </td>
-          </tr>
-          <tr
-            data-testid="help-desk-table-row"
-          >
-            <td
-              data-testid="date-cell"
-            >
-              02/14/2023
-            </td>
-            <td
-              data-testid="ticket-id-cell"
-            >
-              TKT1234NJ
-            </td>
-            <td
-              data-testid="ticket-type-cell"
-            >
-              Shipment
-            </td>
-            <td
-              data-testid="short-description-cell"
-            >
-              Goods held at customs
-            </td>
-            <td
-              data-testid="status-cell"
-            >
-              Work in progress
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <h2
-        className="order-details-main-heading"
-        data-testid="forward-shipping-heading"
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        data-testid="order-details-table-body"
       >
-        Forward Shipping
-      </h2>
-      <table
-        cellPadding="3"
-        data-testid="forward-shipping-table"
-      >
-        <thead>
-          <tr
-            data-testid="forward-shipping-table-header"
+        <tr
+          className="track"
+        >
+          <td>
+            02/14/2023
+          </td>
+          <td>
+            XB1234VIOUSAIN
+          </td>
+          <td>
+            Edison, NJ US
+          </td>
+          <td>
+            Mumbai
+          </td>
+          <td>
+            Victor
+          </td>
+          <td>
+            DHL
+          </td>
+          <td>
+            Cloths
+          </td>
+          <td>
+            $52.68
+          </td>
+          <td>
+            Recieve
+          </td>
+        </tr>
+        <tr
+          className="track"
+        >
+          <td>
+            02/14/2023
+          </td>
+          <td>
+            XB1234VIOUSAIN
+          </td>
+          <td>
+            Edison, NJ US
+          </td>
+          <td>
+            Mumbai
+          </td>
+          <td>
+            Victor
+          </td>
+          <td>
+            DHL
+          </td>
+          <td>
+            Cloths
+          </td>
+          <td>
+            $52.68
+          </td>
+          <td>
+            Recieve
+          </td>
+        </tr>
+        <tr
+          className="track"
+        >
+          <td>
+            02/14/2023
+          </td>
+          <td>
+            XB1234VIOUSAIN
+          </td>
+          <td>
+            Edison, NJ US
+          </td>
+          <td>
+            Mumbai
+          </td>
+          <td>
+            Victor
+          </td>
+          <td>
+            DHL
+          </td>
+          <td>
+            Cloths
+          </td>
+          <td>
+            $52.68
+          </td>
+          <td>
+            Recieve
+          </td>
+        </tr>
+        <tr
+          className="track td"
+        >
+          <td>
+            02/14/2023
+          </td>
+          <td>
+            XB1234VIOUSAIN
+          </td>
+          <td>
+            Edison, NJ US
+          </td>
+          <td>
+            Mumbai
+          </td>
+          <td>
+            Victor
+          </td>
+          <td>
+            DHL
+          </td>
+          <td>
+            Cloths
+          </td>
+          <td>
+            $52.68
+          </td>
+          <td
+            className="td"
           >
-            <th
-              data-testid="package-header"
+            Recieve
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2
+      className="order-details-main-heading"
+      data-testid="help-desk-heading"
+    >
+      Help Desk Items
+    </h2>
+    <table
+      cellPadding="3"
+      className="table-order"
+      data-testid="help-desk-table"
+    >
+      <thead>
+        <tr
+          className="track"
+          data-testid="help-desk-table-header"
+        >
+          <th
+            className="thead-heading"
+            data-testid="date-header"
+          >
+            <div
+              className="arrow-down"
             >
-              Package 
+              Date 
               <svg
                 fill="currentColor"
                 height="1em"
@@ -5431,226 +5089,222 @@ exports[`it Should Match UserProfile Dashboard Page snapshot 1`] = `
                   d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
                 />
               </svg>
-            </th>
-            <th
-              data-testid="sent-package-header"
-            >
-              Sent Package 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th
-              data-testid="expected-package-header"
-            >
-              Expected Package 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th
-              data-testid="assisted-package-header"
-            >
-              Assisted Package 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th
-              data-testid="action-required-header"
-            >
-              Action Require 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th
-              data-testid="in-progress-header"
-            >
-              In Progress 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th
-              data-testid="ready-to-ship-header"
-            >
-              Ready to Ship 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-            <th
-              data-testid="balance-a-header"
-            >
-              Balance A 
-              <svg
-                fill="currentColor"
-                height="1em"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
-                />
-              </svg>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              3
-            </td>
-            <td>
-              4
-            </td>
-            <td>
-              1
-            </td>
-            <td>
-              6
-            </td>
-            <td>
-              Held in customs
-            </td>
-            <td>
-              5
-            </td>
-            <td>
-              8
-            </td>
-            <td>
-              $500
-            </td>
-          </tr>
-          <tr>
-            <td>
-              3
-            </td>
-            <td>
-              4
-            </td>
-            <td>
-              1
-            </td>
-            <td>
-              6
-            </td>
-            <td>
-              Held in customs
-            </td>
-            <td>
-              5
-            </td>
-            <td>
-              8
-            </td>
-            <td>
-              $500
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+            </div>
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="ticket-id-header"
+          >
+            Ticket ID
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="ticket-type-header"
+          >
+            Ticket Type
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="short-description-header"
+          >
+            Short Description
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="status-header"
+          >
+            Status
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="track"
+          data-testid="help-desk-table-row"
+        >
+          <td
+            data-testid="date-cell"
+          >
+            02/14/2023
+          </td>
+          <td
+            data-testid="ticket-id-cell"
+          >
+            TKT1234NJ
+          </td>
+          <td
+            data-testid="ticket-type-cell"
+          >
+            Shipment
+          </td>
+          <td
+            data-testid="short-description-cell"
+          >
+            Goods held at customs
+          </td>
+          <td
+            data-testid="status-cell"
+          >
+            Work in progress
+          </td>
+        </tr>
+        <tr
+          className="track"
+          data-testid="help-desk-table-row"
+        >
+          <td
+            data-testid="date-cell"
+          >
+            02/14/2023
+          </td>
+          <td
+            data-testid="ticket-id-cell"
+          >
+            TKT1234NJ
+          </td>
+          <td
+            data-testid="ticket-type-cell"
+          >
+            Shipment
+          </td>
+          <td
+            data-testid="short-description-cell"
+          >
+            Goods held at customs
+          </td>
+          <td
+            data-testid="status-cell"
+          >
+            Work in progress
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2
+      className="order-details-main-heading"
+      data-testid="forward-shipping-heading"
+    >
+      Forward Shipping
+    </h2>
+    <table
+      cellPadding="3"
+      className="table-order"
+      data-testid="forward-shipping-table"
+    >
+      <thead>
+        <tr
+          className="track"
+          data-testid="forward-shipping-table-header"
+        >
+          <th
+            className="thead-heading"
+            data-testid="package-header"
+          >
+            Package
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="sent-package-header"
+          >
+            Sent Package
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="expected-package-header"
+          >
+            Expected Package
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="assisted-package-header"
+          >
+            Assisted Package
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="action-required-header"
+          >
+            Action Require
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="in-progress-header"
+          >
+            In Progress
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="ready-to-ship-header"
+          >
+            Ready to Ship
+          </th>
+          <th
+            className="thead-heading"
+            data-testid="balance-a-header"
+          >
+            Balance A
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="track"
+        >
+          <td>
+            3
+          </td>
+          <td>
+            4
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            6
+          </td>
+          <td>
+            Held in customs
+          </td>
+          <td>
+            5
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            $500
+          </td>
+        </tr>
+        <tr
+          className="track"
+        >
+          <td>
+            3
+          </td>
+          <td>
+            4
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            6
+          </td>
+          <td>
+            Held in customs
+          </td>
+          <td>
+            5
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            $500
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 `;

@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import SavedCards from "../savedCards/Savedcards.jsx";
+import SavedCards from "../SavedCards/Savedcards.jsx";
 import UserProfileTabs from "../UserProfileTabs/userProfileTabs.jsx";
 import UsDebitCard from "../UsDebitCard/usdebitcard";
 import Orders from "../orders/Order";
