@@ -7,12 +7,10 @@ describe('UserProfileShippingAddress', () => {
   it('renders without crashing', () => {
     render(<UserProfileShippingAddress />);
   });
-
   it('displays the user profile heading', () => {
     render(<UserProfileShippingAddress />);
     expect(screen.getByTestId('user-profile-heading')).toHaveTextContent('User Profile');
   });
-
   it('displays the "Add Address" button', () => {
     render(<UserProfileShippingAddress />);
     expect(screen.getByTestId('add-address-button')).toHaveTextContent('Add Address');

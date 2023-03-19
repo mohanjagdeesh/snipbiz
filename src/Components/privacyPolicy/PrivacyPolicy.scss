@@ -13,14 +13,28 @@ $justify-content:space-between;
     width: $width;
     height: 70px;
     background-color: #4d418c;
-    display: flex;
+    display: $display;
     align-items: center;
 }
 .privacyPolicy-heading h1{
     font-size: 30px;
     color: #ffffff;
-    margin-left: 150px;
+    margin-left: 135px;
 }
+
+.privacyPolicy-heading-phn{
+    width: $width;
+    height: 70px;
+    background-color: #4d418c;
+    display: $display;
+    align-items: center;
+    justify-content: center;
+}
+.privacyPolicy-heading-phn h1{
+    color: #ffffff;
+}
+
+
 .privacyPolicy-data{
     width: 80%;
     margin: auto;

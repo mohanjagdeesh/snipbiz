@@ -62,11 +62,11 @@ return (
     <div className={isMobile?"UsrPrf-form-cont-phn" :"User-Profile-form-container"}>
   <form
     onSubmit={formik.handleSubmit}
-    className={isMobile ? "UsrPrf-form-phn" : "UsrPrf-data-right-form"}
+    className={isMobile ? "UsrPrf-form-phn" : "UsrPrf-data-form"}
   >
     <div className="each-input-fields">
       <label htmlFor="addresstype">Address Type (Home,Work)</label>
-      <select
+      <select className='select-field'
         name="addresstype"
         id="addresstype"
         value={formik.values.addresstype}
@@ -86,7 +86,7 @@ return (
       <div className={isMobile ? "input-phn" : "each-input-field"}>
         <section>
           <label htmlFor="address1">Address 1</label>
-          <input
+          <input className='input-field'
             type="text"
             name="address1"
             id="address1"
@@ -102,7 +102,7 @@ return (
         </section>
         <section>
           <label htmlFor="address2">Address 2</label>
-          <input
+          <input className='input-field'
             type="text"
             name="address2"
             id="address2"
@@ -120,7 +120,7 @@ return (
       <div className={isMobile ? "input-phn" : "each-input-field"}>
         <section>
           <label htmlFor="city">City</label>
-          <input
+          <input className='input-field'
             type="text"
             name="city"
             id="city"
@@ -136,7 +136,7 @@ return (
         </section>
         <section>
           <label htmlFor="state">State</label>
-          <select
+          <select className='select-field'
             name="state"
             id="state"
             value={formik.values.state}
@@ -158,7 +158,7 @@ return (
             <div className={isMobile ? "input-phn" : "each-input-field"} data-testid="address-inputs">
     <section>
         <label htmlFor="country">Country</label>
-        <input
+        <input className='input-field'
         type="text"
         name="country"
         id="country"
@@ -174,7 +174,7 @@ return (
     </section>
     <section>
         <label htmlFor="zipcode">Postal/Zip Code</label>
-        <select
+        <select className='select-field'
         name="zipcode"
         id="zipcode"
         value={formik.values.zipcode}

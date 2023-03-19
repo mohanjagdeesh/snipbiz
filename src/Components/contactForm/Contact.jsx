@@ -54,19 +54,19 @@ const ContactForm = () => {
   })
   return (
     <div className="contact-main">
-      <div className="contact-heading">
+      <div className="contact-heading" data-testid="contact-heading">
         <h1>Contact</h1>
       </div>
-      <div className="contact-paragraph">
+      <div className="contact-paragraph" data-testid="contact-paragraph">
         <h2>
           {ContactData}
         </h2>
       </div>
-      <div className={isTabletOrMobile ? "contact-data-phn" :"contact-data"}>
-        <form onSubmit={formik.handleSubmit} className="contact-data-form" >
+      <div className={isTabletOrMobile ? "contact-data-phn" :"contact-data"} data-testid="contact-data">
+        <form onSubmit={formik.handleSubmit} className="contact-data-form" data-testid="contact-form">
           <h2>I am interested in...</h2>
           <select value={formik.values.careers}
-            onChange={formik.handleChange} onBlur={formik.handleBlur} id="careers" name="careers">
+            onChange={formik.handleChange} onBlur={formik.handleBlur} id="careers" name="careers" data-testid="contact-select">
             <option value="careers">Careers</option>
             <option value="contact1">Reason for Contact 1</option>
             <option value="contact2">Reason for Contact 2</option>
@@ -85,7 +85,7 @@ const ContactForm = () => {
                 <input value={formik.values.fname} 
                       onChange={formik.handleChange} 
                       onBlur={formik.handleBlur} 
-                      type="text" placeholder="First Name" id="fname" name="fname" />
+                      type="text" placeholder="First Name" id="fname" name="fname" data-testid="contact-firstname" />
                 <p className="error-message">
                 {formik.touched.fname && formik.errors.fname
                   ? "*Required"
@@ -98,7 +98,7 @@ const ContactForm = () => {
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
                       type="text" placeholder="Last Name" id="lname" name="lname" />
-                      <p className="error-message">
+                      <p className="error-message" data-testid="contact-lastname">
                 {formik.touched.lname && formik.errors.lname
                   ? "*Required"
                   : ""}
@@ -110,7 +110,7 @@ const ContactForm = () => {
                 <label htmlFor="company">Company*</label>
                 <input value={formik.values.company}
                       onChange={formik.handleChange}
-                      onBlur={formik.handleBlur} type="text" placeholder="Company Name" id="company" name="company" />
+                      onBlur={formik.handleBlur} type="text" placeholder="Company Name" id="company" name="company" data-testid="contact-companyname"/>
                       <p className="error-message">
                 {formik.touched.company && formik.errors.company
                   ? "*Required"
@@ -121,7 +121,7 @@ const ContactForm = () => {
                 <label htmlFor="email">Email*</label>
                 <input value={formik.values.email}
                       onChange={formik.handleChange}
-                      onBlur={formik.handleBlur} type="email" placeholder="Your E-mail" id="email" name="email" />
+                      onBlur={formik.handleBlur} type="email" placeholder="Your E-mail" id="email" name="email" data-testid="contact-emailinput"/>
               </section>
               <p className="error-message">
                 {formik.touched.email && formik.errors.email
@@ -134,7 +134,7 @@ const ContactForm = () => {
                 <label>Country</label>
                 <select value={formik.values.country}
                       onChange={formik.handleChange}
-                      onBlur={formik.handleBlur} id="country" name="country" >
+                      onBlur={formik.handleBlur} id="country" name="country" data-testid="contact-country">
                   <option value="country">Select Country</option>
                   <option value="india">India</option>
                   <option value="usa">USA</option>
@@ -151,7 +151,7 @@ const ContactForm = () => {
                 <label htmlFor="phone">Phone</label>
                 <input value={formik.values.phone}
                       onChange={formik.handleChange}
-                      onBlur={formik.handleBlur} type="number" placeholder="Your Phone Number" id="phone" name="phone"/>
+                      onBlur={formik.handleBlur} type="number" placeholder="Your Phone Number" id="phone" name="phone" data-testid="contact-phoneNumber" />
                       <p className="error-message">
                 {formik.touched.phone && formik.errors.phone
                   ? "*Required"
@@ -164,7 +164,7 @@ const ContactForm = () => {
                 <label htmlFor="jobname">Job Title</label>
                 <input value={formik.values.jobname}
                       onChange={formik.handleChange}
-                      onBlur={formik.handleBlur} type="text" placeholder="Job Title" id="jobname" name="jobname"/>
+                      onBlur={formik.handleBlur} type="text" placeholder="Job Title" id="jobname" name="jobname" data-testid="job-title"/>
                       <p className="error-message">
                 {formik.touched.jobname && formik.errors.jobname
                   ? "*Required"
@@ -175,7 +175,7 @@ const ContactForm = () => {
                 <label htmlFor="cityname">City</label>
                 <input value={formik.values.cityname}
                       onChange={formik.handleChange}
-                      onBlur={formik.handleBlur} type="text" placeholder="City Name" id="cityname" name="cityname"/>
+                      onBlur={formik.handleBlur} type="text" placeholder="City Name" id="cityname" name="cityname" data-testid="city-name"/>
                       <p className="error-message">
                 {formik.touched.cityname && formik.errors.cityname
                   ? "*Required"
@@ -189,7 +189,7 @@ const ContactForm = () => {
               <label htmlFor="comment">Comments</label>
               <textarea value={formik.values.comment}
                       onChange={formik.handleChange}
-                      onBlur={formik.handleBlur} rows={6} cols={30} id="comment" name="comment"/>
+                      onBlur={formik.handleBlur} rows={6} cols={30} id="comment" name="comment" data-testid="comments"/>
                       <p className="error-message">
                 {formik.touched.comment && formik.errors.comment
                   ? "*Required"
@@ -197,10 +197,10 @@ const ContactForm = () => {
               </p>
             </section>
           </div>
-          <button type="submit" className={isTabletOrMobile ?"submit-btn-phn":"submit-btn"}>Submit</button>
+          <button type="submit" className={isTabletOrMobile ?"submit-btn-phn":"submit-btn"} data-testid="submit-btn">Submit</button>
         </form>
       </div>
-      <div className={isTabletOrMobile ? "contact-bottom-data-phn" : "contact-bottom-data"}>
+      <div className={isTabletOrMobile ? "contact-bottom-data-phn" : "contact-bottom-data"} data-testid="contact-map-data">
         <div className={isTabletOrMobile ?"contact-bottom-list-phn":"contact-bottom-list"}>
           <div>
             <h6>Office</h6>

@@ -23,7 +23,7 @@ const UserProfileShippingAddress = () => {
 
     return (
       <div className="User-Profile" data-testid="user-profile">
-      <div className="User-Profile-Heading" data-testid="user-profile-heading">
+      <div className={isMobile ? " User-profile-head-phn " : "User-Profile-Heading"} data-testid="user-profile-heading">
         <h1>User Profile</h1>
       </div>
     
