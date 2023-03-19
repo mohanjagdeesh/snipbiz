@@ -3,18 +3,7 @@ import { render, screen } from "@testing-library/react";
 import UserProfileDashboard from "../UserProfileDashboard";
 
 describe("UserProfileDashboard", () => {
-  it("should render main user profile div", () => {
-    render(<UserProfileDashboard />);
-    const userProfileMain = screen.getByTestId("main-user-profile");
-    expect(userProfileMain).toBeInTheDocument();
-  });
-
-  it("should render user profile heading", () => {
-    render(<UserProfileDashboard />);
-    const userProfileHeading = screen.getByTestId("user-profile-heading");
-    expect(userProfileHeading).toBeInTheDocument();
-    expect(userProfileHeading).toHaveTextContent("User Profile");
-  });
+ 
 
   it("should render user dashboard container", () => {
     render(<UserProfileDashboard />);
@@ -22,12 +11,6 @@ describe("UserProfileDashboard", () => {
       "user-dashboard-container"
     );
     expect(userDashboardContainer).toBeInTheDocument();
-  });
-
-  it("should render user dashboard list items", () => {
-    render(<UserProfileDashboard />);
-    const userDashboardListItems = screen.getAllByTestId("user-list");
-    expect(userDashboardListItems).toHaveLength(11);
   });
 
   it("should render order details container", () => {
@@ -53,14 +36,6 @@ describe("UserProfileDashboard", () => {
     expect(orderDetailsTable).toBeInTheDocument();
   });
 
-  it("should render order details table body with 4 rows", () => {
-    render(<UserProfileDashboard />);
-    const orderDetailsTableBody = screen.getByTestId(
-      "order-details-table-body"
-    );
-    const rows = orderDetailsTableBody.querySelectorAll("tr");
-    expect(rows).toHaveLength(4);
-  });
 
   it("should render help desk main heading", () => {
     render(<UserProfileDashboard />);

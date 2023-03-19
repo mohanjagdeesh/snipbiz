@@ -1,0 +1,81 @@
+import "./cancellationRefund.scss";
+const Cancellation = () => {
+  return (
+    <div className="User-Profile" data-testid="user-profile">
+  <div className="nav">
+    <table className="table" cellPadding="13" data-testid="user-profile-table">
+      <caption className="caption">Cancellation/Refund</caption>
+      <thead>
+        <tr>
+          <th className="thead">Date</th>
+          <th className="thead">Order ID</th>
+          <th className="thead">From</th>
+          <th className="thead">Destination</th>
+          <th className="thead">Recipient</th>
+          <th className="thead">Carrier Log</th>
+          <th className="thead">Amount</th>
+          <th className="thead">Cancelled</th>
+          <th className="thead">Refund</th>
+          <th className="thead">Status</th>
+        </tr>
+      </thead>
+      <tbody className="tbody">
+        <tr data-testid="user-profile-row-1">
+          <td>02/14/2023</td>
+          <td>XB1234VIOUSAIN</td>
+          <td>Edison, NJ US</td>
+          <td>Mumbai</td>
+          <td>Victor</td>
+          <td>DHL</td>
+          <td>Cloths</td>
+          <td>$52.68</td>
+          <td>$52.68</td>
+          <td className="color-red">Pending</td>
+        </tr>
+        <tr data-testid="user-profile-row-2">
+          <td>02/14/2023</td>
+          <td>XB1234VIOUSAIN</td>
+          <td>Edison, NJ US</td>
+          <td>Mumbai</td>
+          <td>Victor</td>
+          <td>DHL</td>
+          <td>Cloths</td>
+          <td>$52.68</td>
+          <td>$52.68</td>
+          <td className="color-orange">In Progress</td>
+        </tr>
+        <tr data-testid="user-profile-row-3">
+          <td>02/14/2023</td>
+          <td>XB1234VIOUSAIN</td>
+          <td>Edison, NJ US</td>
+          <td>Mumbai</td>
+          <td>Victor</td>
+          <td>DHL</td>
+          <td>Cloths</td>
+          <td>$52.68</td>
+          <td>$52.68</td>
+          <td className="color-green">Completed</td>
+        </tr>
+        <tr data-testid="user-profile-row">
+    <td>02/14/2023</td>
+    <td>XB1234VIOUSAIN</td>
+    <td>Edison, NJ US</td>
+    <td>Mumbai</td>
+    <td>Victor</td>
+    <td>DHL</td>
+    <td>Cloths</td>
+    <td>$52.68</td>
+    <td>$52.68</td>
+    <td className="color-red">Pending</td>
+</tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
+
+            
+        
+  );
+};
+export default Cancellation;

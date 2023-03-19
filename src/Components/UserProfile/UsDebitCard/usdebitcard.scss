@@ -1,0 +1,177 @@
+$color_blue: #09005D;
+$color_orange: #F57921;
+$background-color_transparent: "transparent";
+
+
+
+.body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.tabs-cont {
+	display: flex;
+	padding-left: 0px;
+	width: 1100px;
+	margin-bottom: 0px;
+}
+.tab-item {
+	list-style: none;
+}
+.tab-item-button {
+	color: $color_blue;
+	font-size: 17px;
+	font-weight: bold;
+	margin-right: 20px;
+	background-color: $background-color_transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.tab-activated {
+	color: $color_orange;
+	border-bottom: 3px solid #F57921;
+}
+.select-debit-card-cont {
+	font-family: "Inria Sans";
+	width: 1121px;
+}
+
+.debit-cards-cont{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.debit-card-main-heading{
+	font-size: 20px;
+	color: $color_orange;
+}
+
+.debit-card{
+	background: url(../savedCards/Design.png);
+	background-size: cover;
+	height: 220px;
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px;
+	margin: 0px 15px 15px 0px;
+}
+
+.transactions-cont{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0px;
+}
+
+.validity-cont{
+	display: flex;
+	margin-bottom: 0px;
+	align-items: center;
+
+}
+
+.card-holder{
+	font-family: "Inria Sans";
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+
+.purchased{
+	font-family: "Inria Sans";
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+
+.validity-text{
+	font-size: 8px;
+	color: #fff;
+	margin-right: 5px;
+}
+
+.validity-number{
+	font-size: 17px;
+	color: #fff;
+}
+
+.transparent-card{
+	background-image: url(../savedCards/transparentCard.png);
+	background-size: cover;
+	height: 220px;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 15px 15px 0px;
+}
+
+.plus-button{
+	background-color: transparent;
+	border-width: 0px;
+}
+
+.input-elements{
+	display: flex;
+	flex-direction: column;
+}
+
+.input-elements-cont{
+	display: flex;
+	width: 650px;
+	justify-content: space-between;
+}
+
+.big-input-el{
+	background-color: transparent;
+	border: 2px solid #C4C4C4;
+	border-radius: 2px;
+	width: 300px;
+	height: 40px;
+	padding: 5px;
+	outline: none;
+	margin-bottom: 15px;
+}
+
+.short-input-el{
+	background-color: transparent;
+	border: 2px solid #C4C4C4;
+	border-radius: 2px;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	outline: none;
+	margin-bottom: 15px;
+}
+
+textarea{
+	width: 650px;
+	height: 90px;
+	font-size: 15px;
+	border: 2px solid #C4C4C4;
+	border-radius: 3px;
+}
+
+
+.buy-this-card-btn{
+	background-color: #4D148C;
+	border-width: 0px;
+	height: 40px;
+	width: 180px;
+	border-radius: 27.5px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+.h-rule-tabs{
+	margin-top: 0px;
+}
+
+

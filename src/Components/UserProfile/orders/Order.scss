@@ -1,0 +1,43 @@
+$color_orange: #F57921;
+$color_white: #ffffff;
+$font-family_1: Arial, Helvetica, sans-serif;
+$background-color_blue: #4D148C;
+$background-color_white: #FFFFFF;
+
+.orders-container {
+	font-family: $font-family_1;
+	margin-left: 20px;
+}
+.orders-head {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: $color_orange;
+}
+.main-table{
+	border-collapse: collapse;
+	width: 1159px;
+}
+.table-head {
+	background-color: $background-color_blue;
+	color: $color_white;
+	width: 1150px;
+}
+.main-tr {
+	box-shadow: 0 2px 5px gray;
+	&:nth-child(even) {
+		background-color: $background-color_white;
+	}
+}
+.table-head-name {
+	text-align: left;
+	max-width: 160px;
+	height: 26px;
+	border: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 24px;
+}

@@ -1,8 +1,6 @@
-// import image22 from './image22';
-// import collectLabel1 from './collectLabel1';
-import "./TableOrderDetails.scss";
-
-
+import image22 from "../tableOrderDetails/image22.png"
+import collectLabel1 from "../tableOrderDetails/collectLabel1.png";
+import "./TableOrderDetails.scss"
 const TableOrdersDetails = (props) => {
     const { orderDetails, onClickOrderDetails } = props
     const { id, date, orderId, from, destination, recipient, carrierLog, item, amount, status, isOrderDisplay } = orderDetails
@@ -11,7 +9,7 @@ const TableOrdersDetails = (props) => {
     const statusTable = () => (
 
         <div>
-            <table className='status-table-head'>
+            <table className='status-table-head' data-testid="orders-content">
                 <thead className='table-head'>
                     <tr >
                         <th className='status-table-head-name'>Shipment Info: </th>
@@ -57,7 +55,7 @@ const TableOrdersDetails = (props) => {
                             <p className='shipment-name'>Shipment 1 with 1 parcel: PMSUH8G6</p>
                             <p className='status-name'>Status:<span className='status-span-name'>Pending</span></p>
                         </div>
-                        {/* <img className='ems-img' src={image22} alt='EMS' /> */}
+                        <img className='ems-img' src={image22} alt='EMS' />
                         {statusTable()}
                         <h1 className='cancle-order-head'>Cancel this Order</h1>
                     </div>
@@ -98,7 +96,7 @@ const TableOrdersDetails = (props) => {
                             </div>
                             <p className='part3-num-para'>91521</p>
                         </div>
-                        {/* <img src={collectLabel1} alt='collectLabel1' className='collectLabel1-img' /> */}
+                        <img src={collectLabel1} alt='collectLabel1' className='collectLabel1-img' />
                     </div>
                 </div>
             </td>

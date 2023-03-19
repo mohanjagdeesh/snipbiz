@@ -1,0 +1,81 @@
+.address-container{
+    display: flex;
+    flex-direction: column;
+}
+.address-type{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+.label-element{
+    color: #40484E;
+    font-size: 16px;
+    width: 200px;
+    font-weight: 500px;
+    padding-bottom: 8px;
+}
+.select{
+    height: 55px;
+    width: 412px;
+    color: #4F4F4F;
+    border: 1px solid #4F4F4F ;
+}
+.input{
+    width: 400px;
+    height: 55px;
+    color: #4F4F4F;
+    border: 1px solid #4F4F4F ;
+    padding-left: 8px;
+}
+#checkbox{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+.address-type-container{
+    display: flex;
+    gap: 32px;
+}
+.form-container-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address-type-container-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.add-button{
+    border: none;
+    width: fit-content;
+    background: none;
+    font-size: 15px;
+    color: red;
+    padding-top: 15px;
+}
+.save-button{
+    color: #FFFFFF;
+    background-color: #4D148C;
+    border-radius: 20px;
+    width:120px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.button-container-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.error-message{
+    color: red;
+    font-size: 12px;
+}

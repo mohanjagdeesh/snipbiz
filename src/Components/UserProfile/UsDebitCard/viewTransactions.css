@@ -1,0 +1,77 @@
+.debit-card-container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #d1d1d1;
+    padding-top: 5px;
+    margin-top: 10px;
+    width: 1162px;
+    height: 620px;
+}
+.card-container{
+    display: flex;
+    padding-left: 8px;
+    margin-top: 15px;
+}
+.card-1{
+    background-image: url("https://res.cloudinary.com/djgnmqn06/image/upload/v1678534834/Design_3_ayt7wj.png");
+    width: 350px;
+    height: 200px;
+    box-sizing: content-box;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 8px;
+}
+.card-heading{
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+color: #FFFFFF;
+}
+.card-border{
+    border:5px solid #4D148C;
+}
+.amount{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.amount-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.balance-amount{
+    text-align: right;
+}
+.valid-container{
+    display: flex;
+}
+.valid{
+    width: 28px;
+    font-size: 8px;
+}
+.valid-year{
+    align-self: center;
+}
+.thead{
+    text-align: left;
+    background-color: #4D148C;
+    color: #FFFFFF;
+    padding: 5px;
+    
+}
+.thead,td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.table track{
+    padding: 10px 0;
+}
+.track:nth-child(even) {background-color: #f2f2f2;}
+.table {
+    border-collapse: collapse;
+    width: 99%;
+    font-size: 13px;
+    margin: 35px 0 15px 13px;
+  }

@@ -1,0 +1,76 @@
+.shipForwarding-bg{
+    width: 100vw;
+    height: 100%;
+    background-color: #ECEDF8;
+}
+.shipForwarding-main{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 0;
+    gap: 2rem;
+}
+.shipForwarding-main h1{
+    font-size: 47px;
+    padding: 15px 0;
+}
+
+.circle-row{
+    display: flex;
+    width: 32%;
+    min-width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    gap: 1rem;
+}
+
+.circle-box-orange, .circle-box-blue{
+    width: 160px;
+    min-height: 299px;
+    padding: 0;
+    /* margin: -35px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black;     */
+}
+
+.circle-box-orange{align-items: start;}
+.circle-box-blue{align-items: end;}
+
+
+.circle-box-orange div, .circle-box-blue div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid blueviolet; */
+}
+
+.circle-box-orange div p, .circle-box-blue div p{
+    text-align: center;
+    padding: 10px 0;
+    color: #000000;
+}
+
+.circle-box-orange div div, .circle-box-blue div div{
+    position: relative;
+}
+
+.circle{
+    width: 110%;
+    position: relative;
+}
+.circle-icon{
+    width: 32%;
+    position: absolute;
+    top: 33%;
+}
+.ship-btn button{
+    margin: 10px 13px 0px;
+}

@@ -1,0 +1,135 @@
+.howitworks-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.howitworks-heading{
+    width: 100%;
+    background-color: #4D148C;
+    box-shadow: 0 1px 2px #000000;
+    min-height: 70px;
+}
+.howitworks-heading h1 {
+    color: #ffffff;
+    font-size: 35px;
+    padding: 13px 10.5%;
+    font-weight: 600;
+    text-shadow: 0 0 1px white;
+}
+
+
+.howitworks-main nav{
+    width: 80%;
+    min-height: 45px;
+    background-color: #FF6200; /* #4D148C; */
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.howitworks-main nav ul{
+    width: auto;
+    height: auto;
+}
+.howitworks-main nav ul li{
+    padding: 15px;
+    margin: 5px 10px 0;
+    color: white;
+}
+
+.howitworks-main nav ul li:hover{
+    background-color: white;
+    color: #FF6200; /* #4D148C; */
+    border-radius: 3px 3px 0 0;
+    cursor: pointer;
+}
+
+.howitworks-video{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.howitworks-video img.video-pic{
+    width: 100%;
+    padding: 40px 50px 20px;
+}
+
+.howitworks-video img.play-btn{
+    position: absolute;
+    width: 12%;
+    top: 40%;
+    left: 43%;
+}
+
+
+
+
+
+.howitworks-data{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 49px 0 130px;
+    position: relative;
+}
+.howitworks-process{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.howitworks-process div{
+    width: 40%;
+}
+
+#process-direction{
+    position: absolute;
+    width: 7.8%;
+    left: 46%;
+    top: 10.5%;
+    z-index: 0;
+}
+
+.process-number{
+    max-width: 70px;
+    height: 70px;
+    background-color: #FF6200;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.howitworks-process img{
+    width: 40%;
+}
+
+.process-data-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.process-data-info h3{
+    font-size: 22px;
+    color:#60637C;
+    font-weight: 600;
+}
+.process-data-info p{
+    color:#60637C;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+
+}
+

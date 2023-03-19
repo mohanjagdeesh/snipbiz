@@ -24,7 +24,7 @@
 	display: flex;
 }
 .bg-card {
-	background-image: url(../SavedCards/Design.png);
+	background-image: url(../savedCards/Design.png);
 	background-size: cover;
 	height: 200px;
 	width: 327px;
@@ -71,7 +71,7 @@ span {
 	color: #fff;
 }
 .new-card {
-	background-image: url(../SavedCards/transparentCard.png) ;
+	background-image: url(../savedCards/transparentCard.png) ;
 	background-size: cover;
 	height: 200px;
 	width: 327px;

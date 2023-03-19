@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { BsCaretDown } from "react-icons/bs";
 import TableOrdersDetails from '../tableOrderDetails/TableOrderDetails';
-
+import "./Order.scss"
 
 const tableOrdersDatas = [{
     id: 1,
@@ -82,9 +82,9 @@ const Order = () => {
     return (
         <div data-testid="orders-content" className='orders-container'>
         <h3 className="orders-head">Order Detail</h3>
-        <table>
+        <table className='main-table'>
           <thead className='table-head'>
-            <tr>
+            <tr className='main-tr'>
               <th className='table-head-name'>Date <BsCaretDown /></th>
               <th className='table-head-name'>Order ID <BsCaretDown /></th>
               <th className='table-head-name'>From <BsCaretDown /></th>

@@ -1,0 +1,42 @@
+$width:100%;
+$height:100%;
+$display:flex;
+$background-color:Persian Indigo;
+$text-align:left;
+.User-profile {
+  width: $width;
+  height: $height;
+}
+
+.table{
+  border-collapse: collapse;
+  width: 70%;
+  height: fit-content;
+  font-size: 12px;
+  margin: auto;
+  
+}
+.thead{
+  text-align: left;
+  color: #ffffff;
+  padding: 8px 15px 8px;
+  background-color:#4d148c;
+}
+.tbody tr:nth-of-type(odd){
+  background-color: #F8F8F8;
+}
+.caption{
+  color: #ff6200;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.color-red{
+  color: red;
+}
+.color-orange{
+  color: #f57921;
+}
+.color-green{
+  color: green;
+}
