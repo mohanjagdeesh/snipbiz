@@ -1,12 +1,13 @@
 import { Fragment, useState } from "react";
-import SavedCards from "../SavedCards/savedcards";
-import UserProfileTabs from "../UserProfileTabs/userProfileTabs";
-// import UsDebitCard from "../UsDebitCard/usDebitCard";
+import SavedCards from "../SavedCards/Savedcards";
+import UserProfileTabs from "../UserProfileTabs/userProfileTabs.js";
+import UsDebitCard from "../UsDebitCard/usdebitcard.js";
 import Orders from "../orders/Order";
 import "./dashboard.scss";
-import Messages from "../../UserMessages/Messages";
-import UserProfile from "../Cancellation";
-import UsDebitCard from "../../usDebitCard/UsDebitCard";
+import Messages from "../MessageCenter/messageCenter"
+import Cancellation from "../CancellationRefund/cancellationRefund"
+import MyCoupons from "../../myCoupons/MyCoupons";
+import UserProfileDashboard from "../../UserProfileDashboard/UserProfileDashboard.js";
 
 const dashboardList = [
   { id: 1, listName: "Dashboard" },
@@ -32,33 +33,22 @@ const Dashboard = () => {
     );
     const dashboardName = filteredListName[0].listName;
 
-    // const renderMysavedCards = () => {
-    //   return <SavedCards />;
-    // };
-
-    const renderUserProfileDetails = () => {
-      return <UserProfileTabs />;
-    };
-
-    const renderUsDebitCards = () => {
-      return <UsDebitCard />;
-    };
 
     switch (`${dashboardName}`) {
       case "Dashboard":
-        return "dashboard";
+        return <UserProfileDashboard/>;
 
       case "Orders":
         return <Orders />;
 
       case "Cancellation/Refund":
-        return <UserProfile/>;
+        return <Cancellation/>;
 
       case "User Profile":
-        return renderUserProfileDetails();
+        return <UserProfileTabs />;
 
       case "Shipping Address":
-        return "shippingaddress";
+        return "shipping address";
 
       case "Help Desk":
         return "helpdesk";
@@ -67,13 +57,13 @@ const Dashboard = () => {
         return <Messages/>;
 
       case "My Saved Cards":
-        return "saved cards";
+        return <SavedCards />;
 
       case "US Debit Card":
-        return renderUsDebitCards();
+        return <UsDebitCard />;
 
       case "My Coupons":
-        return "mycoupons";
+        return <MyCoupons/>;
 
       case "Forward Shipping":
         return "forwardshipping";
@@ -92,7 +82,7 @@ const Dashboard = () => {
       return (
         <li key={eachOne.id} className="dashboard-list-item" data-testid={`dashboard-list-item-${eachOne.id}`}>
           <button
-            onClick={() => setActiveButton(eachOne.id)}
+            onClick={() => setActiveButton(eachOne.id) }
             className={`list-button ${activeId ? "active-button" : ""}`}
             data-testid={`list-button-${eachOne.id}`}
           >
@@ -102,7 +92,6 @@ const Dashboard = () => {
       );
     })}
   </ul>
-  <div data-testid="orders-content" ><p>dashboard</p> </div>
   {renderingRightSections()}
 </div>
 

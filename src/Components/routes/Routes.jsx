@@ -9,7 +9,7 @@ import MyCoupons from "../myCoupons/MyCoupons";
 import TrackingSection from "../TrackingPage/TrackingSection";
 import HowitWorks from "../howItWorks/HowitWorks.jsx";
 import ContactForm from "../contactForm/Contact";
-import Dashboard from "../UserProfile/Dashborad/Dashboard.jsx";
+import Dashboard from "../UserProfile/Dashboard/Dashboard.jsx";
 import TermsAndConditions from "../TermsAndConditions/Termsandconditions";
 import Careers from "../Careers/Careers";
 

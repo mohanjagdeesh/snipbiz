@@ -59,7 +59,7 @@ const tableOrdersDatas = [{
     isOrderDisplay: false
 }]
 
-const Order = () => {
+export const Order = () => {
 
     const [tableOrderData, setTableOrderData] = useState(tableOrdersDatas)
 
@@ -74,10 +74,6 @@ const Order = () => {
         })
         setTableOrderData(updatedOrderData)
     }
-
-
-
-
 
     return (
         <div data-testid="orders-content" className='orders-container'>
@@ -107,4 +103,4 @@ const Order = () => {
     )
 }
 
-export default Order
+export default Order;
