@@ -7,7 +7,7 @@ import PrivacyPolicy from "../privacyPolicy/PrivacyPolicy";
 import BlogPage from "../BlogPages/BlogPage";
 import MyCoupons from "../myCoupons/MyCoupons";
 import TrackingSection from "../TrackingPage/TrackingSection";
-import HowitWorks from "../HowitWorks/HowitWorks.jsx";
+import HowitWorks from "../howItWorks/HowitWorks.jsx";
 import ContactForm from "../contactForm/Contact";
 import Dashboard from "../UserProfile/Dashborad/Dashboard.jsx";
 import TermsAndConditions from "../TermsAndConditions/Termsandconditions";
