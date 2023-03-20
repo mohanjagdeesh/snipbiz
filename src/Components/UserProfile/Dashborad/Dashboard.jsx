@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 import SavedCards from "../SavedCards/Savedcards.jsx";
 import UserProfileTabs from "../UserProfileTabs/userProfileTabs.jsx";
 import UsDebitCard from "../UsDebitCard/usdebitcard.jsx";
-import Orders from "../orders/Order.jsx";
+import Orders from "../orders/Order";
 import "./dashboard.scss";
 import Messages from "../MessageCenter/messageCenter"
 import Cancellation from "../CancellationRefund/cancellationRefund"
