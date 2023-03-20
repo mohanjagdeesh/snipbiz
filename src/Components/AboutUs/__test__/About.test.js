@@ -1,5 +1,5 @@
 import { render ,screen,fireEvent} from "@testing-library/react";
-import Aboutus from "../Aboutus";
+import Aboutus from "../AboutUs";
 
 describe("Aboutus", () => {
   it("should render without crashing", () => {

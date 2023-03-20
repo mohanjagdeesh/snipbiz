@@ -35,19 +35,19 @@ const renderTabInformation = () => {
   }
 }
   return(
-    <div className="aboutusmain" data-testid="aboutus-main">
-    <div className="aboutheading" data-testid="aboutus-heading">
-      <h1>About SnipBiz</h1>
-    </div>
+    <div className="aboutus-main" data-testid="aboutus-main">
+    <div className="about-container" data-testid="aboutus-heading">
+      <h1 className="about-heading">About SnipBiz</h1>
+    </div> 
   
     <div className="about-imgcontainer" data-testid="aboutus-img-container">
       <div className={isTabletOrMobile?"about-img-data-phn":"about-img-data"} data-testid="aboutus-img-data">
         <div className={isTabletOrMobile?"about-dataright-phn":"about-dataright"} data-testid="aboutus-data-right">
-          <h3>SnipBiz LLC is a Delaware registered company</h3>
-          <p>
+          <h3 className="about-company">We provide cheaper and better prices from top courier</h3>
+          <p className="para">
             {AboutUsmain}
           </p>
-          <p>
+          <p className="para"> 
             {AboutUsOne}
           </p>
         </div>
