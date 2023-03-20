@@ -3,14 +3,14 @@ import "./OurPartners.css";
 import {RiArrowDropLeftLine, RiArrowDropRightLine} from "react-icons/ri";
 
 const ourPartners = () => (
-    <div className="ourpartner-bg" data-testid="our-partners-container">
+    <div className="ourpartner-bg">
         <div className="ourpartner-main">
-            <h1 className="ourpartner-heading" data-testid="our-partners-heading">Our Partners</h1>
-            <div className="courierList" data-testid="courier-list-container">
-            <RiArrowDropLeftLine className="prv-btn" data-testid="prev-button"/>
+            <h1 className="ourpartner-heading">Our Partners</h1>
+            <div className="courierList">
+            <RiArrowDropLeftLine className="prv-btn"/>
                 <div className="courierService">
                 <div className="img-list">
-                        <img className="partner-img" src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676106119/dhl-png-logo-icon-5997_xdet0d.png" alt="dhl" id="dhl" data-testid="dhl-logo"/>
+                        <img className="partner-img" src="https://res.cloudinary.com/dgkb0snud/image/upload/v1676106119/dhl-png-logo-icon-5997_xdet0d.png" alt="dhl" id="dhl"/>
                     </div>
                 </div>
                 <div className="courierService">

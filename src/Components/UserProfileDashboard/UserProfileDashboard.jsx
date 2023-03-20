@@ -2,34 +2,15 @@ import "./UserProfileDashboard.css";
 
 import { BsCaretDown } from "react-icons/bs";
 
-const userDashboard = [
-  "Dashboard",
-  "Orders",
-  "Cancellation/Refund",
-  "User Profile",
-  "Shipping Address",
-  "Help Desk",
-  "Message Center",
-  "My Saved Cards",
-  "Us Debit Card",
-  "My Coupons",
-  "Forward Shipping",
-];
 
 
 const UserProfileDashboard = () => {
   return(
     <div className="main-user-profile" data-testid="main-user-profile">
-    <div className="user-profile-heading" data-testid="user-profile-heading">
-      <h1>User Profile</h1>
-    </div>
+  
     <div className="user-dashboard-container" data-testid="user-dashboard-container">
       <div className="user-dashboard" data-testid="user-dashboard">
-        <ul className="user-dashboard-list" data-testid="user-dashboard-list">
-          {userDashboard.map((each) => (
-            <li key={each} className="user-list" data-testid="user-list">{each}</li>
-          ))}
-        </ul>
+      
       </div>
       <div className="order-details-container" data-testid="order-details-container">
         <h2 className="order-details-main-heading" data-testid="order-details-main-heading">Order Detail</h2>

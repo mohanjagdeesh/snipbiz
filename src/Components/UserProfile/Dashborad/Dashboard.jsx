@@ -1,13 +1,13 @@
 import { Fragment, useState } from "react";
 import SavedCards from "../SavedCards/Savedcards.jsx";
 import UserProfileTabs from "../UserProfileTabs/userProfileTabs.jsx";
-import UsDebitCard from "../UsDebitCard/usdebitcard";
-import Orders from "../orders/Order";
-import "./Dashboard.css";
+import UsDebitCard from "../UsDebitCard/usdebitcard.jsx";
+import Orders from "../orders/Order.jsx";
+import "./dashboard.scss";
 import Messages from "../MessageCenter/messageCenter"
 import Cancellation from "../CancellationRefund/cancellationRefund"
 import MyCoupons from "../../myCoupons/MyCoupons";
-import UserProfileDashboard from "../../UserProfileDashboard/UserProfileDashboard";
+import UserProfileDashboard from "../../UserProfileDashboard/UserProfileDashboard.jsx";
 
 const dashboardList = [
   { id: 1, listName: "Dashboard" },

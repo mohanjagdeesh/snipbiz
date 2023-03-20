@@ -2,6 +2,7 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -12,8 +13,6 @@ import LaptopIcon from "@mui/icons-material/Laptop";
 import snip from "./snip.png";
 import "./Navbar.css";
 import { LocalGroceryStoreOutlined, SearchOutlined } from "@mui/icons-material";
-import { IconButton } from "@mui/material";
-import { SignInButton } from "../../Auth/LoginButton";
 
 const pages = ["What We Do", "About Us ", "Careers", "Blog", "Contact Us"];
 
@@ -29,6 +28,7 @@ export const Navbar = (props) => {
     setAnchorElNav(null);
   };
 
+ 
   return (
     <>
       <AppBar
@@ -36,31 +36,11 @@ export const Navbar = (props) => {
         elevation={0}
         className="navbar"
         sx={{ background: "white", color: "black" }}
-        data-testid="navbar"
       >
-        <Container
-          maxWidth="xl"
-          className="navBar-container"
-          data-testid="navbar-container"
-        >
-          <Toolbar
-            disableGutters
-            style={{ gap: 60 }}
-            data-testid="navbar-toolbar"
-          >
-            <img
-              src={snip}
-              alt="logo"
-              style={{ width: 200 }}
-              data-testid="navbar-logo"
-            />
-            <Box
-              sx={{
-                flexGrow: 1,
-                display: { xs: "flex", md: "none" },
-              }}
-              data-testid="navbar-box"
-            >
+        <Container maxWidth="xl" className="navBar-container">
+          <Toolbar disableGutters>
+            <img src={snip} alt="logo" style={{ width: 200 }} />
+            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -68,9 +48,8 @@ export const Navbar = (props) => {
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
                 color="black"
-                data-testid="navbar-icon-button"
               >
-                <MenuIcon sx={{ color: "white" }} data-testid="navbar-menu-icon" />
+                <MenuIcon sx={{ color: "white" }} />
               </IconButton>
               <Menu
                 id="menu-appbar"
@@ -89,23 +68,15 @@ export const Navbar = (props) => {
                 sx={{
                   display: { xs: "block", md: "none" },
                 }}
-                data-testid="navbar-menu"
               >
                 {pages.map((page) => (
-                  <MenuItem
-                    key={page}
-                    onClick={handleCloseNavMenu}
-                    data-testid={`navbar-menu-item-${page}`}
-                  >
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}
               </Menu>
             </Box>
-            <LaptopIcon
-              sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
-              data-testid="navbar-laptop-icon"
-            />
+            <LaptopIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
             <Typography
               variant="h5"
               noWrap
@@ -121,7 +92,6 @@ export const Navbar = (props) => {
                 color: "black",
                 textDecoration: "none",
               }}
-              data-testid="navbar-typography"
             >
               SNIPBIZ
             </Typography>
@@ -129,71 +99,82 @@ export const Navbar = (props) => {
               sx={{
                 flexGrow: 1,
                 display: { xs: "none", md: "flex" },
-                gap: "16px",
+                gap: "10px",
                 padding: "0 16px",
               }}
             >
-
-              <button className="btn" data-testid="how-it-works-btn">
-                <a href="how-it-works">
-                  
-                How It Works
+         
+                <button
+                class="btn"
+                >
+                  <a href="/howitworks">
+                  How It Works
+                  </a>
+                </button>
+              <button
+                href="partners"
+                class="btn"
+               
+              >
+              <a href="partners">
+                Partners
                 </a>
               </button>
 
-              <button className="btn" href="partners" data-testid="partners-btn">
-                <a href="/partners">
-                  Partners
-                </a>
-              </button>
+       
+                <button
+                  class="btn"
+                >
+                  <a href="/tracking">
 
-              <button className="btn" data-testid="tracking-btn">
-                <a href="/tracking">
+                  Tracking
+                  </a>
+                </button>
+           
+                <button
+                  class="btn"
+                >
+                  <a href="/faq">
 
-                Tracking
-                </a>
-              </button>
-
-              <button className="btn" data-testid="faq-btn">
-              <a href="/faq">
-
-                FAQ
-              </a>
-              </button>
-
-              <button className="btn" data-testid="us-debit-card-btn">
-                <a href="usdebitcard">
+                  FAQ
+                  </a>
+                </button>
+             
+              <button
+                class="btn"
+              >
+                <a href="/usdebitcard">
 
                 Us Debit Card
                 </a>
               </button>
-
-              <button className="btn" data-testid="contact-btn">
+                
+              <button
+                class="btn"
+              >
                 <a href="contact">
-                  Contact
+
+                Contact
                 </a>
               </button>
 
-                <SignInButton />
               
-
-              <IconButton data-testid="grocery-store-icon-btn">
-                <LocalGroceryStoreOutlined data-testid="grocery-store-icon" />
-              </IconButton>
-
-              <Button
-                sx={{
-                  "&:hover": { backgroundColor: "white" },
-                  color: "black",
-                }}
-                data-testid="en-btn"
-              >
-                EN
-              </Button>
-
-              <IconButton data-testid="search-icon-btn">
-                <SearchOutlined data-testid="search-icon" />
-              </IconButton>
+                  <button class="login">Login/Register</button>
+                <IconButton>
+                  <LocalGroceryStoreOutlined />
+                </IconButton>
+                <Button
+                  sx={{
+                    "&:hover": { backgroundColor: "white" },
+                    color: "black",
+                  }}
+                >
+                  EN
+                </Button>
+                <IconButton>
+                  <SearchOutlined />
+                </IconButton>
+              
             </Box>
           </Toolbar>
         </Container>

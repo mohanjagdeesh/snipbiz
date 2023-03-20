@@ -8,25 +8,19 @@ export const NavDropdownItem = (props) => {
     }
 
     return (
-        <li className="nav-item" data-testid="nav-dropdown-item">
+        <li className="nav-item">
             <a
                 className="nav-link"
                 href="#"
                 onMouseEnter={handleDropdownToggle}
                 onMouseLeave={handleDropdownToggle}
-                data-testid="dropdown-toggle"
             >
                 {props.title}
             </a>
             {isDropdownOpen && (
-                <div className="dropdown-menu" data-testid="dropdown-menu">
+                <div className="dropdown-menu">
                     {props.dropdownItems.map((item, index) => (
-                        <a
-                            key={index}
-                            className="dropdown-item"
-                            href={item.link}
-                            data-testid={`dropdown-item-${index}`}
-                        >
+                        <a key={index} className="dropdown-item" href={item.link}>
                             {item.title}
                         </a>
                     ))}

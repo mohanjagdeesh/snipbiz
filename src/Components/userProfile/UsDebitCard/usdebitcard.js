@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./usdebitcard.scss"
 
 export const usDebitCardTabs = [
   {

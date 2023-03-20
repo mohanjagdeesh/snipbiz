@@ -94,10 +94,7 @@ footer .footer1, .footer-link-address{
 
 .payment-gateway{
     display: flex;
-    /* flex-direction: column; */
     gap: 5rem;
-    /* background-color: #0000001e;
-    border-radius: 10px; */
     padding: 0 0 0 10px;
 }
 .payment-gateway-images{
