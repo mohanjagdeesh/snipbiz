@@ -6,11 +6,11 @@ import Faq from "../faq/Faq";
 import PrivacyPolicy from "../privacyPolicy/PrivacyPolicy";
 import BlogPage from "../BlogPages/BlogPage";
 import MyCoupons from "../myCoupons/MyCoupons";
-import TrackingSection from "../TrackingPage/TrackingSection";
-import HowitWorks from "../howItWorks/HowitWorks.jsx";
+import TrackingSection from "../TrackingPage/Tracking";
+import HowitWorks from "../HowitWorks/HowitWorks";
 import ContactForm from "../contactForm/Contact";
 import Dashboard from "../UserProfile/Dashboard/Dashboard.jsx";
-import TermsAndConditions from "../TermsAndConditions/Termsandconditions";
+import TermsAndConditions from "../TermsAndConditions/TermAndConditions";
 import Careers from "../Careers/Careers";
 
 const allRoutes = [
